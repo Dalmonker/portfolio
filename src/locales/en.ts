@@ -31,6 +31,31 @@ export const en = {
       },
     },
   },
+
+  about: {
+    title: "Helping businesses",
+    description:
+    "I\u00A0create tailored websites for small businesses and start-ups to\u00A0help them reach bigger audiences. I\u00A0have been creating customized websites for over 4\u00A0years. It\u00A0is\u00A0important for me\u00A0to\u00A0do\u00A0my\u00A0work not just well, but better than others, for this purpose I\u00A0am constantly improving my\u00A0skills",
+    thrive: "thrive",
+    myServices: "My services",
+    services: {
+      design: {
+        title: "Design",
+        description:
+          "With a\u00A0solid track record in\u00A0designing websites, I\u00A0deliver strong and user-friendly digital designs",
+      },
+      development: {
+        title: "Development",
+        description:
+          "I\u00A0build scalable websites from scratch that fit seamlessly into the design. I\u00A0pay special attention to\u00A0micro-animations, transitions, and interactions. I\u00A0work with the Tilda website builder",
+      },
+      fullPackage: {
+        title: "The full package",
+        description:
+          "A\u00A0complete website from concept to\u00A0implementation. My\u00A0great design sense and Tilda skills allow me\u00A0to\u00A0create amazing projects",
+      },
+    },
+},
   
   contact: {
     titleBefore: "Let's ",

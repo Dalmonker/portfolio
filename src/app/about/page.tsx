@@ -1,3 +1,5 @@
+"use client";
+
 import { ContactSection } from "@/components/sections/ContactSection";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
@@ -9,7 +11,7 @@ import { Header } from "@/components/Header";
 
 export default function About() {
   const { t } = useLanguage();
-  
+
   return (
     <>
       <Header isWhite />
@@ -35,21 +37,14 @@ export default function About() {
               </svg> */}
 
 
-              Helping
-              businesses
+              {t.about.title}
             </h1>
             <div className="flex flex-col xl:flex-row xl:items-center lg:mt-[9px] xl:mt-[-6px]">
               <p className="font-medium font-inter text-[17px]/[20.57px] md:text-[18px]/[21.78px] text-white xl:mr-[60px] max-w-[598px] mb-[9px] md:max-w-full">
-                I&nbsp;create tailored websites for small businesses and
-                start-ups to&nbsp;help them reach bigger audiences. I&nbsp;have
-                been creating customized websites for over 4&nbsp;years.
-                It&nbsp;is&nbsp;important for
-                me&nbsp;to&nbsp;do&nbsp;my&nbsp;work not just well, but better
-                than others, for this purpose I&nbsp;am constantly improving
-                my&nbsp;skills
+                {t.about.description}
               </p>
               <div className=" text-[44px]/[48.4px] sm:text-[52px]/[57.2px] md:text-[90px]/[88px] xl:text-[150px]/[165px] font-bold uppercase text-[#362EEC] mb-[10px] sm:mb-[16px] text-right mt-[8px] lg:mt-0 sm:pr-[8px] sm:mr-[2px]">
-                thrive
+                {t.about.thrive}
               </div>
             </div>
           </div>
@@ -58,38 +53,31 @@ export default function About() {
           <div className="container flex flex-col gap-[32px] sm:gap-[40px] lg:flex-row lg:gap-[20px]">
             <div className="flex flex-col lg:max-w-[450px] xl:max-w-[598px]">
               <h2 className="font-inter text-[17px]/[20.57px] mb-[20px] md:mb-[28px] font-medium text-grayFooterText">
-                My services
+                {t.about.myServices}
               </h2>
               <ul className="border-t border-t-grayBorder">
                 <li className="flex flex-col border-b border-b-grayBorder lg:pt-[30px] pt-[33px] pb-[28px] sm:pb-[26px] md:pt-[41px] lg:pt-[42px] xl:pt-[62px] md:pb-[38px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
-                    Design
+                    {t.about.services.design.title}
                   </div>
                   <p className="font-inter text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-medium text-blackText mt-[11px] md:mt-[21px]">
-                    With a&nbsp;solid track record in&nbsp;designing websites,
-                    I&nbsp;deliver strong and user-friendly digital designs
+                    {t.about.services.design.description}
                   </p>
                 </li>
                 <li className="flex flex-col border-b border-b-grayBorder py-10 pt-[26px] pb-[29px] md:pt-[41px] lg:pt-[31px] xl:pt-[40px] md:pb-[39px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
-                    Development
+                    {t.about.services.development.title}
                   </div>
                   <p className="font-inter text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-medium text-blackText mt-[11px] md:mt-[20px]">
-                    I&nbsp;build scalable websites from scratch that fit
-                    seamlessly into the design. I&nbsp;pay special attention
-                    to&nbsp;micro-animations, transitions, and
-                    interactions. I&nbsp;work with the Tilda website
-                    builder
+                   {t.about.services.development.description}
                   </p>
                 </li>
                 <li className="flex flex-col pt-[25px] lg:border-b lg:border-b-grayBorder lg:py-10 md:pt-[41px] lg:pt-[31px] xl:pt-[42px] md:pb-[8px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
-                    The full package
+                    {t.about.services.fullPackage.title}
                   </div>
                   <p className="font-inter text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-medium text-blackText mt-[11px] md:mt-[20px]">
-                    A&nbsp;complete website from concept to&nbsp;implementation.
-                    My&nbsp;great design sense and Tilda skills allow
-                    me&nbsp;to&nbsp;create amazing projects
+                    {t.about.services.fullPackage.description}
                   </p>
                 </li>
               </ul>
