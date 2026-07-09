@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "@/styles/globals.scss";
 import { AnimationScroll } from "@/components/logics/AnimationScroll";
 import NextTopLoader from "nextjs-toploader";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 import { Inter, Red_Hat_Display } from "next/font/google";
 
@@ -49,9 +50,11 @@ export default function RootLayout({
       lang="en"
     >
       <body className="relative bg-white">
-        <NextTopLoader color="#2E4EEC" showSpinner={false} />
-        {children}
-        <AnimationScroll />
+        <LanguageProvider>
+          <NextTopLoader color="#2E4EEC" showSpinner={false} />
+          {children}
+          <AnimationScroll />
+        </LanguageProvider>
       </body>
     </html>
   );

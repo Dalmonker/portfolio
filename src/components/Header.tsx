@@ -5,6 +5,7 @@ import clsx from "clsx";
 import Magnetic from "./logics/Magnetic";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
+import { useLanguage } from "@/context/LanguageContext";
 
 type Props = {
   isWhite?: boolean;
@@ -14,6 +15,7 @@ export function Header({ isWhite = false }: Props) {
   const [isOpen, setOpen] = useState(false);
   const [showBurger, setShowBurger] = useState(false);
   const pathname = usePathname();
+  const { t } = useLanguage();
 
   const onContact = (e: any) => {
     e.preventDefault();
@@ -56,7 +58,7 @@ export function Header({ isWhite = false }: Props) {
           href="/"
           className="animate__animated animate__fadeIn font-inter hover:text-[#362EEC] transition-all"
         >
-          © Alina Gavrilovich
+          {t.header.copyright}
         </Link>
 
         <div>
@@ -105,7 +107,7 @@ export function Header({ isWhite = false }: Props) {
               })}
               href="/work"
             >
-              Work
+              {t.header.work}
             </Link>
             <Link
               className={clsx("hover:text-[#362EEC]", {
@@ -113,14 +115,14 @@ export function Header({ isWhite = false }: Props) {
               })}
               href="/about"
             >
-              About
+              {t.header.about}
             </Link>
             <Link
               className="hover:text-[#362EEC]"
               href="#contact"
               onClick={onContact}
             >
-              Contact
+              {t.header.contact}
             </Link>
           </nav>
         </div>
@@ -132,7 +134,7 @@ export function Header({ isWhite = false }: Props) {
           )}
                   >
           <div className="text-[#A5A5A5] text-[17px] font-medium font-inter  megaXl:text-[18px]">
-            Navigation
+            {t.header.navigation}
           </div>
           <hr className="border-none my-[24px] h-[1px] w-full bg-[#656565] megaXl:mt-[30px] md:mb-[20px]" />
           <div className="flex-col megaXl:flex-row megaXl:justify-between flex megaXl:items-center">
@@ -146,7 +148,7 @@ export function Header({ isWhite = false }: Props) {
                   href="/"
                   onClick={() => setOpen(false)}
                 >
-                  Home
+                  {t.header.home}
                 </Link>
                 <Link
                   className={clsx(
@@ -156,7 +158,7 @@ export function Header({ isWhite = false }: Props) {
                   href="/work"
                   onClick={() => setOpen(false)}
                 >
-                  Work
+                  {t.header.work}
                 </Link>
               </div>
               <div className="flex justify-between text-white uppercase text-[24px] mb-[24px] megaXl:text-[40px]  font-medium  megaXl:mb-0">
@@ -168,14 +170,14 @@ export function Header({ isWhite = false }: Props) {
                   href="/about"
                   onClick={() => setOpen(false)}
                 >
-                  About
+                  {t.header.about}
                 </Link>
                 <Link
                   className=" hover:text-[#3E4EFF] transition-all"
                   href="/#contact"
                   onClick={() => setOpen(false)}
                 >
-                  Contact
+                  {t.header.contact}
                 </Link>
               </div>
             </div>

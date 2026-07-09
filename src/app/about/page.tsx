@@ -1,12 +1,15 @@
 import { ContactSection } from "@/components/sections/ContactSection";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
+import { useLanguage } from "@/context/LanguageContext";
 
 // import Link from "next/link";
 import { Svg } from "@/components/Svg";
 import { Header } from "@/components/Header";
 
 export default function About() {
+  const { t } = useLanguage();
+  
   return (
     <>
       <Header isWhite />

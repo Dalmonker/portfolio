@@ -6,6 +6,7 @@ import SendEmailPopup from "../popups/SendEmailPopup";
 import { useState } from "react";
 import Magnetic from "../logics/Magnetic";
 import { Svg } from "../Svg";
+import { useLanguage } from "@/context/LanguageContext";
 
 export type FormData = {
   name: string;
@@ -16,6 +17,7 @@ export type FormData = {
 export function ContactSection() {
   const { register, handleSubmit } = useForm<FormData>();
   const [i, setI] = useState<boolean>(false);
+  const { t } = useLanguage();
 
   function onSubmit(data: FormData) {
     sendEmail(data);
@@ -35,15 +37,13 @@ export function ContactSection() {
         <div className="container">
           <div className="flex flex-col justify-between md:gap-[20px] md:flex-row relative">
             <h2 className="max-w-[750px] flex-shrink-0 text-left text-[48px] font-bold uppercase leading-[120%] tracking-normal text-white sm:mb-0 md:text-[56px] xl:text-[120px]">
-              Let&apos;s <span className="text-blueHover">work</span> <br />
-              together
+              {t.contact.titleBefore}
+              <span className="text-blueHover">{t.contact.titleHighlight}</span>
+              {t.contact.titleAfter}
             </h2>
             <div>
               <p className="font-inter mt-6 flex-grow text-[17px] font-medium leading-[120%] text-white md:mt-0 md:text-[18px] md:mt-[13px] md:max-w-[354px] lg:max-w-[450px] xl:max-w-[393px] md:text-right xl:mt-[24px] lg:max-w-[393px] lg:text-right lg:mt-[10px]">
-                Thank you for taking the time to view my site and getting in
-                touch, you&apos;ve taken the first step in taking your business
-                to the next level. If you have a project in mind, shoot me a
-                message and I will get back to you shortly
+                {t.contact.description}
               </p>
               <Svg
               iconId="icon-arrow"
@@ -59,7 +59,7 @@ export function ContactSection() {
             <div className="flex w-full flex-col gap-[24px] md:gap-[24px] lg:w-3/4 lg:gap-[70px]">
               <div className="flex flex-col gap-[24px] md:flex-row md:gap-[20px] lg:gap-[120px]">
                 <div className="font-inter flex w-full flex-col gap-[10px] text-[17px] font-medium text-white md:w-1/2 sm:text-[18px]">
-                  Name *
+                  {t.contact.name} *
                   <input
                     className="active::border-blueHover rounded border border-grayInput bg-transparent px-3 py-[7px] outline-none placeholder:text-white placeholder:opacity-0 focus:border-blueHover"
                     placeholder="John Doe"
@@ -68,7 +68,7 @@ export function ContactSection() {
                   />
                 </div>
                 <div className="font-inter flex w-full flex-col gap-[10px] text-[17px] font-medium text-white md:w-1/2 md:text-[18px]">
-                  Email *
+                  {t.contact.email} *
                   <input
                     className="active::border-blueHover rounded border border-grayInput bg-transparent px-3 py-[7px] outline-none placeholder:text-white placeholder:opacity-0 focus:border-blueHover"
                     placeholder="john.doe@gmail.com"
@@ -78,7 +78,7 @@ export function ContactSection() {
                 </div>
               </div>
               <div className="font-inter flex flex-col gap-[10px] text-[17px] font-medium text-white md:w-1/2 md:text-[18px] md:w-[70%] lg:w-full">
-                Message *
+                {t.contact.message} *
                 <textarea
                   className="active::border-blueHover h-[162px] resize-none rounded border border-grayInput bg-transparent px-3 py-2 outline-none placeholder:text-white placeholder:opacity-0 focus:border-blueHover"
                   placeholder="We need design now!"
@@ -91,7 +91,7 @@ export function ContactSection() {
                 className="font-inter mx-auto flex h-[180px] w-[180px] items-center justify-center rounded-full bg-blue text-lg font-medium text-white outline-none transition hover:bg-blueHover md:absolute md:bottom-0 md:right-0"
                 type="submit"
               >
-                Submit
+                {t.contact.submit}
               </button>
             </Magnetic>
           </form>

@@ -7,6 +7,8 @@ import { ContactSection } from "@/components/sections/ContactSection";
 import { Header } from "@/components/Header";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
 import Magnetic from "@/components/logics/Magnetic";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
+import { useLanguage } from "@/context/LanguageContext";
 
 import Img1 from "../../public/img/slider/img1.webp";
 import Img2 from "../../public/img/slider/img2.webp";
@@ -30,18 +32,21 @@ export type WorkType = {
   bg: string;
 };
 
-const works: WorkType[] = [
+export default function Home() {
+  const { t } = useLanguage();
+
+  const works: WorkType[] = [
   {
-    title: "Dental clinic Ortodent",
-    descr: "Design & Development",
+    title: t.home.works.dental.title,
+    descr: t.home.works.dental.descr,
     date: "2024",
     href: "/work/dental-clinic",
     img: "/img/work/dental-clinic/preview.webp",
     bg: "bg-[#D8DEE4]",
   },
   {
-    title: "tennis club",
-    descr: "Design & Development",
+    title: t.home.works.tennis.title,
+    descr: t.home.works.tennis.descr,
     date: "2024",
     href: "/work/tennis",
     img: "/img/work/tennis/preview.webp",
@@ -49,7 +54,6 @@ const works: WorkType[] = [
   },
 ];
 
-export default function Home() {
   return (
     <>
       <Header />
@@ -81,11 +85,9 @@ export default function Home() {
 
           <div className="absolute bottom-0 left-0 right-0 z-20">
             <div className="container flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between overflow-hidden">
+              <LanguageSwitcher />
               <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
-                Located in&nbsp;Belarus
-              </span>
-              <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
-                Design &amp;&nbsp;Development
+                {t.home.designDev}
               </span>
             </div>
           </div>
@@ -94,24 +96,23 @@ export default function Home() {
           <div className="font-inter container xl:relative flex flex-col justify-between font-medium text-blackText">
             <div className="sm:mr-[20px]">
               <p className="mb-[24px] xl:max-w-[907px] lg:max-w-[682px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
-                Design can fascinatingly change our decisions and emotions.
-                It&nbsp;converts website visitors into your customers
+                {t.home.description}
               </p>
               <span className="mt-[5px] sm:max-w-[210px] md:max-w-full hidden sm:text-[17px]/[20.57px] text-[18px] sm:flex">
-                Passionate about creating intuitive digital solutions
+                {t.home.passionate}
               </span>
             </div>
 
             <div className="flex flex-col xs:flex-row sm:absolute xl:absolute xl:left-0 xl:bottom-0 xl:top-0 xl:w-full xl:h-full sm:bottom-0 sm:right-[20px] md:top-[80px]">
               <span className="mb-[30px] max-w-[240px] text-[17px]/[20.57px] xs:max-w-[190px] sm:hidden">
-                Passionate about creating intuitive digital solutions
+                {t.home.passionate}
               </span>
               <Magnetic>
                 <Link
                   className="ml-auto flex h-[180px] w-[180px] min-w-[180px] cursor-pofont-inter items-center justify-center rounded-full bg-blue text-lg text-white transition hover:bg-blueHover magnetic"
                   href="/about"
                 >
-                  About&nbsp;me
+                  {t.home.aboutMe}
                 </Link>
               </Magnetic>
             </div>
@@ -121,7 +122,7 @@ export default function Home() {
           <div className="container overflow-hidden pt-[60px] sm:pt-[80px] lg:pt-[50px] xl:pt-[48px]">
             <div className="border-b border-b-grayBorder font-medium text-blackText overflow-hidden pt-[120px] relative">
               <div className="text-[18px] font-medium text-[#A5A5A5]  absolute top-[50px]">
-                Recent work
+                {t.home.recentWork}
               </div>
               <Link
                 href="/work/dental-clinic"
@@ -145,10 +146,10 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="text-[40px] uppercase">
-                  Dental clinic Ortodent
+                  {t.home.works.dental.title}
                 </div>
                 <div className="font-inter text-lg">
-                  Design &amp;&nbsp;Development
+                  {t.home.works.dental.descr}
                 </div>
               </Link>
               <Link
@@ -173,9 +174,11 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="text-[40px] uppercase">Tennis club</div>
+                <div className="text-[40px] uppercase">
+                  {t.home.works.tennis.title}
+                </div>
                 <div className="font-inter text-lg">
-                  Design &amp;&nbsp;Development
+                  {t.home.works.tennis.descr}
                 </div>
               </Link>
               <Link
@@ -199,8 +202,12 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <div className="text-[40px] uppercase">Medical Dasnboard</div>
-                <div className="font-inter text-lg">Design</div>
+                <div className="text-[40px] uppercase">
+                  {t.home.works.medical.title}
+                </div>
+                <div className="font-inter text-lg">
+                  {t.home.works.medical.descr}
+                </div>
               </Link>
             </div>
           </div>
@@ -209,7 +216,7 @@ export default function Home() {
         <section className="block xl:hidden mt-[60px] md:mt-[80px]">
           <div className="container">
             <div className="mb-[40px] text-[18px] font-medium text-[#A5A5A5] lg:mb-[30px] hidden md:flex">
-              Recent work
+              {t.home.recentWork}
             </div>
             <div className="grid grid-cols-1 gap-y-[60px] md:grid-cols-2 md:gap-x-[20px] md:gap-y-[80px] lg:gap-y-[120px]">
               {works.map((w, i) => (
@@ -226,7 +233,7 @@ export default function Home() {
                 href="/work"
                 className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg font-medium text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
               >
-                More work
+                {t.home.moreWork}
               </Link>
             </Magnetic>
 
