@@ -6,13 +6,13 @@ export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div className="flex gap-2 font-inter text-[17px] font-medium">
+    <div className="flex gap-2 font-inter text-[17px] font-medium text-blackText">
       <button
         onClick={() => setLanguage('en')}
         className={`transition ${
           language === 'en' 
-            ? 'text-blue-600 font-bold' 
-            : 'opacity-50 hover:opacity-100'
+            ? 'text-blue-600' 
+            : 'opacity-50 hover:text-blueHover hover:opacity-100'
         }`}
       >
         EN
@@ -22,8 +22,8 @@ export function LanguageSwitcher() {
         onClick={() => setLanguage('ru')}
         className={`transition ${
           language === 'ru' 
-            ? 'text-blue-600 font-bold' 
-            : 'opacity-50 hover:opacity-100'
+            ? 'text-blue-600' 
+            : 'opacity-50 hover:text-blueHover hover:opacity-100'
         }`}
       >
         RU

@@ -11,6 +11,7 @@ export const en = {
 //   \u00A0 - неразрывный пробел как и &nbsp;
   home: {
     designDev: "Design & Development",
+    resume: "Resume",
     description: "Design can fascinatingly change our decisions and emotions. It\u00A0converts website visitors into your customers",
     passionate: "Passionate about creating intuitive digital solutions",
     aboutMe: "About\u00A0me",

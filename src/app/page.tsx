@@ -1,4 +1,5 @@
 "use client";
+import { Svg } from "@/components/Svg";
 import Image from "next/image";
 import { SlideOnScroll } from "@/components/logics/SlideOnScroll";
 import Link from "next/link";
@@ -85,10 +86,21 @@ export default function Home() {
 
           <div className="absolute bottom-0 left-0 right-0 z-20">
             <div className="container flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between overflow-hidden">
-              <LanguageSwitcher />
               <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
-                {t.home.designDev}
+                <Link
+                  className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-none"
+                  href="#"
+                >
+                <Svg
+                  className="w-full h-full"
+                  width={24}
+                  height={24}
+                  iconId="icon-home-resume"
+                />
+                <span>{t.home.resume}</span>
+                </Link>
               </span>
+              <LanguageSwitcher />
             </div>
           </div>
         </section>
@@ -231,7 +243,7 @@ export default function Home() {
             <Magnetic>
               <Link
                 href="/work"
-                className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg font-medium text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
+                className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg font-bold text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
               >
                 {t.home.moreWork}
               </Link>

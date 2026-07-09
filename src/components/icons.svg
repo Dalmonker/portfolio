@@ -78,6 +78,18 @@
     </defs>
   </symbol>
 
+  <symbol id="icon-home-resume" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <mask id="mask0_1_224" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="1" width="22" height="22">
+  <path d="M21.2998 22.2998V1.7002H0.700195V22.2998H21.2998Z" fill="white" stroke="white" stroke-width="1.4"/>
+  </mask>
+  <g mask="url(#mask0_1_224)">
+  <path d="M13.7614 1.85163V5.44154C13.7614 6.39085 14.5381 7.16742 15.4873 7.16742H19.0772" stroke="#404040" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M13.7615 1.64453H4.44155C3.49233 1.64453 2.71567 2.42124 2.71567 3.37046V20.6295C2.71567 21.5788 3.49233 22.3555 4.44155 22.3555H17.5584C18.5077 22.3555 19.2844 21.5788 19.2844 20.6295V7.16744L13.7615 1.64453Z" stroke="#404040" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5.47708 19.0711H16.5229" stroke="#404040" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M5.47708 16.3097H13.7615" stroke="#404040" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M9.61923 8.54816H5.47708V4.40601H9.61923V8.54816Z" stroke="#404040" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  </symbol>
 
   
 </svg>

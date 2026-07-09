@@ -27,6 +27,7 @@ export default {
       blackBg: "#26292E",
       grayBg: "#C5C6CA",
       grayBorder: "#C3C6CC",
+      grayHover: "#E5E5E7",
       grayInput: "#656565",
       grayFooterText: "#A5A5A5",
       blue: "#2E4EEC",
