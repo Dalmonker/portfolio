@@ -64,6 +64,7 @@ export const ru = {
     name: "Имя",
     email: "Почта",
     message: "Сообщение",
+    messagePlaceholder: "Нужен дизайн!",
     submit: "Отправить",
   },
   
