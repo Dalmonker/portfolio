@@ -26,6 +26,7 @@ export default {
       blackText: "#404040",
       blackBg: "#26292E",
       grayBg: "#C5C6CA",
+      grayNetwork: "#F6F6F7",
       grayBorder: "#C3C6CC",
       grayHover: "#E5E5E7",
       grayInput: "#656565",

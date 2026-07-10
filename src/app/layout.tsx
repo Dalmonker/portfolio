@@ -21,7 +21,7 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Gavrilovich Alina",
   description: "",
   icons: {
     icon: "/favicon.ico",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     images: ["/head.png"],
-    title: "Portfolio",
+    title: "Gavrilovich Alina",
     description: "",
     type: "website",
     url: "https://gavrilovichalina.vercel.app/",

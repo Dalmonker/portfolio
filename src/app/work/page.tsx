@@ -1,9 +1,13 @@
+"use client";
+
+import { useLanguage } from "@/context/LanguageContext";
 import { Svg } from "@/components/Svg";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { ContactSection } from "@/components/sections/ContactSection";
 // import Link from "next/link";
 // import Image from "next/image";
+
 import { WorkItem } from "@/components/WorkItem";
 
 export type WorkType = {
@@ -100,6 +104,7 @@ const works: WorkType[] = [
 ];
 
 export default function Work() {
+  const { t } = useLanguage();
   return (
     <>
       <Header />
@@ -107,9 +112,9 @@ export default function Work() {
       <main className="flex flex-col">
         <section className="container pb-[40px] pt-[106px] md:pt-[116px] lg:pt-[130px] sm:pb-[35px] md:pb-[63px] lg:pb-[57px] xl:pb-[25px]">
           <h1 className="relative text-[44px] font-bold uppercase leading-[120%] text-[#404040] sm:text-[52px] lg:text-[90px]/[100px] md:text-[90px]/[110px] xl:text-[150px]">
-            <div className="lg:text-[90px]/[86px] xl:text-[150px]/[180px]">Creating next</div>
+            <div className="lg:text-[90px]/[86px] xl:text-[150px]/[180px]">{t.work.titleOne}</div>
             <div className="flex sm:text-[52px] md:text-[90px] lg:text-[90px]/[125px] xl:text-[150px]/[160px]">
-              level digital
+              {t.work.titleSecond}
 
               <Svg
                 className="mt-[10px] right-0 lg:right-0 md:right-[20px] absolute hidden +rotate-90 text-blue sm:mt-[12px] sm:flex md:mt-[12px] lg:mt-[24px] xl:mt-[28px]"
@@ -121,10 +126,10 @@ export default function Work() {
           </h1>
           <div className="flex flex-col xl:pb-[10px] xl:mt-[-2px] justify-between lg:flex-row lg:items-center">
             <p className="font-inter mt-[10px] md:mt-[7px] lg:mt-[0px] xl:mt-[23px] text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-medium leading-[121%] text-[#404040] sm:mt-[16px] sm:text-[17px] md:text-[18px] lg:max-w-[327px]">
-            I&nbsp;use my&nbsp;passion and skills to&nbsp;create digital products. Explore my&nbsp;projects below to&nbsp;witness firsthand the impact of&nbsp;my&nbsp;skills
+            {t.work.descriptionOne}
             </p>
             <span className="mt-[3px] sm:mt-[3px] flex justify-end text-[44px] sm:text-[52px] md:text-[90px]/[99px] lg:text-[90px]/[84px] xl:text-[150px]/[165px] font-bold uppercase text-blue">
-              PRODUCTS
+              {t.work.descriptionSecond}
             </span>
           </div>
         </section>

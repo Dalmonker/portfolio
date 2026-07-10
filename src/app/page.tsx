@@ -59,24 +59,42 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col">
-        <section className="relative flex flex-col items-center bg-grayBg pt-[70px] z-20 overflow-hidden">
+        <section className="relative flex flex-col items-center bg-grayBg pt-[70px] z-20 overflow-hidden h-screen">
           <div className="relative flex uppercase">
             <div className="animate-left absolute -left-full top-[110px] z-10 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
               Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
               ux Web ui ux Web ui ux Web ui ux
             </div>
+{/* 
             <div className="z-20 h-[618px] w-[600px] lg:h-[824px] lg:w-[800px]">
               <Image
                 src="/img/portrait/photo_1.webp"
                 alt=""
-                width={800}
+                width={1000}
                 height={825}
                 sizes="100vw"
                 layout="responsive"
                 quality={95}
                 priority
               />
+            </div> */}
+
+            <div className="z-20 flex items-center justify-center w-full h-full p-4">
+              <div className="relative w-full max-w-[900px] h-full max-h-[900px]">
+                <picture className="w-full h-full">
+                  <source srcSet="/img/portrait/photo_1.webp" media="(min-width: 1200px)" />
+                  <source srcSet="/img/portrait/photo_1-960.webp" media="(min-width: 960px)" />
+                  <source srcSet="/img/portrait/photo_1-768.webp" media="(min-width: 768px)" />
+                  <source srcSet="/img/portrait/photo_1-480.webp" media="(min-width: 480px)" />
+                  <img 
+                    className="w-full h-full object-contain scale-110" 
+                    src="/img/portrait/photo_1-360.webp" 
+                    alt=""
+                    loading="eager"
+                  />
+                </picture>
             </div>
+          </div>
 
             <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
               Designer Designer Designer Designer Designer Designer Designer
@@ -85,22 +103,22 @@ export default function Home() {
           </div>
 
           <div className="absolute bottom-0 left-0 right-0 z-20">
-            <div className="container flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between overflow-hidden">
+            <div className="flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between">
               <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
                 <Link
-                  className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
+                  className="flex items-center pl-24 border border-solid border-blackText color-blackText gap-2 rounded-r-[100px] border-l-0 bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
                   href="#"
                 >
-                <Svg
-                  className="w-full h-full"
-                  width={24}
-                  height={24}
-                  iconId="icon-home-resume"
-                />
-                <span>{t.home.resume}</span>
+                  <Svg
+                    className="w-full h-full"
+                    width={24}
+                    height={24}
+                    iconId="icon-home-resume"
+                   />
+                  <span>{t.home.resume}</span>
                 </Link>
               </span>
-              <LanguageSwitcher />
+               <LanguageSwitcher />
             </div>
           </div>
         </section>

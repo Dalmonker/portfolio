@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const en = {
   header: {
     copyright: "© Alina Gavrilovich",
@@ -57,6 +59,13 @@ export const en = {
       },
     },
 },
+
+  work: {
+    titleOne: "Creating next",
+    titleSecond: "level digital",
+    descriptionOne: "I\u00A0use my\u00A0passion and skills to\u00A0create digital products. Explore my\u00A0projects below to\u00A0witness firsthand the impact of\u00A0my\u00A0skills",
+    descriptionSecond:"PRODUCTS",
+  },
   
   contact: {
     titleBefore: "Let's ",

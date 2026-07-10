@@ -51,13 +51,13 @@ export function Header({ isWhite = false }: Props) {
     <div className="absolute left-0 top-0 z-50 w-full">
       <header
         className={clsx(
-          "container flex items-center justify-between pt-10 text-[17px] font-medium  sm:text-[18px]",
+          "flex items-center justify-between pt-10 text-[17px] font-medium  sm:text-[18px]",
           isWhite ? "text-white" : "text-blackText"
         )}
       >
         <Link
           href="/"
-          className="animate__animated animate__fadeIn font-inter hover:text-[#362EEC] transition-all"
+          className="animate__animated animate__fadeIn font-inter pl-24 hover:text-[#362EEC] transition-all"
         >
           {t.header.copyright}
         </Link>
@@ -127,7 +127,7 @@ export function Header({ isWhite = false }: Props) {
             </Link>
 
           <Link
-            className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
+            className="flex items-center pr-24 border-none opacity-90 border-solid border-blackText color-blackText gap-2 rounded-l-[100px] border-r-0 bg-grayNetwork px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
             href="#"
             >
               <Svg

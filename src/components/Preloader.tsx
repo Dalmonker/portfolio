@@ -10,7 +10,7 @@ export function Preloader() {
   const pathname = usePathname();
 
   useEffect(() => {
-    // Если не главная страница - скрываем прелоадер
+
     if (pathname !== "/") {
       if (preloaderRef.current) {
         preloaderRef.current.style.display = "none";
@@ -18,7 +18,6 @@ export function Preloader() {
       return;
     }
 
-    // Блокируем скролл
     document.body.style.overflowY = "hidden";
 
     const svgpic = svgRef.current;
@@ -36,7 +35,6 @@ export function Preloader() {
     const curve2 = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
     const flat2 = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
 
-    // Анимация текста
     tl2.from(".preloader-heading h1", {
       delay: 0.5,
       y: 1000,
@@ -49,7 +47,6 @@ export function Preloader() {
       ease: "power2.in",
     });
 
-    // Анимация SVG волны
     tl2.to(svgpic, {
       duration: 0.8,
       attr: { d: curve2 },
@@ -60,13 +57,11 @@ export function Preloader() {
       ease: "power2.easeOut",
     });
 
-    // Убираем прелоадер
     tl2.to(".preloader-wrap", {
       y: -1500,
       ease: "power2.inOut",
     });
 
-    // Анимация появления основного контента
     tl2.from(
       "main",
       {
@@ -78,7 +73,6 @@ export function Preloader() {
       "-=1.5"
     );
 
-    // Анимация для футера (опционально)
     tl2.from(
       "footer",
       {
@@ -96,7 +90,6 @@ export function Preloader() {
     };
   }, [pathname]);
 
-  // Не показываем прелоадер на других страницах
   if (pathname !== "/") return null;
 
   return (
