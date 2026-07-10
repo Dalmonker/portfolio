@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
+import { Preloader } from "@/components/Preloader";
 import "@/styles/globals.scss";
 import { AnimationScroll } from "@/components/logics/AnimationScroll";
 import NextTopLoader from "nextjs-toploader";
@@ -51,6 +52,7 @@ export default function RootLayout({
     >
       <body className="relative bg-white">
         <LanguageProvider>
+          <Preloader />
           <NextTopLoader color="#2E4EEC" showSpinner={false} />
           {children}
           <AnimationScroll />

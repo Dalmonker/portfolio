@@ -62,7 +62,7 @@ export const en = {
     titleBefore: "Let's ",
     titleHighlight: "work",
     titleAfter: " together",
-    description: "Thank you for taking the time to view my site and getting in touch, you've taken the first step in taking your business to the next level. If you have a project in mind, shoot me a message and I will get back to you shortly",
+    description: "Thank you for taking the time to look through my website. I am open to collaboration opportunities. If you need a committed designer who gets your vision and brings solutions – let's talk",
     name: "Name",
     email: "Email",
     message: "Message",
@@ -72,7 +72,7 @@ export const en = {
   
   footer: {
     version: "Version",
-    copyright: "© 2025, Alina Gavrilovich",
+    copyright: "© 2026, Alina Gavrilovich",
     localTime: "Local time",
     messenger: "Messenger",
     name: "Gavrilovich",

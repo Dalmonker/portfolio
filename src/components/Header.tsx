@@ -1,4 +1,5 @@
 "use client";
+import { Svg } from "@/components/Svg";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import clsx from "clsx";
@@ -124,6 +125,20 @@ export function Header({ isWhite = false }: Props) {
             >
               {t.header.contact}
             </Link>
+
+          <Link
+            className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
+            href="#"
+            >
+              <Svg
+              className="w-full h-full"
+              width={24}
+              height={24}
+              iconId="icon-header-telegram"
+              />
+              <span>Telegram</span>
+          </Link>
+
           </nav>
         </div>
         <div

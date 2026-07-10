@@ -88,10 +88,9 @@ export default function Home() {
             <div className="container flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between overflow-hidden">
               <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
                 <Link
-                  className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-none"
+                  className="ml-auto flex items-center border border-solid border-blackText color-blackText gap-2 rounded-lg bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
                   href="#"
                 >
-                  {/* 123 */}
                 <Svg
                   className="w-full h-full"
                   width={24}
