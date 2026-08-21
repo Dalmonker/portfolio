@@ -60,7 +60,7 @@ export default function Home() {
       <Header />
       <main className="flex flex-col">
         <section className="relative flex flex-col items-center bg-grayBg pt-[70px] z-20 overflow-hidden h-screen">
-          <div className="relative flex uppercase">
+          <div className="relative flex uppercase flex-1 w-full">
             <div className="animate-left absolute -left-full top-[110px] z-10 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
               Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
               ux Web ui ux Web ui ux Web ui ux
@@ -79,10 +79,10 @@ export default function Home() {
               />
             </div> */}
 
-            <div className="z-20 flex items-center justify-center w-full h-full p-4">
-              <div className="relative w-full max-w-[900px] h-full max-h-[900px]">
+            <div className="z-20 flex items-center justify-center w-full h-full">
+              <div className="relative w-full max-w-[904px] h-full">
                 <picture className="w-full h-full">
-                  <source srcSet="/img/portrait/photo_1.webp" media="(min-width: 1200px)" />
+                  <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1200px)" />
                   <source srcSet="/img/portrait/photo_1-960.webp" media="(min-width: 960px)" />
                   <source srcSet="/img/portrait/photo_1-768.webp" media="(min-width: 768px)" />
                   <source srcSet="/img/portrait/photo_1-480.webp" media="(min-width: 480px)" />
