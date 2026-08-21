@@ -128,7 +128,7 @@ export function Header({ isWhite = false }: Props) {
 
           <Link
             className="flex items-center pr-24 border-none opacity-90 border-solid border-blackText color-blackText gap-2 rounded-l-[100px] border-r-0 bg-grayNetwork px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
-            href="#"
+            href="https://t.me/Allegory23"
             >
               <Svg
               className="w-full h-full"

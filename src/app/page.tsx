@@ -80,7 +80,7 @@ export default function Home() {
             </div> */}
 
             <div className="z-20 flex items-center justify-center w-full h-full">
-              <div className="relative w-full max-w-[904px] h-full">
+              <div className="relative w-full max-w-[915px] h-full">
                 <picture className="w-full h-full">
                   <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1200px)" />
                   <source srcSet="/img/portrait/photo_1-960.webp" media="(min-width: 960px)" />
