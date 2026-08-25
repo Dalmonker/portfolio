@@ -98,7 +98,7 @@ export function Header({ isWhite = false }: Props) {
 
           <nav
             className={clsx(
-              "animate__animated animate__fadeIn hidden items-center gap-11  md:flex font-inter",
+              "animate__animated animate__fadeIn hidden items-center gap-11 md:flex font-inter",
               isWhite ? "text-white" : "text-blackText"
             )}
           >
@@ -126,20 +126,21 @@ export function Header({ isWhite = false }: Props) {
               {t.header.contact}
             </Link>
 
-          <Link
-            className="flex items-center pr-24 border-none opacity-90 border-solid border-blackText color-blackText gap-2 rounded-l-[100px] border-r-0 bg-grayNetwork px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
-            href="https://t.me/Allegory23"
+            <Link
+              className="flex items-center pr-24 gap-2"
+              href="https://t.me/Allegory23"
             >
-              <Svg
-              className="w-full h-full"
-              width={24}
-              height={24}
-              iconId="icon-header-telegram"
-              />
-              <span>Telegram</span>
-          </Link>
-
+              <span className="flex items-center justify-center w-[22px] h-[18.38px]">
+                <Svg
+                  className="w-full h-full"
+                  width={22}
+                  height={18.38}
+                  iconId="icon-header-telegram"
+                />
+              </span>
+            </Link>
           </nav>
+
         </div>
         <div
           className={clsx(

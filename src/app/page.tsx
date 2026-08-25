@@ -59,69 +59,64 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col">
-        <section className="relative flex flex-col items-center bg-grayBg pt-[70px] z-20 overflow-hidden h-screen">
-          <div className="relative flex uppercase flex-1 w-full">
-            <div className="animate-left absolute -left-full top-[110px] z-10 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
-              Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
-              ux Web ui ux Web ui ux Web ui ux
-            </div>
-{/* 
-            <div className="z-20 h-[618px] w-[600px] lg:h-[824px] lg:w-[800px]">
-              <Image
-                src="/img/portrait/photo_1.webp"
-                alt=""
-                width={1000}
-                height={825}
-                sizes="100vw"
-                layout="responsive"
-                quality={95}
-                priority
-              />
-            </div> */}
 
-            <div className="z-20 flex items-center justify-center w-full h-full">
-              <div className="relative w-full max-w-[915px] h-full">
-                <picture className="w-full h-full">
-                  <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1200px)" />
-                  <source srcSet="/img/portrait/photo_1-960.webp" media="(min-width: 960px)" />
-                  <source srcSet="/img/portrait/photo_1-768.webp" media="(min-width: 768px)" />
-                  <source srcSet="/img/portrait/photo_1-480.webp" media="(min-width: 480px)" />
-                  <img 
-                    className="w-full h-full object-contain scale-110" 
-                    src="/img/portrait/photo_1-360.webp" 
-                    alt=""
-                    loading="eager"
-                  />
-                </picture>
-            </div>
-          </div>
 
-            <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
-              Designer Designer Designer Designer Designer Designer Designer
-              Designer Designer Designer
-            </div>
-          </div>
+<section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-screen">
+  {/* Черный текст - самый низ (z-0) */}
+  <div className="relative flex uppercase flex-1 w-full z-11">
+    <div className="animate-left absolute -left-full top-[110px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
+      Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
+      ux Web ui ux Web ui ux Web ui ux
+    </div>
+  </div>
 
-          <div className="absolute bottom-0 left-0 right-0 z-20">
-            <div className="flex flex-col items-end pb-10 md:flex-row md:items-center md:justify-between">
-              <span className="font-inter animate__animated animate__fadeIn text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
-                <Link
-                  className="flex items-center pl-24 border border-solid border-blackText color-blackText gap-2 rounded-r-[100px] border-l-0 bg-transparent px-3 py-2 pb-2.5 transition hover:bg-grayHover hover:border-transparent"
-                  href="#"
-                >
-                  <Svg
-                    className="w-full h-full"
-                    width={24}
-                    height={24}
-                    iconId="icon-home-resume"
-                   />
-                  <span>{t.home.resume}</span>
-                </Link>
-              </span>
-               <LanguageSwitcher />
-            </div>
-          </div>
-        </section>
+  {/* Фото - посередине (z-10) */}
+  <div className="absolute inset-0 w-full h-full z-10 bg-grayBg">
+    <picture className="block w-full h-full">
+      <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1200px)" />
+      <source srcSet="/img/portrait/photo_1-960.webp" media="(min-width: 960px)" />
+      <source srcSet="/img/portrait/photo_1-768.webp" media="(min-width: 768px)" />
+      <source srcSet="/img/portrait/photo_1-480.webp" media="(min-width: 480px)" />
+      <img 
+        className="w-full h-full object-contain object-top" 
+        src="/img/portrait/photo_1-360.webp" 
+        alt=""
+        loading="eager"
+      />
+    </picture>
+  </div>
+
+  {/* Белый текст - поверх фото (z-20) */}
+  <div className="absolute inset-0 flex items-end justify-center z-20 pointer-events-none">
+    <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
+      Designer Designer Designer Designer Designer Designer Designer
+      Designer Designer Designer
+    </div>
+  </div>
+
+  {/* Resume и LanguageSwitcher - поверх всего */}
+  <div className="absolute bottom-0 left-0 right-0 z-30">
+    <div className="flex items-center justify-between pb-10 text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
+      <Link
+        href="#"
+        className="font-inter animate__animated animate__fadeIn pl-24 hover:text-[#362EEC] transition-all flex items-center gap-3"
+      >
+        <Svg
+          className="w-full h-full"
+          width={22}
+          height={17.42}
+          iconId="icon-home-resume"
+        />
+        <span>{t.home.resume}</span>
+      </Link>
+      
+      <div className="pr-24">
+        <LanguageSwitcher />
+      </div>
+    </div>
+  </div>
+</section>
+
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
           <div className="font-inter container xl:relative flex flex-col justify-between font-medium text-blackText">
             <div className="sm:mr-[20px]">
