@@ -6,7 +6,7 @@ export function LanguageSwitcher() {
   const { language, setLanguage } = useLanguage();
 
   return (
-    <div className="flex gap-2 font-inter text-[17px] font-medium text-blackText">
+    <div className="flex gap-2 font-inter text-[17px] font-medium text-white lg:text-blackText">
       <button
         onClick={() => setLanguage('en')}
         className={`transition ${
