@@ -57,12 +57,12 @@ export function Header({ isWhite = false }: Props) {
       >
         <Link
           href="/"
-          className="animate__animated animate__fadeIn font-inter pl-[20px] hover:text-[#362EEC] transition-all"
+          className="animate__animated animate__fadeIn font-inter pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all"
         >
           {t.header.copyright}
         </Link>
 
-        <div className="pr-[20px]">
+        <div className="pr-[20px] lg:pr-[80px]">
           <button className="flex md:hidden" onClick={() => setOpen(true)}>
             <div
               className={clsx(
@@ -128,7 +128,7 @@ export function Header({ isWhite = false }: Props) {
 
             <Link
               className="flex items-center gap-2"
-              href="https://t.me/Allegory23"
+              href="https://t.me/alinagavrilovich"
             >
               <span className="flex items-center justify-center w-[22px] h-[18.38px]">
                 <Svg

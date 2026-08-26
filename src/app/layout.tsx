@@ -32,11 +32,19 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    images: ["/head.png"],
-    title: "Alina Gavrilovich",
-    description: "",
-    type: "website",
+    title: "Alina Gavrilovich - Product designer (UI|UX & Research)",
+    description: "I design digital products through strategy, UX, and a deep understanding of user needs",
     url: "https://gavrilovichalina.vercel.app/",
+    siteName: "Alina Gavrilovich",
+    images: [
+      {
+        url: "/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Alina Gavrilovich - Product designer",
+      },
+    ],
+    type: "website",
   },
 };
 

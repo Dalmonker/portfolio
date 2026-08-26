@@ -66,7 +66,7 @@ export default function Home() {
 
 
 
-  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-screen h-[540px] sm:h-[710px] sm:pb-[60px] lg:h-[800px]">
+  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-[540px] sm:h-[710px] xl:h-screen sm:pb-[60px] lg:h-[800px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
       <div className="animate-left absolute -left-full top-[110px] z-0 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
@@ -104,8 +104,8 @@ export default function Home() {
     <div className="absolute bottom-0 left-0 right-0 z-30">
       <div className="flex items-center justify-between pb-[30px] text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
         <Link
-          href="#"
-          className="font-inter animate__animated animate__fadeIn pl-[20px] hover:text-[#362EEC] transition-all flex items-center gap-1"
+          href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
+          className="font-inter animate__animated animate__fadeIn pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
         >
           <Svg
               className="w-full h-full"
@@ -116,7 +116,7 @@ export default function Home() {
           <span>{t.home.resume}</span>
         </Link>
         
-        <div className="pr-[20px]">
+        <div className="pr-[20px] lg:pr-[80px]">
           <LanguageSwitcher />
         </div>
       </div>
@@ -125,56 +125,10 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
           <div className="font-inter container xl:relative flex flex-col justify-between font-medium text-blackText">
             <div className="sm:mr-[20px]">
-              <p className="mb-[24px] xl:max-w-[907px] lg:max-w-[682px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
+              <p className="mb-[24px] xl:max-w-[930px] lg:max-w-[682px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
                 {t.home.description}
               </p>
               <span className="mt-[5px] sm:max-w-[210px] md:max-w-full hidden sm:text-[17px]/[20.57px] text-[18px] sm:flex">

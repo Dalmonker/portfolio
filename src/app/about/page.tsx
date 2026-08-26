@@ -51,12 +51,12 @@ export default function About() {
         </section>
         <section className="pt-[60px] sm:pt-[61px] lg:pt-[120px] md:pt-[82px] lg:pt-[81px] xl:pt-[121px]">
           <div className="container flex flex-col gap-[32px] sm:gap-[40px] lg:flex-row lg:gap-[20px]">
-            <div className="flex flex-col lg:max-w-[450px] xl:max-w-[598px]">
+            <div className="flex flex-col lg:max-w-[450px] xl:max-w-[592px]">
               <h2 className="font-inter text-[17px]/[20.57px] mb-[20px] md:mb-[28px] font-medium text-grayFooterText">
                 {t.about.myServices}
               </h2>
               <ul className="border-t border-t-grayBorder">
-                <li className="flex flex-col border-b border-b-grayBorder lg:pt-[30px] pt-[33px] pb-[28px] sm:pb-[26px] md:pt-[41px] lg:pt-[42px] xl:pt-[62px] md:pb-[38px]">
+                <li className="flex flex-col border-b border-b-grayBorder pt-[33px] pb-[28px] sm:pb-[26px] md:pt-[41px] lg:py-[48px] md:pb-[38px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
                     {t.about.services.design.title}
                   </div>
@@ -64,7 +64,7 @@ export default function About() {
                     {t.about.services.design.description}
                   </p>
                 </li>
-                <li className="flex flex-col border-b border-b-grayBorder py-10 pt-[26px] pb-[29px] md:pt-[41px] lg:pt-[31px] xl:pt-[40px] md:pb-[39px]">
+                <li className="flex flex-col border-b border-b-grayBorder lg:py-[48px] pt-[26px] pb-[29px] md:pt-[41px] lg:pt-[31px] xl:pt-[40px] md:pb-[39px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
                     {t.about.services.development.title}
                   </div>
@@ -72,7 +72,7 @@ export default function About() {
                    {t.about.services.development.description}
                   </p>
                 </li>
-                <li className="flex flex-col pt-[25px] lg:border-b lg:border-b-grayBorder lg:py-10 md:pt-[41px] lg:pt-[31px] xl:pt-[42px] md:pb-[8px]">
+                <li className="flex flex-col pt-[25px] lg:py-10 md:pt-[41px] lg:pt-[31px] xl:pt-[42px] md:pb-[8px]">
                   <div className="text-[24px]/[31.75px] md:text-[40px]/[52.92px] font-medium uppercase text-blackText">
                     {t.about.services.fullPackage.title}
                   </div>
@@ -84,11 +84,11 @@ export default function About() {
             </div>
 
             <picture className="w-full">
-              <source className="w-full" srcSet="/img/portrait/photoAbout-1920.webp" media="(min-width: 1200px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-960.webp" media="(min-width: 960px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-768.webp" media="(min-width: 768px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-480.webp" media="(min-width: 480px)" />
-              <img className="w-full" src="/img/portrait/photoAbout-360.webp" alt="" />
+              <source className="w-full" srcSet="/img/portrait/photoAbout.png" media="(min-width: 1200px)"/>
+              <source className="w-full" srcSet="/img/portrait/photoAbout-960.png" media="(min-width: 960px)"/>
+              <source className="w-full" srcSet="/img/portrait/photoAbout-768.png" media="(min-width: 768px)"/>
+              <source className="w-full" srcSet="/img/portrait/photoAbout-480.png" media="(min-width: 480px)" />
+              <img className="w-full" src="/img/portrait/photoAbout-360.png" alt="" />
             </picture>
 
 
