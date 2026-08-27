@@ -20,6 +20,7 @@ export default {
       lg: "960px",
       xl: "1280px",
       megaXl: "1400px",
+      megaXXl: "1500px",
     },
     colors: {
       blackTitle: "#26292E",
