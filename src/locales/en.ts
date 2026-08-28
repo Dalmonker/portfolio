@@ -37,8 +37,7 @@ export const en = {
 
   about: {
     title: "Helping businesses",
-    description:
-    "I\u00A0create tailored websites for small businesses and start-ups to\u00A0help them reach bigger audiences. I\u00A0have been creating customized websites for over 4\u00A0years. It\u00A0is\u00A0important for me\u00A0to\u00A0do\u00A0my\u00A0work not just well, but better than others, for this purpose I\u00A0am constantly improving my\u00A0skills",
+    description: "I have been creating well-thought-out digital products for small businesses and startups for over 4 years to help them reach a wider audience. It is important for me to do my work not just well, but better than others, so I am constantly improving my skills",
     thrive: "thrive",
     myServices: "Key facts",
     services: {

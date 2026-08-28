@@ -110,7 +110,7 @@ export function Preloader() {
       </svg>
 
       <div className="preloader-heading relative z-[10001]">
-        <h1 className="text-[120px] text-white font-bold uppercase whitespace-nowrap">
+        <h1 className="text-[40px] lg:text-[80px] text-white font-bold uppercase whitespace-nowrap">
           Hello!
         </h1>
       </div>
