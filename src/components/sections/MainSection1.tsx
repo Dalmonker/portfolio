@@ -12,7 +12,7 @@ type Props = {
 export function MainSection1({ title, subTitle, table, arrow = false }: Props) {
   return (
     <section className="container pb-[50px] pt-[106px] lg:pt-[140px] lg:pb-[100px] md:pt-[122px] md:pb-[70px]">
-      <div>
+      <div className="mb-[30px] lg:mb-[0px]">
         <div className="flex justify-between">
           <h1 className="flex font-bold text-[36px] text-[#404040] uppercase leading-[110%] sm:text-[52px] xl:text-[140px] md:text-[84px]">
             {title}

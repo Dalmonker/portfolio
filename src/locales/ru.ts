@@ -225,16 +225,4 @@ export const ru = {
     messenger: "Мессенджер",
     name: "Гаврилович",
   },
-  
-  workPages: {
-    dental: {
-      
-    },
-    tennis: {
-     
-    },
-    medical: {
-      
-    },
-  },
 };
