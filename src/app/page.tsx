@@ -66,7 +66,7 @@ export default function Home() {
 
 
 
-  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-screen sm:pb-[60px]">
+  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
       <div className="animate-left absolute -left-full top-[110px] z-0 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
@@ -92,7 +92,7 @@ export default function Home() {
 
 
 
-    <div className="absolute inset-0 flex items-end justify-center z-20 pointer-events-none">
+    <div className="absolute inset-0 uppercase flex items-end justify-center z-20 pointer-events-none">
       <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
         Designer Designer Designer Designer Designer Designer Designer
         Designer Designer Designer
