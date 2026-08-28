@@ -129,6 +129,7 @@ export function Header({ isWhite = false }: Props) {
             <Link
               className="flex items-center gap-2"
               href="https://t.me/alinagavrilovich"
+              target="_blank"
             >
               <span className="flex items-center justify-center w-[22px] h-[18.38px]">
                 <Svg
