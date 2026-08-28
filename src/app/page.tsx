@@ -137,7 +137,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col xs:flex-row sm:absolute xl:absolute xl:left-0 xl:bottom-0 xl:top-0 xl:w-full xl:h-full sm:bottom-0 sm:right-[20px] md:top-[80px]">
-              <span className="mb-[30px] max-w-[240px] text-[17px]/[20.57px] xs:max-w-[190px] sm:hidden">
+              <span className="mb-[30px] max-w-[300px] text-[17px]/[20.57px] xs:max-w-[190px] sm:hidden">
                 {t.home.passionate}
               </span>
               <Magnetic>
