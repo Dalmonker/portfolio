@@ -66,7 +66,7 @@ export default function Home() {
 
 
 
-  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-[650px] sm:h-[822px] md:h-[950px] megaXXl:h-screen sm:pb-[60px] lg:h-[800px]">
+  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-screen sm:pb-[60px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
       <div className="animate-left absolute -left-full top-[110px] z-0 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
