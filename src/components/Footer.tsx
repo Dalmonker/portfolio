@@ -30,7 +30,7 @@ export function Footer() {
             {t.footer.messenger}
           </span>
           <a
-            href="https://t.me/Allegory23"
+            href="https://t.me/alinagavrilovich"
             className="font-inter text-[17px]/[21.78px] md:text-[18px]/[21.78px] font-medium text-white text-opacity-85 hover:text-[#362EEC] transition-all"
           >
             Telegram

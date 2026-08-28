@@ -58,7 +58,7 @@ export const ru = {
 
   work: {
     titleOne: "Продукт",
-    titleSecond: "нового",
+    titleSecond: "новейшего",
     descriptionOne: "Мои навыки и\u00A0увлеченность воплощаются в\u00A0цифровых продуктах. Смотрите ниже результаты моей работы",
     descriptionSecond:"ПОКОЛЕНИЯ",
   },

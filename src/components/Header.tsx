@@ -127,13 +127,13 @@ export function Header({ isWhite = false }: Props) {
             </Link>
 
             <Link
-              className="flex items-center gap-2"
+              className="telegram-link flex items-center gap-2"
               href="https://t.me/alinagavrilovich"
               target="_blank"
             >
               <span className="flex items-center justify-center w-[22px] h-[18.38px]">
                 <Svg
-                  className="w-full h-full"
+                  className="telegram-icon w-full h-full"
                   width={22}
                   height={18.38}
                   iconId="icon-header-telegram"
@@ -145,7 +145,7 @@ export function Header({ isWhite = false }: Props) {
         </div>
         <div
           className={clsx(
-            "fixed transition duration-700 bg-[#26292E] h-[360px] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] megaXl:h-auto",
+            "fixed transition duration-700 bg-[#26292E] h-[360px] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
             isOpen ? "-translate-y-0" : "-translate-y-full",
             !showBurger && !isOpen && "hidden"
           )}
@@ -199,13 +199,13 @@ export function Header({ isWhite = false }: Props) {
               </div>
                 <div className="flex items-center justify-center lg:ml-[30px]">
                   <Link
-                      className="flex items-center gap-2 justify-center"
+                      className="telegram-link flex items-center gap-2 justify-center transition-all hover:text-[#362EEC]"
                       href="https://t.me/alinagavrilovich"
                       target="_blank"
                   >
-              <span className="flex items-center justify-center w-[44px] h-[44px]">
+              <span className="flex items-center justify-center w-[44px] h-[44px] transition-all hover:opacity-70 hover:scale-110">
                 <Svg
-                    className="w-full h-full md:mb-[24px] lg:mb-[0px]"
+                    className="telegram-icon w-full h-full md:mb-[24px] lg:mb-[0px]"
                     width={44}
                     height={44}
                     iconId="icon-header-telegram-white"
@@ -216,7 +216,7 @@ export function Header({ isWhite = false }: Props) {
             </div>
 
             <a
-              className="flex justify-center text-white text-[26px] font-inter hover:text-[#362EEC] transition-all megaXl:text-[30px]"
+              className="flex justify-center text-white font-inter hover:text-[#362EEC] transition-all text-[30px]"
               href="mailto:gavrilovich.ali@gmail.com"
             >
               gavrilovich.ali@gmail.com
