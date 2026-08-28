@@ -104,10 +104,10 @@ export default function Home() {
       <div className="flex items-center justify-between pb-[30px] text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
         <Link
           href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
-          className="font-inter animate__animated animate__fadeIn pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
+          className="telegram-link font-inter animate__animated animate__fadeIn pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
         >
           <Svg
-              className="w-full h-full"
+              className="telegram-icon w-full h-full"
               width={22}
               height={17.42}
               iconId={isLargeScreen ? "icon-home-resume" : "icon-home-resume-white"}

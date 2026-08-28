@@ -145,7 +145,7 @@ export function Header({ isWhite = false }: Props) {
         </div>
         <div
           className={clsx(
-            "fixed transition duration-700 bg-[#26292E] h-[360px] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
+            "fixed transition duration-700 bg-[#26292E] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
             isOpen ? "-translate-y-0" : "-translate-y-full",
             !showBurger && !isOpen && "hidden"
           )}
