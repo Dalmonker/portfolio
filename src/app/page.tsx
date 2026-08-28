@@ -267,7 +267,7 @@ export default function Home() {
             <Magnetic>
               <Link
                 href="/work"
-                className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg font-bold text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
+                className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg lg:font-bold text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
               >
                 {t.home.moreWork}
               </Link>
