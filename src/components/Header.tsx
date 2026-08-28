@@ -197,7 +197,7 @@ export function Header({ isWhite = false }: Props) {
                   {t.header.contact}
                 </Link>
               </div>
-                <div className="flex items-center justify-center lg:ml-[30px]">
+                <div className="flex items-center justify-center lg:ml-[30px] mt-[14px] mb-[20px]">
                   <Link
                       className="telegram-link flex items-center gap-2 justify-center transition-all hover:text-[#362EEC]"
                       href="https://t.me/alinagavrilovich"
@@ -205,7 +205,7 @@ export function Header({ isWhite = false }: Props) {
                   >
               <span className="flex items-center justify-center w-[44px] h-[44px] transition-all hover:opacity-70 hover:scale-110">
                 <Svg
-                    className="telegram-icon w-full h-full md:mb-[24px] lg:mb-[0px]"
+                    className="telegram-icon w-full h-full"
                     width={44}
                     height={44}
                     iconId="icon-header-telegram-white"
