@@ -26,8 +26,7 @@ import ImgWork2 from "../../public/img/work/tennis/preview.webp";
 import ImgWork3 from "../../public/img/work/medical-dashboard/preview.webp";
 
 export type WorkType = {
-  title: string;
-  descr: string;
+  cardKey: string;
   date: string;
   href: string;
   img: string;
@@ -39,19 +38,24 @@ export default function Home() {
 
   const works: WorkType[] = [
   {
-    title: t.home.works.dental.title,
-    descr: t.home.works.dental.descr,
+    cardKey: "dental",
     date: "2024",
     href: "/work/dental-clinic",
     img: "/img/work/dental-clinic/preview.webp",
     bg: "bg-[#D8DEE4]",
   },
   {
-    title: t.home.works.tennis.title,
-    descr: t.home.works.tennis.descr,
+    cardKey: "tennis",
     date: "2024",
     href: "/work/tennis",
     img: "/img/work/tennis/preview.webp",
+    bg: "bg-[#213D5C]",
+  },
+  {
+    cardKey: "medical",
+    date: "2024",
+    href: "/work/tennis",
+    img: "/img/work/medical-dashboard/preview.webp",
     bg: "bg-[#213D5C]",
   },
 ];
