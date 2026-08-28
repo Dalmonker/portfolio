@@ -96,7 +96,7 @@ export default function Page() {
         </section>
 
         <NextPageSection
-          title="vinyl record store"
+          projectKey="vinyl"
           bgColor="#EFE9D8"
           href="/work/vinyl"
           image={PreviewImage}

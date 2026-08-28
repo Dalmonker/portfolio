@@ -107,7 +107,7 @@ export default function About() {
         <section className="container py-[60px] sm:pb-[27px] md:py-[80px] lg:py-[120px] pb-[30px] md:pt-[82px] md:pb-[46px] lg:pt-[80px] xl:pt-[119px] lg:pb-[39px] xl:pb-[96px]">
           <div className="mb-[32px]">
               <h2 className="mb-[22px] md:mb-[28px] sm:mb-[18px] text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-inter font-medium text-grayFooterText">
-                Stages of my work
+                {t.about.stagesTitle}
               </h2>
               <hr className="border-t-[#E5E0DC]" />
           </div>
@@ -117,13 +117,13 @@ export default function About() {
                 01
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                interview
+                {t.about.stages.stagesOne.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px] mb-[8px] mb-[8px]">
-                brief
+                {t.about.stages.stagesOne.descriptionFirst}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                statement of&nbsp;work
+                {t.about.stages.stagesOne.descriptionSecond}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -134,13 +134,13 @@ export default function About() {
                 02
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                research
+                {t.about.stages.stagesTwo.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px] mb-[8px]">
-                JTBD
+                {t.about.stages.stagesTwo.descriptionFirst}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                competitor analysis
+                {t.about.stages.stagesTwo.descriptionSecond}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -151,13 +151,13 @@ export default function About() {
                 03
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                Analytics
+                {t.about.stages.stagesThree.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px] mb-[8px]">
-                CJM
+                {t.about.stages.stagesThree.descriptionFirst}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                target audience
+                {t.about.stages.stagesThree.descriptionSecond}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -168,13 +168,10 @@ export default function About() {
                 04
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                User Flow
+                {t.about.stages.stagesFour.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px] mb-[8px]">
-                task flow
-              </div>
-              <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                sketching
+                {t.about.stages.stagesFour.descriptionFirst}
               </div>
             </li>
 
@@ -183,10 +180,10 @@ export default function About() {
                 05
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                UI&nbsp;design
+                {t.about.stages.stagesFive.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                layout drawing and&nbsp;UI kit
+                {t.about.stages.stagesFive.descriptionFirst}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -197,10 +194,10 @@ export default function About() {
                 06
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                Prototype
+                {t.about.stages.stagesSix.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                сreating a&nbsp;clickable prototype
+                {t.about.stages.stagesSix.descriptionFirst}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -211,10 +208,10 @@ export default function About() {
                 07
               </div>
               <div className="font-medium uppercase text-[#404040] text-[24px]/[31.75px] lg:text-[30px]/[39.69px] mb-[8px] lg:mb-[15px]">
-                Adaptive
+                {t.about.stages.stagesSeven.title}
               </div>
               <div className="font-inter font-medium text-[#404040] text-[17px]/[20.57px] md:text-[18px]/[21.78px]">
-                design adaptation for all resolutions
+                {t.about.stages.stagesSeven.descriptionFirst}
               </div>
             </li>
             <li className="hidden xl:flex">
@@ -225,10 +222,10 @@ export default function About() {
                 08
               </div>
               <div className="text-[24px]/[31.75px] lg:text-[30px]/[39.69px] font-medium uppercase text-[#404040] mb-[8px] lg:mb-[15px]">
-                layout
+                {t.about.stages.stagesEight.title}
               </div>
               <div className="font-inter text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-medium text-[#404040]">
-                site layout on&nbsp;tilda builder
+                {t.about.stages.stagesEight.descriptionFirst}
               </div>
             </li>
           </ul>

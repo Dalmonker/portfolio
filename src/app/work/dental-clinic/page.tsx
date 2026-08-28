@@ -165,7 +165,7 @@ export default function Page() {
           </div>
         </div>
         <NextPageSection
-          title="tennis club"
+          projectKey="tennis"
           bgColor="#213d5c"
           image={PrewiewImage}
           href="/work/tennis"

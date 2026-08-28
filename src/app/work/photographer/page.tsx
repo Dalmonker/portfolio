@@ -118,7 +118,7 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-          title="Web Banners collection"
+          projectKey="webBanners"
           href="/work/web-banners"
           bgColor="#000000"
           image={PreviewImage}

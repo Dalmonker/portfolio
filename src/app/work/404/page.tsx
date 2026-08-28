@@ -9,7 +9,7 @@ import Banner2Image from "../../../../public/img/work/404/error2.webp";
 import Banner3Image from "../../../../public/img/work/404/error3.webp";
 import Banner4Image from "../../../../public/img/work/404/error4.webp";
 import Banner5Image from "../../../../public/img/work/404/error5.webp";
-import PreviewImage from "../../../../public/img/work/marketing-education/preview.webp";
+import PreviewImage from "../../../../public/img/work/meducation/preview.webp";
 
 export default function Page() {
   return (
@@ -67,9 +67,9 @@ export default function Page() {
         </section>
         <NextPageSection
           image={PreviewImage}
-          href="/work/marketing-education"
-          bgColor="#000"
-          title="Marketing Education"
+          href="https://www.mymeducation.ru/"
+          bgColor="#E30077"
+          projectKey="meducation"
         />
       </main>
       <Footer />

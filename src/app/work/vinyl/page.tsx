@@ -139,10 +139,10 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-          title="Photographer portfolio"
-          bgColor="#D9E4E3"
-          href="/work/photographer"
-          image={PreviewImage}
+            projectKey="photographer"
+            bgColor="#D9E4E3"
+            href="/work/photographer"
+            image={PreviewImage}
         />
       </main>
       <Footer />

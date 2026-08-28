@@ -1,4 +1,5 @@
 import { title } from "process";
+import {NextPageSection} from "@/components/sections/NextPageSection";
 
 export const en = {
   header: {
@@ -57,6 +58,44 @@ export const en = {
           "Regular workouts keep me sharp and teach me to pursue goals methodically – a discipline that directly translates to working on\u00A0complex products",
       },
     },
+    stagesTitle: "Stages of my work",
+    stages : {
+      stagesOne: {
+        title: "Briefing",
+        descriptionFirst: "interview",
+        descriptionSecond: "statement of work",
+      },
+      stagesTwo: {
+        title: "research",
+        descriptionFirst: "JTBD, TA",
+        descriptionSecond: "competitor analysis",
+      },
+      stagesThree: {
+        title: "Analytics",
+        descriptionFirst: "CJM, scenarios",
+        descriptionSecond: "User/Task flow",
+      },
+      stagesFour: {
+        title: "Prototype",
+        descriptionFirst: "and internal usability\u00A0testing",
+      },
+      stagesFive: {
+        title: "UI design",
+        descriptionFirst: "and UI Kit / Design\u00A0System",
+      },
+      stagesSix: {
+        title: "Adaptive",
+        descriptionFirst: "Desktop / Tablet / Mobile versions",
+      },
+      stagesSeven: {
+        title: "layout",
+        descriptionFirst: "Tilda / Handoff to\u00A0Development",
+      },
+      stagesEight: {
+        title: "review",
+        descriptionFirst: "Usability Testing / Iterations",
+      },
+    },
 },
 
   work: {
@@ -64,6 +103,111 @@ export const en = {
     titleSecond: "level digital",
     descriptionOne: "I\u00A0use my\u00A0passion and skills to\u00A0create digital products. Explore my\u00A0projects below to\u00A0witness firsthand the impact of\u00A0my\u00A0skills",
     descriptionSecond:"PRODUCTS",
+    workCards: {
+      meducation: {
+        title: "Meducation",
+        description: "Design & Development",
+      },
+      telegramApps: {
+        title: "McDuckMist",
+        description: "Design",
+      },
+      codeStorage: {
+        title: "Code storage service",
+        description: "Design",
+      },
+      roadMap: {
+        title: "project Roadmap",
+        description: "Design",
+      },
+      marketingEducation: {
+        title: "marketing Education",
+        description: "Design",
+      },
+      dentalClinic: {
+        title: "Dental clinic Ortodent",
+        description: "Design & Development",
+      },
+      TennisClub: {
+        title: "Tennis Club",
+        description: "Design & Development",
+      },
+      medicalDashboard: {
+        title: "Medical Dashboard",
+        description: "Design",
+      },
+      vinylStore: {
+        title: "vinyl record store",
+        description: "Design",
+      },
+      PhotographerPortfolio: {
+        title: "Photographer portfolio",
+        description: "Design & Development",
+      },
+      webBanners: {
+        title: "Web Banners collection",
+        description: "Design",
+      },
+      pages404: {
+        title: "404 page collection",
+        description: "Design",
+      }
+    },
+  },
+
+  nextPage: {
+    title: "Next work",
+    button: "All work",
+    projects: {
+      meducation: {
+        title: "Meducation",
+        description: "Design & Development"
+      },
+      mcduckmist: {
+        title: "McDuckMist",
+        description: "Design"
+      },
+      codeStorage: {
+        title: "Code Storage Service",
+        description: "Design"
+      },
+      roadMap: {
+        title: "Project Roadmap",
+        description: "Design"
+      },
+      marketingEducation: {
+        title: "Marketing Education",
+        description: "Design"
+      },
+      dentalClinic: {
+        title: "Dental clinic Ortodent",
+        description: "Design & Development"
+      },
+      tennis: {
+        title: "Tennis Club",
+        description: "Design & Development"
+      },
+      medicalDashboard: {
+        title: "Medical Dashboard",
+        description: "Design"
+      },
+      vinyl: {
+        title: "Vinyl Record Store",
+        description: "Design"
+      },
+      photographer: {
+        title: "Photographer Portfolio",
+        description: "Design & Development"
+      },
+      webBanners: {
+        title: "Web Banners Collection",
+        description: "Design"
+      },
+      pages404: {
+        title: "404 Page Collection",
+        description: "Design"
+      },
+    },
   },
   
   contact: {

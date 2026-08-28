@@ -121,7 +121,7 @@ export default function Page() {
           </div>
         </div>
         <NextPageSection
-          title="dental clinic ortodent"
+          projectKey="dentalClinic"
           bgColor="#213d5c"
           image={PrewiewImage}
           href="/work/dental-clinic"

@@ -9,7 +9,7 @@ export const ru = {
   },
   
   home: {
-    designDev: "Дизайн и Разработка",
+    designDev: "Дизайн & Разработка",
     resume: "Резюме",
     description: "Дизайн может удивительным образом менять наши решения и\u00A0эмоции. Он\u00A0превращает посетителей сайта в\u00A0клиентов",
     passionate: "Увлечена созданием интуитивно понятных цифровых решений",
@@ -19,11 +19,11 @@ export const ru = {
     works: {
       dental: {
         title: "Клиника Ortodent",
-        descr: "Дизайн и Разработка",
+        descr: "Дизайн & Разработка",
       },
       tennis: {
         title: "Теннисный клуб",
-        descr: "Дизайн и Разработка",
+        descr: "Дизайн & Разработка",
       },
       medical: {
         title: "Медицинский дашборд",
@@ -54,6 +54,44 @@ export const ru = {
           "Регулярный спорт держит в\u00A0тонусе и\u00A0учит методично идти к\u00A0цели. Эта\u00A0дисциплина напрямую переносится на\u00A0работу над\u00A0сложными продуктами",
       },
     },
+     stagesTitle: "Этапы моей работы",
+     stages : {
+       stagesOne: {
+         title: "БРИФинг",
+         descriptionFirst: "интервью",
+         descriptionSecond: "тех. задание",
+       },
+       stagesTwo: {
+         title: "UX",
+         descriptionFirst: "JTBD, изучение ЦА",
+         descriptionSecond: "анализ конкурентов",
+       },
+       stagesThree: {
+         title: "Аналитика",
+         descriptionFirst: "CJM, сценарии",
+         descriptionSecond: "User/Task flow",
+       },
+       stagesFour: {
+         title: "Прототип",
+         descriptionFirst: "и внутренние юзабилити-тесты",
+       },
+       stagesFive: {
+         title: "UI-дизайн",
+         descriptionFirst: "и UI Kit / Design\u00A0System",
+       },
+       stagesSix: {
+         title: "Адаптив",
+         descriptionFirst: "состояния Desktop / Tablet / Mobile",
+       },
+       stagesSeven: {
+         title: "Верстка",
+         descriptionFirst: "Tilda / передача в\u00A0разработку",
+       },
+       stagesEight: {
+         title: "Контроль",
+         descriptionFirst: "юзабилити-тесты и\u00A0итерации",
+       },
+     },
    },
 
   work: {
@@ -61,6 +99,111 @@ export const ru = {
     titleSecond: "новейшего",
     descriptionOne: "Мои навыки и\u00A0увлеченность воплощаются в\u00A0цифровых продуктах. Смотрите ниже результаты моей работы",
     descriptionSecond:"ПОКОЛЕНИЯ",
+    workCards: {
+      meducation: {
+        title: "Meducation",
+        description: "Дизайн & Разработка",
+      },
+      telegramApps: {
+        title: "McDuckMist",
+        description: "Дизайн",
+      },
+      codeStorage: {
+        title: "Сервис хранения кода",
+        description: "Дизайн",
+      },
+      roadMap: {
+        title: "Дорожная карта",
+        description: "Дизайн",
+      },
+      marketingEducation: {
+        title: "Академия маркетинга",
+        description: "Дизайн",
+      },
+      dentalClinic: {
+        title: "Стоматология Ortodent",
+        description: "Дизайн & Разработка",
+      },
+      TennisClub: {
+        title: "Теннисный клуб",
+        description: "Дизайн & Разработка",
+      },
+      medicalDashboard: {
+        title: "Медицинский дашборд",
+        description: "Дизайн",
+      },
+      vinylStore: {
+        title: "Магазин винила",
+        description: "Дизайн",
+      },
+      PhotographerPortfolio: {
+        title: "Сайт-портфолио",
+        description: "Дизайн & Разработка",
+      },
+      webBanners: {
+        title: "Коллекция баннеров",
+        description: "Дизайн",
+      },
+      pages404: {
+        title: "Коллекция страниц 404",
+        description: "Дизайн",
+      }
+    },
+  },
+
+  nextPage: {
+    title: "Следующая работа",
+    button: "Все работы",
+    projects: {
+      meducation: {
+        title: "Meducation",
+        description: "Дизайн & Разработка"
+      },
+      mcduckmist: {
+        title: "McDuckMist",
+        description: "Дизайн"
+      },
+      codeStorage: {
+        title: "Сервис хранения кода",
+        description: "Дизайн"
+      },
+      roadMap: {
+        title: "Дорожная карта",
+        description: "Дизайн"
+      },
+      marketingEducation: {
+        title: "Академия маркетинга",
+        description: "Дизайн"
+      },
+      dentalClinic: {
+        title: "Стоматология Ortodent",
+        description: "Дизайн & Разработка"
+      },
+      tennis: {
+        title: "Теннисный клуб",
+        description: "Дизайн & Разработка"
+      },
+      medicalDashboard: {
+        title: "Медицинский дашборд",
+        description: "Дизайн"
+      },
+      vinyl: {
+        title: "Магазин винила",
+        description: "Дизайн"
+      },
+      photographer: {
+        title: "Сайт-портфолио",
+        description: "Дизайн & Разработка"
+      },
+      webBanners: {
+        title: "Коллекция баннеров",
+        description: "Дизайн"
+      },
+      pages404: {
+        title: "Коллекция страниц 404",
+        description: "Дизайн"
+      },
+    },
   },
   
   contact: {
