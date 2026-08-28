@@ -154,12 +154,12 @@ export function Header({ isWhite = false }: Props) {
             {t.header.navigation}
           </div>
           <hr className="border-none my-[24px] h-[1px] w-full bg-[#656565] megaXl:mt-[30px] md:mb-[20px]" />
-          <div className="flex-col megaXl:flex-row megaXl:justify-between flex megaXl:items-center">
-            <div className="megaXl:flex">
-              <div className="flex justify-between text-white uppercase text-[24px] megaXl:text-[40px] mb-[20px] font-medium md:mb-0">
+          <div className="flex-col flex-wrap lg:justify-between lg:flex-row flex lg:items-center">
+            <div className="lg:flex lg:items-center">
+              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] mb-[20px] font-medium md:mb-0">
                 <Link
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all megaXl:mr-[30px]",
+                    " hover:text-[#3E4EFF] transition-all md:mb-[20px] lg:mb-[0px] lg:mr-[30px]",
                     pathname === "/" && "text-[#2E4EEC]"
                   )}
                   href="/"
@@ -169,7 +169,7 @@ export function Header({ isWhite = false }: Props) {
                 </Link>
                 <Link
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all megaXl:mr-[30px]",
+                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
                     pathname.includes("work") && "text-[#2E4EEC]"
                   )}
                   href="/work"
@@ -178,10 +178,10 @@ export function Header({ isWhite = false }: Props) {
                   {t.header.work}
                 </Link>
               </div>
-              <div className="flex justify-between text-white uppercase text-[24px] mb-[24px] megaXl:text-[40px]  font-medium  megaXl:mb-0">
+              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px]  font-medium  megaXl:mb-0">
                 <Link
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all megaXl:mr-[30px]",
+                    " hover:text-[#3E4EFF] transition-all md:mb-[20px] lg:mb-[0px] lg:mr-[30px]",
                     pathname === "/about" && "text-[#2E4EEC]"
                   )}
                   href="/about"
@@ -197,6 +197,22 @@ export function Header({ isWhite = false }: Props) {
                   {t.header.contact}
                 </Link>
               </div>
+                <div className="flex items-center justify-center lg:ml-[30px]">
+                  <Link
+                      className="flex items-center gap-2 justify-center"
+                      href="https://t.me/alinagavrilovich"
+                      target="_blank"
+                  >
+              <span className="flex items-center justify-center w-[44px] h-[44px]">
+                <Svg
+                    className="w-full h-full md:mb-[24px] lg:mb-[0px]"
+                    width={44}
+                    height={44}
+                    iconId="icon-header-telegram-white"
+                />
+              </span>
+                  </Link>
+                </div>
             </div>
 
             <a
