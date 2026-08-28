@@ -69,7 +69,7 @@ export default function Home() {
   <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
-      <div className="animate-left absolute -left-full top-[110px] z-0 whitespace-nowrap text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] md:top-[152px] lg:text-[280px]">
+      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
         Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
         ux Web ui ux Web ui ux Web ui ux
       </div>
