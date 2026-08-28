@@ -140,12 +140,12 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <NextPageSection
-          title="tennis club"
-          bgColor="#213d5c"
-          image={PrewiewImage}
-          href="/work/tennis"
-        />
+        {/*<NextPageSection*/}
+        {/*  title="tennis club"*/}
+        {/*  bgColor="#213d5c"*/}
+        {/*  image={PrewiewImage}*/}
+        {/*  href="/work/tennis"*/}
+        {/*/>*/}
       </main>
       <Footer />
     </>
