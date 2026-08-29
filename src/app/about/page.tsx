@@ -13,7 +13,7 @@ const images = {
   tablet: "/img/portrait/photoAbout-960.png",
   mobile: "/img/portrait/photoAbout-768.png",
   small: "/img/portrait/photoAbout-480.png",
-  xsmall: "/img/portrait/photoAbout-360.png",
+  xsmall: "/img/portrait/photoAbout-480.png",
 };
 const imageSizes = {
   desktop: { width: 598, height: 740 },
