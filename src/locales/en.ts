@@ -238,7 +238,11 @@ export const en = {
       
     },
     medical: {
-      
+      titleOne: "The dashboard helps health care providers effectively track their performance statistics",
+      descriptionOne: "This project focuses on both functionality and aesthetic appeal. When developing the medical dashboard, it was important to focus on solutions that would be user friendly",
+      descriptionCenter: "Created the ability to switch between light and dark themes",
+      titleTwo: "This project was developed according to all the design rules in Figma",
+      descriptionTwo: "The clever use of meshes and components has resulted in a dashboard that is not only visually appealing, but also intuitive for the user",
     },
   },
 };

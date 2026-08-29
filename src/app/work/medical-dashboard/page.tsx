@@ -38,6 +38,7 @@ export default function Page() {
               alt=""
               quality={95}
               priority
+
             />
           </div>
         </section>
@@ -88,7 +89,7 @@ export default function Page() {
                 <p className="font-inter font-medium text-[17px] md:text-[18px] xl:max-w-[495px] lg:max-w-[450px]  text-[#404040]">
                   The clever use of meshes and components has resulted in a
                   dashboard that is not only visually appealing, but also
-                  intuitive for the userz
+                  intuitive for the user
                 </p>
               </div>
             </div>

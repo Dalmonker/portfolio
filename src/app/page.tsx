@@ -38,18 +38,18 @@ export default function Home() {
 
   const works: WorkType[] = [
   {
-    cardKey: "dental",
-    date: "2024",
+    cardKey: "MCDUCKMIST",
+    date: "2026",
     href: "/work/dental-clinic",
-    img: "/img/work/dental-clinic/preview.webp",
+    img: "/img/work/mckduck/preview.webp",
     bg: "bg-[#D8DEE4]",
   },
   {
-    cardKey: "tennis",
-    date: "2024",
-    href: "/work/tennis",
-    img: "/img/work/tennis/preview.webp",
-    bg: "bg-[#213D5C]",
+    cardKey: "CODE STORAGE SERVICE",
+    date: "2025",
+    href: "https://snipit.ru/",
+    img: "/img/work/code-storage/preview.webp",
+    bg: "bg-[#D8DEE4]",
   },
   {
     cardKey: "medical",
@@ -129,7 +129,7 @@ export default function Home() {
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
           <div className="font-inter container xl:relative flex flex-col justify-between text-blackText">
             <div className="sm:mr-[20px]">
-              <p className="font-regular mb-[24px] xl:max-w-[930px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
+              <p className="font-medium lg:font-regular mb-[24px] xl:max-w-[930px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
                 {t.home.description}
               </p>
               <span className="font-medium mt-[5px] miniSm:max-w-[300px] sm:max-w-[210px] md:max-w-full hidden sm:text-[17px]/[20.57px] text-[18px] sm:flex">
@@ -265,7 +265,7 @@ export default function Home() {
             <Magnetic>
               <Link
                 href="/work"
-                className="mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg lg:font-bold text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
+                className="font-inter font-medium mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
               >
                 {t.home.moreWork}
               </Link>
