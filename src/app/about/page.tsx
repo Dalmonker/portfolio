@@ -88,7 +88,7 @@ export default function About() {
               <source className="w-full" srcSet="/img/portrait/photoAbout-960.png" media="(min-width: 960px)"/>
               <source className="w-full" srcSet="/img/portrait/photoAbout-768.png" media="(min-width: 768px)"/>
               <source className="w-full" srcSet="/img/portrait/photoAbout-480.png" media="(min-width: 480px)" />
-              <img className="w-full" src="/img/portrait/photoAbout-360.png" alt="" />
+              <img className="w-full" src="/img/portrait/photoAbout-480.png" alt="" />
             </picture>
 
 

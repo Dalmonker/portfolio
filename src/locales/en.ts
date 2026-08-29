@@ -22,12 +22,12 @@ export const en = {
     moreWork: "More work",
     works: {
       dental: {
-        title: "Dental clinic Ortodent",
-        descr: "Design &\u00A0Development",
+        title: "McDuckMist",
+        descr: "Design",
       },
       tennis: {
-        title: "Tennis club",
-        descr: "Design & Development",
+        title: "Code storage service",
+        descr: "Design",
       },
       medical: {
         title: "Medical Dashboard",

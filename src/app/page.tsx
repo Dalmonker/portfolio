@@ -21,8 +21,8 @@ import Img7 from "../../public/img/slider/img7.webp";
 
 import { WorkItem } from "@/components/WorkItem";
 
-import ImgWork1 from "../../public/img/work/dental-clinic/preview.webp";
-import ImgWork2 from "../../public/img/work/tennis/preview.webp";
+import ImgWork1 from "../../public/img/work/mckduck/preview.webp";
+import ImgWork2 from "../../public/img/work/code-storage/preview.webp";
 import ImgWork3 from "../../public/img/work/medical-dashboard/preview.webp";
 
 export type WorkType = {
@@ -83,11 +83,11 @@ export default function Home() {
         {/* 1240px и выше - Full HD */}
         <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1240px)" />
         <source srcSet="/img/portrait/photoHead-768.png" media="(min-width: 768px)" />
-        <source srcSet="/img/portrait/photoHead-proverka2.png" media="(min-width: 480px)" />
+        <source srcSet="/img/portrait/photoHead-480.png" media="(min-width: 480px)" />
         {/* fallback для маленьких экранов */}
         <img
             className="w-full h-full object-cover sm:mt-[60px] md:w-auto lg:w-full lg:object-contain"
-            src="/img/portrait/photoHead-proverka2.png"
+            src="/img/portrait/photoHead-360.png"
             alt=""
             loading="eager"
         />
@@ -129,12 +129,12 @@ export default function Home() {
 
 
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
-          <div className="font-inter container xl:relative flex flex-col justify-between font-regular text-blackText">
+          <div className="font-inter container xl:relative flex flex-col justify-between text-blackText">
             <div className="sm:mr-[20px]">
-              <p className="mb-[24px] xl:max-w-[930px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
+              <p className="font-regular mb-[24px] xl:max-w-[930px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
                 {t.home.description}
               </p>
-              <span className="mt-[5px] miniSm:max-w-[300px] sm:max-w-[210px] md:max-w-full hidden sm:text-[17px]/[20.57px] text-[18px] sm:flex">
+              <span className="font-medium mt-[5px] miniSm:max-w-[300px] sm:max-w-[210px] md:max-w-full hidden sm:text-[17px]/[20.57px] text-[18px] sm:flex">
                 {t.home.passionate}
               </span>
             </div>
@@ -157,7 +157,7 @@ export default function Home() {
         <section className="hidden xl:block">
           <div className="container overflow-hidden pt-[60px] sm:pt-[80px] lg:pt-[50px] xl:pt-[48px]">
             <div className="border-b border-b-grayBorder font-medium text-blackText overflow-hidden pt-[120px] relative">
-              <div className="text-[18px] font-medium text-[#A5A5A5]  absolute top-[50px]">
+              <div className="font-inter text-[18px] font-regular text-[#A5A5A5] absolute top-[50px]">
                 {t.home.recentWork}
               </div>
               <Link
@@ -195,7 +195,7 @@ export default function Home() {
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
                     className={
-                      "relative w-full px-[20px] pb-[100%] bg-[#213D5C]"
+                      "relative w-full px-[20px] pb-[100%] bg-[#D8DEE4]"
                     }
                   >
                     <Image
@@ -251,7 +251,7 @@ export default function Home() {
 
         <section className="block xl:hidden mt-[60px] md:mt-[80px]">
           <div className="container">
-            <div className="mb-[40px] text-[18px] font-medium text-[#A5A5A5] lg:mb-[30px] hidden md:flex">
+            <div className="font-inter mb-[40px] text-[18px] font-regular text-[#A5A5A5] lg:mb-[30px] hidden md:flex">
               {t.home.recentWork}
             </div>
             <div className="grid grid-cols-1 gap-y-[60px] md:grid-cols-2 md:gap-x-[20px] md:gap-y-[80px] lg:gap-y-[120px]">
