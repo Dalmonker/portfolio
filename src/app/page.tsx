@@ -87,7 +87,7 @@ export default function Home() {
         {/* fallback для маленьких экранов */}
         <img
             className="w-full h-full object-cover sm:mt-[60px] md:w-auto lg:w-full lg:object-contain"
-            src="/img/portrait/photoHead-proverka.PNG"
+            src="/img/portrait/IMG_458.png"
             alt=""
             loading="eager"
         />
