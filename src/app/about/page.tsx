@@ -124,7 +124,9 @@ export default function About() {
                   height={currentSize.height}
                   className="w-full h-auto"
                   quality={95}
+                  sizes="(max-width: 360px) 100vw, (max-width: 480px) 100vw, (max-width: 768px) 100vw, (max-width: 960px) 100vw, 50vw"
                   priority
+                  unoptimized
               />
             </div>
 
