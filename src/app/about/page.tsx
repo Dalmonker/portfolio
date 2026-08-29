@@ -4,14 +4,58 @@ import { ContactSection } from "@/components/sections/ContactSection";
 import { Footer } from "@/components/Footer";
 import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
-
-// import Link from "next/link";
+import { useState, useEffect } from "react";
 import { Svg } from "@/components/Svg";
 import { Header } from "@/components/Header";
 
+const images = {
+  desktop: "/img/portrait/photoAbout.png",
+  tablet: "/img/portrait/photoAbout-960.png",
+  mobile: "/img/portrait/photoAbout-768.png",
+  small: "/img/portrait/photoAbout-480.png",
+  xsmall: "/img/portrait/photoAbout-360.png",
+};
+const imageSizes = {
+  desktop: { width: 598, height: 740 },
+  tablet: { width: 450, height: 740 },
+  mobile: { width: 728, height: 850 },
+  small: { width: 440, height: 500 },
+  xsmall: { width: 320, height: 500 },
+};
+
 export default function About() {
   const { t } = useLanguage();
+  const [currentImage, setCurrentImage] = useState(images.desktop);
+  const currentSize = imageSizes[currentImage as keyof typeof imageSizes] || imageSizes.desktop;
 
+
+  useEffect(() => {
+    const updateImage = () => {
+      const width = window.innerWidth;
+
+      // ✅ Проверяем в правильном порядке
+      if (width >= 1200) {
+        setCurrentImage(images.desktop);
+      } else if (width >= 960) {
+        setCurrentImage(images.tablet);
+      } else if (width >= 768) {
+        setCurrentImage(images.mobile);
+      } else if (width >= 480) {
+        setCurrentImage(images.small);
+      } else {
+        setCurrentImage(images.xsmall);
+      }
+    };
+
+    // ✅ Запускаем сразу
+    updateImage();
+
+    // ✅ Добавляем обработчик
+    window.addEventListener("resize", updateImage);
+
+    // ✅ Убираем обработчик
+    return () => window.removeEventListener("resize", updateImage);
+  }, []); // Пустой массив - эффект запускается один раз
   return (
     <>
       <Header isWhite />
@@ -24,18 +68,6 @@ export default function About() {
                 iconId="icon-arrow-about"
                 size={30}
               />
-
-              {/* <svg className="absolute right-0 sm:flex mt-[8px] md:mt-[18px] xl:mt-[24px]" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <g clip-path="url(#clip0_430_1975)">
-              <path d="M8.24938 25.1669L29.999 3.41723L26.5819 0.00012207L4.83227 21.7498V3.41723L-0.000980139 3.41723L-0.000980139 30.0001L26.5819 30.0001L26.5819 25.1669H8.24938Z" fill="white"/>
-              </g>
-              <defs>
-              <clipPath id="clip0_430_1975">
-              <rect width="30" height="30" fill="white"/>
-              </clipPath>
-              </defs>
-              </svg> */}
-
 
               {t.about.title}
             </h1>
@@ -83,24 +115,18 @@ export default function About() {
               </ul>
             </div>
 
-            <picture className="w-full">
-              <source className="w-full" srcSet="/img/portrait/photoAbout.png" media="(min-width: 1200px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-960.png" media="(min-width: 960px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-768.png" media="(min-width: 768px)"/>
-              <source className="w-full" srcSet="/img/portrait/photoAbout-480.png" media="(min-width: 480px)" />
-              <img className="w-full" src="/img/portrait/photoAbout-480.png" alt="" />
-            </picture>
-
-
-            {/* <Image
-              className="h-[500px] w-full lg:h-[740px] lg:w-1/2 lg:object-cover"
-              src="/img/portrait/photo_about.webp"
-              alt=""
-              objectFit="cover"
-              quality={95}
-              width={598}
-              height={740}
-            /> */}
+            <div className="relative w-full">
+              <Image
+                  key={currentImage}
+                  src={currentImage}
+                  alt=""
+                  width={currentSize.width}
+                  height={currentSize.height}
+                  className="w-full h-auto"
+                  quality={95}
+                  priority
+              />
+            </div>
 
           </div>
         </section>
