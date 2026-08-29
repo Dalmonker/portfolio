@@ -8,12 +8,12 @@ export default function Magnetic({ children }) {
 
   useEffect(() => {
     const xTo = gsap.quickTo(magnetic.current, "x", {
-      duration: 1,
+      duration: 0.4, // было 1, теперь 0.4
       ease: "elastic.out(1, 0.3)",
     });
 
     const yTo = gsap.quickTo(magnetic.current, "y", {
-      duration: 1,
+      duration: 0.4, // было 1, теперь 0.4
       ease: "elastic.out(1, 0.3)",
     });
 
@@ -21,7 +21,7 @@ export default function Magnetic({ children }) {
       const { clientX, clientY } = e;
 
       const { height, width, left, top } =
-        magnetic.current.getBoundingClientRect();
+          magnetic.current.getBoundingClientRect();
 
       const x = clientX - (left + width / 2);
 
@@ -33,9 +33,9 @@ export default function Magnetic({ children }) {
     };
 
     const mouseLeave = (e) => {
-      gsap.to(magnetic.current, { x: 0, duration: 1 });
+      gsap.to(magnetic.current, { x: 0, duration: 0.4 }); // было 1, теперь 0.4
 
-      gsap.to(magnetic.current, { y: 0, duration: 1 });
+      gsap.to(magnetic.current, { y: 0, duration: 0.4 }); // было 1, теперь 0.4
 
       xTo(0);
 

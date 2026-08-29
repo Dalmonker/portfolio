@@ -97,7 +97,7 @@ export function ContactSection() {
           </form>
         </div>
       </section>
-      {i && <SendEmailPopup close={close} />}
+      {i && <SendEmailPopup closeAction={close} />}
     </>
   );
 }

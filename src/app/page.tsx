@@ -129,7 +129,7 @@ export default function Home() {
 
 
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
-          <div className="font-inter container xl:relative flex flex-col justify-between font-medium text-blackText">
+          <div className="font-inter container xl:relative flex flex-col justify-between font-regular text-blackText">
             <div className="sm:mr-[20px]">
               <p className="mb-[24px] xl:max-w-[930px] md:max-w-[541px] lg:max-w-[682px] text-[24px]/[29.05px] md:text-[30px]/[36.31px] xl:mb-[26px] xl:text-[40px]/[48.41px]">
                 {t.home.description}
