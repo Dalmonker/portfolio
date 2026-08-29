@@ -83,11 +83,11 @@ export default function Home() {
         {/* 1240px и выше - Full HD */}
         <source srcSet="/img/portrait/photo1.webp" media="(min-width: 1240px)" />
         <source srcSet="/img/portrait/photoHead-768.png" media="(min-width: 768px)" />
-        <source srcSet="/img/portrait/photoHead-proverka.png" media="(min-width: 480px)" />
+        <source srcSet="/img/portrait/photoHead-proverka2.png" media="(min-width: 480px)" />
         {/* fallback для маленьких экранов */}
         <img
             className="w-full h-full object-cover sm:mt-[60px] md:w-auto lg:w-full lg:object-contain"
-            src="/img/portrait/photoHead-proverka.png"
+            src="/img/portrait/photoHead-proverka2.png"
             alt=""
             loading="eager"
         />
