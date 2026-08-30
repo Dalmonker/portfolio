@@ -40,7 +40,7 @@ export default function Home() {
   {
     cardKey: "MCDUCKMIST",
     date: "2026",
-    href: "/work/dental-clinic",
+    href: "/work/mckduck",
     img: "/img/work/mckduck/preview.webp",
     bg: "bg-[#D8DEE4]",
   },

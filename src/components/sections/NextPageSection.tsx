@@ -29,7 +29,7 @@ export function NextPageSection({
           {t.nextPage?.title || "Next work"}
         </span>
 
-                <span className="mb-[36px] mt-[12px] md:mt-[20px] md:mb-[34px] lg:mt-[45px] lg:mb-[45px] xl:mt-[30px] xl:mb-[40px] text-[24px] text-center font-semibold uppercase leading-[130%] text-white sm:text-[40px] lg:text-[64px]">
+                <span className="mb-[36px] mt-[12px] md:mt-[20px] md:mb-[34px] lg:mt-[45px] lg:mb-[45px] xl:mt-[30px] xl:mb-[40px] text-[24px] text-center font-medium uppercase leading-[130%] text-white sm:text-[40px] lg:text-[64px]">
           {title}
         </span>
                 <div className="flex w-full justify-center border-b border-b-[#656565]">

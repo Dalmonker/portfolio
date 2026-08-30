@@ -26,7 +26,7 @@ const works: WorkType[] = [
   {
     cardKey: "telegramApps",
     date: "2026",
-    href: "https://www.mymeducation.ru/",
+    href: "/work/mckduck",
     img: "/img/work/mckduck/preview.webp",
     bg: "bg-[#DFE2E8]",
   },

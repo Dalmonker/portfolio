@@ -236,6 +236,14 @@ export const en = {
     tennis: {
 
     },
+    mckduck: {
+      titleOne: "McDuckMist is a Telegram Mini App where users earn MCDC tokens through farming and staking",
+      descriptionOne: "The main goal is to package complex DeFi logic (farming, staking, boosts, referral program, withdrawals) into a simple and visually engaging game interface. The design should be clear for crypto newbies while remaining functional for experienced users",
+      titleCenter: "",
+      descriptionCenter: "",
+      titleTwo: "As part of the project, I designed 10+ advertising creatives for Telegram",
+      descriptionTwo: "Created static and animated banners, promo posts, presentations, and referral program visuals that explain the game mechanics (farming, staking, withdrawals) in a simple and clear way",
+    },
     medical: {
       titleOne: "This project is an internal management system interface designed for a\u00A0physician",
       descriptionOne: "Its primary objective is to provide quick and intuitive access to key clinic performance metrics. This is not merely a collection of numbers, but a decision-making tool that enables the physician to assess workload, appointment efficiency, and the overall patient health picture in real time",
