@@ -29,9 +29,8 @@ export default function Page() {
           arrow={true}
         />
         <section>
-          <div className="container flex flex-col items-center bg-[#254078] pt-[60px] pb-[60px] md:pt-[80px] md:pb-[80px] xl:pt-[120px] xl:pb-[120px]">
             <Image
-              className="animate__animated opacity-0"
+              className="animate__animated opacity-0 container flex flex-col items-center"
               data-animation="animate__fadeInUp"
               sizes="100vw"
               src={MainBgImage}
@@ -40,7 +39,6 @@ export default function Page() {
               priority
 
             />
-          </div>
         </section>
 
         <section className=" bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] xl:pt-[120px] xl:pb-[120px]">
