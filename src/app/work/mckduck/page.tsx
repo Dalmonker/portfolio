@@ -7,6 +7,8 @@ import { Svg } from "@/components/Svg";
 import { MainSection1 } from "@/components/sections/MainSection1";
 
 import MainBgImage from "../../../../public/img/work/mckduck/demonstration1.webp";
+import kryaCenterImage from "../../../../public/img/work/mckduck/krya-centernew.webp";
+import kryaCenterImage2 from "../../../../public/img/work/mckduck/krya-center2.webp";
 import krya1Image from "../../../../public/img/work/mckduck/krya1.webp";
 import krya2Image from "../../../../public/img/work/mckduck/krya2.webp";
 import kryaIpadImage from "../../../../public/img/work/mckduck/krya-ipad.webp";
@@ -21,9 +23,9 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={<>Medical</>}
+          title={<>McDuckMist</>}
           subTitle={
-            <span className="text-[#362EEC] xl:text-[125px]">Dashboard</span>
+            <span className="text-[#362EEC] xl:text-[125px]">Telegram MA</span>
           }
           table={[
             { title: "Year:", value: "2024" },
@@ -55,6 +57,64 @@ export default function Page() {
             </p>
           </div>
         </section>
+
+
+
+        <section className="bg-[#FAFCFC]">
+          <div className="">
+            <Image
+                className="animate__animated opacity-0 container flex flex-col items-center"
+                data-animation="animate__fadeInUp"
+
+                src={kryaCenterImage}
+                alt=""
+                quality={95}
+                priority
+            />
+          </div>
+
+
+          <div className="container center-bottom flex flex-col lg:flex-row">
+
+            <div className="center-bottom_left lg:w-[50%] lg:mr-[126px] mb-[50px] lg:mb-[0px]">
+              <p className="font-inter leading-[100%] text-[24px] md:text-[30px] xl:text-[40px] mb-[20px] font-medium text-[#404040]">
+                Over 100 hours of work on the project to make the interface not just visually appealing, but intuitive
+              </p>
+              <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040]">
+                Wireframes were my first step in the design process. I created them to get a clear understanding of the app's structure and feature logic early on – before diving into UI design. This helped me stay focused on user scenarios rather than visual details
+              </p>
+
+              <div className="flex lg:mt-[50px]">
+                <div className="flex flex-col font-bold text-[80px] lg:text-[100px] xl:text-[140px] lg:mr-[50px] text-[#362EEC]">
+                  50+
+                  <span className="font-inter font-medium text-[18px] text-[#8B8B8B]">screens</span>
+                </div>
+                <div className="flex flex-col font-bold text-[80px] lg:text-[100px] xl:text-[140px] ">
+                  30+
+                  <span className="font-inter font-medium text-[18px] text-[#8B8B8B]">components</span>
+                </div>
+              </div>
+
+
+            </div>
+            <div className="center-bottom_right lg:w-[50%]">
+              <Image
+                  className="animate__animated opacity-0 min-h-[810px] w-full"
+                  data-animation="animate__fadeInUp"
+                  sizes="100vw"
+                  src={kryaCenterImage2}
+                  alt=""
+                  quality={95}
+                  priority
+              />
+            </div>
+          </div>
+
+        </section>
+
+
+
+
 
         <section className=" bg-[#F8F8F8] py-[60px] md:py-[80px] xl:py-[120px]">
           <div className="container flex flex-col items-center">
