@@ -229,20 +229,19 @@ export const en = {
     messenger: "Messenger",
     name: "Gavrilovich",
   },
-  
   workPages: {
     dental: {
-      
+
     },
     tennis: {
-      
+
     },
     medical: {
-      titleOne: "The dashboard helps health care providers effectively track their performance statistics",
-      descriptionOne: "This project focuses on both functionality and aesthetic appeal. When developing the medical dashboard, it was important to focus on solutions that would be user friendly",
-      descriptionCenter: "Created the ability to switch between light and dark themes",
-      titleTwo: "This project was developed according to all the design rules in Figma",
-      descriptionTwo: "The clever use of meshes and components has resulted in a dashboard that is not only visually appealing, but also intuitive for the user",
+      titleOne: "This project is an internal management system interface designed for a\u00A0physician",
+      descriptionOne: "Its primary objective is to provide quick and intuitive access to key clinic performance metrics. This is not merely a collection of numbers, but a decision-making tool that enables the physician to assess workload, appointment efficiency, and the overall patient health picture in real time",
+      descriptionCenter: "To enhance interface comfort and accessibility, the dashboard supports both light and dark modes with the ability to switch instantly at the user's preference",
+      titleTwo: "The project was designed in Figma in compliance with all principles of modern web design",
+      descriptionTwo: "The skillful use of grids and components made it possible to create a dashboard that is not only visually appealing but also highly intuitive for the user",
     },
   },
 };

@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import Link from "next/link";
 import { Footer } from "@/components/Footer";
@@ -10,8 +11,10 @@ import Dashboard2Image from "../../../../public/img/work/medical-dashboard/dashb
 import Dashboard3Image from "../../../../public/img/work/medical-dashboard/dashboard3.webp";
 import PreviewImage from "../../../../public/img/work/vinyl/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
+import {useLanguage} from "@/context/LanguageContext";
 
 export default function Page() {
+  const { t } = useLanguage();
   return (
     <>
       <Header />
@@ -42,16 +45,12 @@ export default function Page() {
         </section>
 
         <section className=" bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] xl:pt-[120px] xl:pb-[120px]">
-          <div className="container md:flex">
-            <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] md:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
-              The dashboard helps health care providers
-              <span className="text-[#362EEC]"> effectively</span> track their
-              performance statistics
+          <div className="container lg:flex">
+            <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px]  miniSm:mb-[20px] font-medium text-[#404040]">
+              {t.workPages.medical.titleOne}
             </p>
-            <p className="font-inter text-[17px] md:text-[18px] font-medium text-[#404040]">
-              This project focuses on both functionality and aesthetic appeal.
-              When developing the medical dashboard, it was important to focus
-              on solutions that would be user friendly
+            <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
+              {t.workPages.medical.descriptionOne}
             </p>
           </div>
         </section>
@@ -67,7 +66,7 @@ export default function Page() {
                 alt=""
               />
               <span className="font-inter font-medium text-[17px] md:text-[18px] text-[#404040]">
-                Created the ability to switch between light and dark themes
+                {t.workPages.medical.descriptionCenter}
               </span>
             </div>
 
@@ -79,15 +78,12 @@ export default function Page() {
                 sizes="100vw"
                 alt=""
               />
-              <div className="flex flex-col lg:flex-row justify-between">
-                <p className="font-inter font-medium text-[24px] md:text-[30px] xl:text-[40px] lg:max-w-[450px] xl:max-w-[596px] text-[#404040] mb-[20px] lg:mb-0">
-                  This project was developed according to all the design rules
-                  in Figma
+              <div className="container lg:flex">
+                <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] md:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
+                  {t.workPages.medical.titleOne}
                 </p>
-                <p className="font-inter font-medium text-[17px] md:text-[18px] xl:max-w-[495px] lg:max-w-[450px]  text-[#404040]">
-                  The clever use of meshes and components has resulted in a
-                  dashboard that is not only visually appealing, but also
-                  intuitive for the user
+                <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
+                  {t.workPages.medical.descriptionOne}
                 </p>
               </div>
             </div>

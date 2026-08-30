@@ -52,11 +52,11 @@ export default function Home() {
     bg: "bg-[#D8DEE4]",
   },
   {
-    cardKey: "medical",
+    cardKey: "medical dashboard",
     date: "2024",
-    href: "/work/tennis",
+    href: "/work/medical-dashboard",
     img: "/img/work/medical-dashboard/preview.webp",
-    bg: "bg-[#213D5C]",
+    bg: "bg-[#F0F1EC]",
   },
 ];
 

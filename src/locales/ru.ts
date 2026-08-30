@@ -233,11 +233,11 @@ export const ru = {
 
     },
     medical: {
-      titleOne: "The dashboard helps health care providers effectively track their performance statistics",
-      descriptionOne: "This project focuses on both functionality and aesthetic appeal. When developing the medical dashboard, it was important to focus on solutions that would be user friendly",
-      descriptionCenter: "Created the ability to switch between light and dark themes",
-      titleTwo: "This project was developed according to all the design rules in Figma",
-      descriptionTwo: "The clever use of meshes and components has resulted in a dashboard that is not only visually appealing, but also intuitive for the user",
+      titleOne: "Данный проект представляет собой интерфейс внутренней системы управления для\u00A0врача",
+      descriptionOne: "Его основная задача – предоставить быстрый и\u00A0наглядный доступ к\u00A0ключевым показателям работы клиники. Это\u00A0не\u00A0просто набор чисел, а\u00A0инструмент принятия решений, позволяющий врачу оценить загруженность, эффективность приёма и\u00A0общую картину здоровья пациентов в режиме реального времени",
+      descriptionCenter: "Для повышения комфорта и\u00A0доступности интерфейса дашборд поддерживает светлый и\u00A0темный режим с\u00A0возможностью мгновенного переключения по\u00A0желанию пользователя",
+      titleTwo: "Проект разработан в\u00A0Figma с\u00A0соблюдением всех\u00A0принципов современного веб-дизайна",
+      descriptionTwo: "Грамотное использование сеток и\u00A0компонентов позволило создать дашборд, который не\u00A0только визуально привлекателен, но\u00A0и\u00A0максимально интуитивен для\u00A0пользователя",
     },
   },
 };
