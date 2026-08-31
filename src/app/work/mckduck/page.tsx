@@ -139,7 +139,7 @@ export default function Page() {
 
 
 
-        <section className="bg-[#26292E]">
+        <section className="bg-[#26292E] bg-[#fff]">
           <div className="mckduck-phone__top grid grid-cols-2 md:grid-cols-3 gap-[10px] md:gap-[30px] xl:gap-[20px] container pt-[60px] lg:pt-[80px] xl:pt-[120px]">
             <Image
                 className="animate__animated opacity-0"
@@ -203,9 +203,10 @@ export default function Page() {
                 priority
 
             />
-            <div
-                className="animate__animated opacity-0 megaXXXl:-mr-[50%] relative"
-                data-animation="animate__fadeInUp"
+
+
+            <div className="animate__animated opacity-0 megaXXXl:-mr-[50%] relative z-2"
+                 data-animation="animate__fadeInUp"
             >
               <Image
                   src={phone5Center}
@@ -213,18 +214,21 @@ export default function Page() {
                   quality={100}
                   unoptimized
                   priority
-                  className="w-full h-full"
+                  className="relative z-10 w-full h-full"
               />
+
+              {/* Видео (позади фото) */}
               <video
                   autoPlay
                   muted
                   loop
                   playsInline
-                  className="absolute top-[8%] left-[8%] w-[84%] h-[84%] object-cover rounded-[12px] z-[1]"
+                  className="absolute top-[0.1%] left-[0%] w-[100%] h-[99%] rounded-[85px] object-contain -z-10" // ← добавляем -z-10
               >
                 <source src="/img/work/mckduck/kryaVideo.webm" type="video/webm" />
               </video>
             </div>
+
 
           </div>
           <div className="mckduck-phone__bottom container grid grid-cols-2 md:grid-cols-3 gap-x-[10px] gap-y-[40px] md:gap-x-[30px] xl:gap-[20px] md:gap-y-[0px] pb-[40px] md:pb-[60px] lg:pb-[80px] xl:pb-[120px]">
