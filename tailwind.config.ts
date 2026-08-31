@@ -21,6 +21,7 @@ export default {
       xl: "1280px",
       megaXl: "1400px",
       megaXXl: "1500px",
+      megaXXXl: "1600px",
     },
     colors: {
       blackTitle: "#26292E",

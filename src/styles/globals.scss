@@ -193,6 +193,18 @@ body {
   padding-right: 0;
 }
 
+@media (min-width: 960px) {
+  .mckduck-center {
+    width: 830px;
+    height: 805px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .mckduck-phone__center {
+    @apply xl:px-[12px] mx-auto my-0 w-full max-w-[1240px] px-[20px];
+  }
+}
 
 
 

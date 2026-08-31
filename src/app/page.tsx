@@ -159,7 +159,8 @@ export default function Home() {
                 {t.home.recentWork}
               </div>
               <Link
-                href="/work/dental-clinic"
+                href="/work/mckduck"
+                target="_blank"
                 className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[1] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
@@ -187,7 +188,8 @@ export default function Home() {
                 </div>
               </Link>
               <Link
-                href="/work/tennis"
+                href="https://snipit.ru/"
+                target="_blank"
                 className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[2] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
@@ -217,6 +219,7 @@ export default function Home() {
               </Link>
               <Link
                 href="/work/medical-dashboard"
+                target="_blank"
                 className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[3] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
