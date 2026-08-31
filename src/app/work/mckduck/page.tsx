@@ -45,8 +45,8 @@ export default function Page() {
         />
         <section>
             <Image
-              className="animate__animated opacity-0 container flex flex-col items-center"
-              data-animation="animate__fadeInUp"
+              className="container flex flex-col items-center"
+
               sizes="100vw"
               src={MainBgImage}
               alt=""
