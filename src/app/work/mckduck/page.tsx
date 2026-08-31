@@ -1,9 +1,7 @@
 'use client';
 import Image from "next/image";
-import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { Svg } from "@/components/Svg";
 import { MainSection1 } from "@/components/sections/MainSection1";
 
 import MainBgImage from "../../../../public/img/work/mckduck/demonstration1.webp";
@@ -17,11 +15,13 @@ import phone1Center from "../../../../public/img/work/mckduck/phone3.png";
 import phone2Center from "../../../../public/img/work/mckduck/phone4.png";
 import phone3Center from "../../../../public/img/work/mckduck/phone5.png";
 import phone4Center from "../../../../public/img/work/mckduck/phone6.png";
+import phone5Center from "../../../../public/img/work/mckduck/phone7.webp";
 import phone1Bottom from "../../../../public/img/work/mckduck/phone8.webp";
 import phone2Bottom from "../../../../public/img/work/mckduck/phone9.png";
 import phone3Bottom from "../../../../public/img/work/mckduck/phone10.webp";
 import kryaIpadImage from "../../../../public/img/work/mckduck/krya-ipad.webp";
 import PreviewImage from "../../../../public/img/work/code-storage/preview.webp";
+
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import {useLanguage} from "@/context/LanguageContext";
 
@@ -203,16 +203,29 @@ export default function Page() {
                 priority
 
             />
-            <Image
-                className="animate__animated opacity-0 megaXXXl:-mr-[50%]"
+            <div
+                className="animate__animated opacity-0 megaXXXl:-mr-[50%] relative"
                 data-animation="animate__fadeInUp"
-                src={phone1Center}
-                alt=""
-                quality={100}
-                unoptimized
-                priority
+            >
+              <Image
+                  src={phone5Center}
+                  alt=""
+                  quality={100}
+                  unoptimized
+                  priority
+                  className="w-full h-full"
+              />
+              <video
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="absolute top-[8%] left-[8%] w-[84%] h-[84%] object-cover rounded-[12px] z-[1]"
+              >
+                <source src="/img/work/mckduck/kryaVideo.webm" type="video/webm" />
+              </video>
+            </div>
 
-            />
           </div>
           <div className="mckduck-phone__bottom container grid grid-cols-2 md:grid-cols-3 gap-x-[10px] gap-y-[40px] md:gap-x-[30px] xl:gap-[20px] md:gap-y-[0px] pb-[40px] md:pb-[60px] lg:pb-[80px] xl:pb-[120px]">
             <Image
