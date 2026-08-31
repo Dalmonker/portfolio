@@ -1,24 +1,19 @@
-import Link from "next/link";
 import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import MainTitleList from "@/components/MainTitleList";
-import { Svg } from "@/components/Svg";
 
 import MainBgImage from "../../../../public/img/work/tennis/main.webp";
-import TableImage from "../../../../public/img/work/tennis/tablet.webp";
 
 import Mob1Image from "../../../../public/img/work/tennis/mob1.webp";
 import Mob2Image from "../../../../public/img/work/tennis/mob2.webp";
 import Mob3Image from "../../../../public/img/work/tennis/mob3.webp";
 
 import Tablet2Image from "../../../../public/img/work/tennis/tablet2.webp";
-import Tablet3Image from "../../../../public/img/work/tennis/tablet3.webp";
 
 import Mob5Image from "../../../../public/img/work/tennis/mob5.webp";
 import Mob4Image from "../../../../public/img/work/tennis/mob4.webp";
 
-import PreviewImage from "../../../../public/img/work/medical-dashboard/preview.webp";
+import PreviewImage from "../../../../public/img/work/marketing-education/preview.webp";
 import { MainSection1 } from "@/components/sections/MainSection1";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
@@ -161,10 +156,10 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-          projectKey="medicalDashboard"
-          href="/work/medical-dashboard"
+          projectKey="marketingEducation"
+          href="/work/marketing-education"
           image={PreviewImage}
-          bgColor="#f0f1ec"
+          bgColor="#010221"
         />
       </main>
       <Footer />

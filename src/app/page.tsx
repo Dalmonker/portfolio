@@ -53,7 +53,7 @@ export default function Home() {
   },
   {
     cardKey: "medical dashboard",
-    date: "2024",
+    date: "2025",
     href: "/work/medical-dashboard",
     img: "/img/work/medical-dashboard/preview.webp",
     bg: "bg-[#F0F1EC]",
@@ -106,6 +106,7 @@ export default function Home() {
       <div className="flex items-center justify-between pb-[30px] text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
         <Link
           href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
+          target="_blank"
           className="telegram-link font-inter animate__animated animate__fadeIn pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
         >
           <Svg

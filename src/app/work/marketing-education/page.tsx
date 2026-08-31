@@ -3,18 +3,13 @@ import Image from "next/image";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 
-import MainBgImage from "../../../../public/img/work/dental-clinic/main.webp";
-
 import Phone1Image from "../../../../public/img/work/marketing-education/phone1.webp";
 import Phone2Image from "../../../../public/img/work/marketing-education/phone2.webp";
 import Phone3Image from "../../../../public/img/work/marketing-education/phone3.webp";
 
-import VideoImage from "../../../../public/img/work/dental-clinic/video.webp";
-import BoshkaImage from "../../../../public/img/work/marketing-education/boshka.webp";
-
 import Tablet1Image from "../../../../public/img/work/marketing-education/tablet1.webp";
 
-import PrewiewImage from "../../../../public/img/work/dental-clinic/preview.webp";
+import PrewiewImage from "../../../../public/img/work/photographer/preview.webp";
 import { MainSection1 } from "@/components/sections/MainSection1";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
@@ -121,10 +116,10 @@ export default function Page() {
           </div>
         </div>
         <NextPageSection
-          projectKey="dentalClinic"
-          bgColor="#213d5c"
+          projectKey="photographer"
+          bgColor="bg-[#D9E4E3]"
           image={PrewiewImage}
-          href="/work/dental-clinic"
+          href="/work/photographer"
         />
       </main>
       <Footer />

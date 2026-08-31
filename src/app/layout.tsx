@@ -5,7 +5,6 @@ import "@/styles/globals.scss";
 import { AnimationScroll } from "@/components/logics/AnimationScroll";
 import NextTopLoader from "nextjs-toploader";
 import { LanguageProvider } from "@/context/LanguageContext";
-import previewImage from './preview.webp'
 
 import { Inter, Red_Hat_Display } from "next/font/google";
 
@@ -36,13 +35,11 @@ export const metadata: Metadata = {
     title: "Product designer (UI|UX & Research)",
     description: "I design digital products through strategy, UX, and a deep understanding of user needs",
     url: "https://gavrilovichalina.vercel.app/",
-    siteName: "Alina Gavrilovich",
     images: [
       {
-        url: previewImage.src,
+        url: "/preview.webp",
         width: 1200,
         height: 630,
-        alt: "Alina Gavrilovich - Product designer",
       },
     ],
     type: "website",

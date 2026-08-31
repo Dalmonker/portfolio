@@ -1,16 +1,12 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { Svg } from "@/components/Svg";
 import { MainSection1 } from "@/components/sections/MainSection1";
 
 import MainBgImage from "../../../../public/img/work/vinyl/main.webp";
-import Tablet1Image from "../../../../public/img/work/vinyl/tablet1.webp";
-import Tablet2Image from "../../../../public/img/work/vinyl/tablet2.webp";
 import IpadImage from "../../../../public/img/work/vinyl/ipad.webp";
 import MainBgImage2 from "../../../../public/img/work/vinyl/main2.webp";
-import LandingImage from "../../../../public/img/work/vinyl/lending.webp";
 import Ipad2Image from "../../../../public/img/work/vinyl/ipad2.webp";
 import ErrorImage from "../../../../public/img/work/vinyl/error.webp";
 
@@ -18,7 +14,7 @@ import Mob1Image from "../../../../public/img/work/vinyl/phone1.webp";
 import Mob2Image from "../../../../public/img/work/vinyl/phone2.webp";
 import Mob3Image from "../../../../public/img/work/vinyl/phone3.webp";
 
-import PreviewImage from "../../../../public/img/work/photographer/preview.webp";
+import PreviewImage from "../../../../public/img/work/tennis/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
 
@@ -139,9 +135,9 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-            projectKey="photographer"
-            bgColor="#D9E4E3"
-            href="/work/photographer"
+            projectKey="tennis"
+            bgColor="#213D5C"
+            href="/work/tennis"
             image={PreviewImage}
         />
       </main>

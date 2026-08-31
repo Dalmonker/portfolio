@@ -128,7 +128,7 @@ export const en = {
         title: "Dental clinic Ortodent",
         description: "Design & Development",
       },
-      TennisClub: {
+      tennisClub: {
         title: "Tennis Club",
         description: "Design & Development",
       },
@@ -237,12 +237,15 @@ export const en = {
 
     },
     mckduck: {
-      titleOne: "McDuckMist is a Telegram Mini App where users earn MCDC tokens through farming and staking",
-      descriptionOne: "The main goal is to package complex DeFi logic (farming, staking, boosts, referral program, withdrawals) into a simple and visually engaging game interface. The design should be clear for crypto newbies while remaining functional for experienced users",
-      titleCenter: "",
-      descriptionCenter: "",
-      titleTwo: "As part of the project, I designed 10+ advertising creatives for Telegram",
-      descriptionTwo: "Created static and animated banners, promo posts, presentations, and referral program visuals that explain the game mechanics (farming, staking, withdrawals) in a simple and clear way",
+      titleOne: "McDuckMist is\u00A0a\u00A0Telegram Mini App where users earn MCDC tokens through farming and\u00A0staking",
+      descriptionOne: "The main goal is to package complex DeFi logic (farming, staking, boosts, referral program, withdrawals) into a\u00A0simple and\u00A0visually engaging game interface. The design should be\u00A0clear for\u00A0crypto newbies while remaining functional for\u00A0experienced users",
+      titleCenter: "Over 100 hours of\u00A0work on\u00A0the project to\u00A0make the interface not just visually appealing, but intuitive",
+      descriptionCenter: "Wireframes were my first step in the design process. I\u00A0created them to get a\u00A0clear understanding of the app's structure and feature logic early on\u00A0– before diving into UI design. This helped me stay focused on user scenarios rather than visual\u00A0details",
+      screens: "screens",
+      components: "components",
+      titleTwo: "As part of the project, I\u00A0designed 10+\u00A0advertising creatives for\u00A0Telegram",
+      descriptionTwo: "Created static and\u00A0animated banners, promo posts, presentations, and\u00A0referral program visuals that explain the\u00A0game mechanics (farming, staking, withdrawals) in\u00A0a\u00A0simple and clear way",
+      descriptionFooter: "A character concept was developed using generative tools. Each\u00A0character features unique traits while maintaining visual consistency and recognizability across the set",
     },
     medical: {
       titleOne: "This project is an internal management system interface designed for a\u00A0physician",

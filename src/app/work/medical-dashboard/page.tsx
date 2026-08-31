@@ -9,7 +9,7 @@ import { MainSection1 } from "@/components/sections/MainSection1";
 import MainBgImage from "../../../../public/img/work/medical-dashboard/dashboard.webp";
 import Dashboard2Image from "../../../../public/img/work/medical-dashboard/dashboard2.webp";
 import Dashboard3Image from "../../../../public/img/work/medical-dashboard/dashboard3.webp";
-import PreviewImage from "../../../../public/img/work/vinyl/preview.webp";
+import PreviewImage from "../../../../public/img/work/project-roadmap/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import {useLanguage} from "@/context/LanguageContext";
 
@@ -25,7 +25,7 @@ export default function Page() {
             <span className="text-[#362EEC] xl:text-[125px]">Dashboard</span>
           }
           table={[
-            { title: "Year:", value: "2024" },
+            { title: "Year:", value: "2025" },
             { title: "Services:", value: "Design" },
             { title: "Industry:", value: "Medical / Healthcare" },
           ]}
@@ -57,7 +57,7 @@ export default function Page() {
 
         <section className=" bg-[#F8F8F8] py-[60px] md:py-[80px] xl:py-[120px]">
           <div className="container flex flex-col items-center">
-            <div className="mb-[60px] md:mb-[80px] xl:mb-[120px]">
+            <div className="mb-[60px] md:mb-[80px] xl:mb-[120px] flex flex-col">
               <Image
                 className="mb-[30px]"
                 src={Dashboard2Image}
@@ -65,7 +65,7 @@ export default function Page() {
                 sizes="100vw"
                 alt=""
               />
-              <span className="font-inter font-medium text-[17px] md:text-[18px] text-[#404040]">
+              <span className="font-inter font-medium text-[17px] md:text-[18px] text-[#404040] lg:max-w-[596px]">
                 {t.workPages.medical.descriptionCenter}
               </span>
             </div>
@@ -80,10 +80,10 @@ export default function Page() {
               />
               <div className="container lg:flex">
                 <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] md:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
-                  {t.workPages.medical.titleOne}
+                  {t.workPages.medical.titleTwo}
                 </p>
                 <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
-                  {t.workPages.medical.descriptionOne}
+                  {t.workPages.medical.descriptionTwo}
                 </p>
               </div>
             </div>
@@ -91,9 +91,9 @@ export default function Page() {
         </section>
 
         <NextPageSection
-          projectKey="vinyl"
-          bgColor="#EFE9D8"
-          href="/work/vinyl"
+          projectKey="roadMap"
+          bgColor="#21415C"
+          href="https://kwork.ru/portfolio/15773530"
           image={PreviewImage}
         />
       </main>
