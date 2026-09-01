@@ -11,7 +11,7 @@ import krya1Image from "../../../../public/img/work/mckduck/krya1.webp";
 import krya2Image from "../../../../public/img/work/mckduck/krya2.webp";
 import phone1Top from "../../../../public/img/work/mckduck/phone1.png";
 import phone2Top from "../../../../public/img/work/mckduck/phone2.png";
-import phone1Center from "../../../../public/img/work/mckduck/phone3.png";
+import phone1Center from "../../../../public/img/work/mckduck/phone3.webp";
 import phone2Center from "../../../../public/img/work/mckduck/phone4.png";
 import phone3Center from "../../../../public/img/work/mckduck/phone5.png";
 import phone4Center from "../../../../public/img/work/mckduck/phone6.png";
@@ -136,10 +136,7 @@ export default function Page() {
         </section>
 
 
-
-
-
-        <section className="bg-[#26292E] bg-[#fff]">
+        <section className="bg-[#26292E]">
           <div className="mckduck-phone__top grid grid-cols-2 md:grid-cols-3 gap-[10px] md:gap-[30px] xl:gap-[20px] container pt-[60px] lg:pt-[80px] xl:pt-[120px]">
             <Image
                 className="animate__animated opacity-0"
@@ -203,8 +200,6 @@ export default function Page() {
                 priority
 
             />
-
-
             <div className="animate__animated opacity-0 megaXXXl:-mr-[50%] relative z-2"
                  data-animation="animate__fadeInUp"
             >
@@ -217,13 +212,12 @@ export default function Page() {
                   className="relative z-10 w-full h-full"
               />
 
-              {/* Видео (позади фото) */}
               <video
                   autoPlay
                   muted
                   loop
                   playsInline
-                  className="absolute top-[0.1%] left-[0%] w-[100%] h-[99%] rounded-[85px] object-contain -z-10" // ← добавляем -z-10
+                  className="mckduck-video absolute top-[0.5%] left-[0%] w-[100%] h-[99%] object-contain -z-10"
               >
                 <source src="/img/work/mckduck/kryaVideo.webm" type="video/webm" />
               </video>

@@ -206,6 +206,41 @@ body {
   }
 }
 
+.mckduck-video {
+  border-radius: 36px;
+}
+
+@media (min-width: 480px) {
+  .mckduck-video {
+    border-radius: 49px;
+  }
+}
+
+@media (min-width: 620px) {
+  .mckduck-video {
+    border-radius: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mckduck-video {
+    border-radius: 50px;
+  }
+}
+
+@media (min-width: 930px) {
+  .mckduck-video {
+    border-radius: 64px;
+  }
+}
+
+@media (min-width: 1163px) {
+  .mckduck-video {
+    border-radius: 83px;
+  }
+}
+
+
 
 
 
