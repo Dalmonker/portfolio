@@ -35,6 +35,7 @@ export function NextPageSection({
                 <div className="flex w-full justify-center border-b border-b-[#656565]">
                     <Link
                         href={href}
+                        target="_blank"
                         className=" flex md:w-[458px]sm:pb-0 relative w-full overflow-hidden pb-[50%] sm:h-[calc(180px)] sm:w-[358px] sm:pb-0 md:h-[200px] md:w-[458px] lg:h-[200px] lg:w-[600px] group"
                         style={{ backgroundColor: bgColor }}
                     >
