@@ -9,8 +9,8 @@ import kryaCenterImage from "../../../../public/img/work/mckduck/krya-center.web
 import kryaCenterImage2 from "../../../../public/img/work/mckduck/krya-center2.webp";
 import krya1Image from "../../../../public/img/work/mckduck/krya1.webp";
 import krya2Image from "../../../../public/img/work/mckduck/krya2.webp";
-import phone1Top from "../../../../public/img/work/mckduck/phone1.png";
-import phone2Top from "../../../../public/img/work/mckduck/phone2.png";
+import phone1Top from "../../../../public/img/work/mckduck/phone1.webp";
+import phone2Top from "../../../../public/img/work/mckduck/phone2.webp";
 import phone1Center from "../../../../public/img/work/mckduck/phone3.webp";
 import phone2Center from "../../../../public/img/work/mckduck/phone4.png";
 import phone3Center from "../../../../public/img/work/mckduck/phone5.png";
