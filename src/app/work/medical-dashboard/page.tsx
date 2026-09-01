@@ -33,8 +33,7 @@ export default function Page() {
         />
         <section>
             <Image
-              className="animate__animated opacity-0 container flex flex-col items-center"
-              data-animation="animate__fadeInUp"
+              className="container flex flex-col items-center"
               sizes="100vw"
               src={MainBgImage}
               alt=""
@@ -78,8 +77,8 @@ export default function Page() {
                 sizes="100vw"
                 alt=""
               />
-              <div className="container lg:flex">
-                <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] md:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
+              <div className="lg:flex">
+                <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] lg:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
                   {t.workPages.medical.titleTwo}
                 </p>
                 <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">

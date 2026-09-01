@@ -35,12 +35,6 @@ export default function Page() {
         />
         <section className="relative">
 
-
-        {/* <picture className="w-full">
-          <source className="w-[476px] min-h-[350px]" srcSet="/img/work/tennis/main-480.webp" media="(max-width: 480px)" />
-          <img className="w-[1216px] mx-auto min-h-[350px] object-cover md:min-h-[800px]" src="/img/work/tennis/main.webp" alt="" />
-        </picture> */}
-
         <div className="container miniSm:p-[0] xl:pb-[120px]">
            <Image
               className="object-cover min-h-[350px] md:min-h-[800px]"

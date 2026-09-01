@@ -51,7 +51,6 @@ export default function Page() {
         </section>
         <div className="flex w-full items-center justify-between bg-[linear-gradient(89.8deg,_#000019_-4.56%,_#000125_50.37%,_#00021F_104.21%)]">
           <div className="container flex flex-col items-center justify-center pt-[40px] sm:pt-[60px] lg:pt-[100px]">
-            {/* <Image quality={95} sizes="100vw" src={VideoImage} alt="" /> */}
             <AutoplayVideo path="/img/work/marketing-education/marketing2.webm" />
             <div className="grid grid-cols-3 gap-[10px] xs:gap-[20px] sm:gap-[30px] lg:gap-[72px] pt-[40px] md:pt-[80px] lg:pt-[60px] xl:pt-[100px]">
               <Image
@@ -84,13 +83,6 @@ export default function Page() {
             </div>
           </div>
         </div>
-        {/* <Image
-          className="w-[360px]"
-          src={BoshkaImage}
-          alt=""
-          sizes="100vw"
-          quality={95}
-        /> */}
         <picture className="w-full">
           <source className="w-[360px] min-h-[350px]" srcSet="/img/work/marketing-education/boshka-360.webp" media="(max-width: 360px)" />
           <source className="w-[360px] min-h-[350px]" srcSet="/img/work/marketing-education/boshka-480.webp" media="(max-width: 480px)" />
