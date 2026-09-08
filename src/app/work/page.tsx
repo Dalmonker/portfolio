@@ -16,7 +16,7 @@ export type WorkType = {
 };
 
 const works: WorkType[] = [
-  // {
+  // 123 {
   //   cardKey: "meducation",
   //   date: "2026",
   //   href: "https://www.mymeducation.ru/",
