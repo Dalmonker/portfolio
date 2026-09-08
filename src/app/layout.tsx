@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
+import { YandexMetricaProvider } from '@artginzburg/next-ym';
 import { Preloader } from "@/components/Preloader";
 import "@/styles/globals.scss";
 import { AnimationScroll } from "@/components/logics/AnimationScroll";
@@ -57,12 +58,14 @@ export default function RootLayout({
       lang="en"
     >
       <body className="relative bg-white">
+      <YandexMetricaProvider>
         <LanguageProvider>
           <Preloader />
           <NextTopLoader color="#2E4EEC" showSpinner={false} />
           {children}
           <AnimationScroll />
         </LanguageProvider>
+        </YandexMetricaProvider>
       </body>
     </html>
   );

@@ -16,13 +16,13 @@ export type WorkType = {
 };
 
 const works: WorkType[] = [
-  {
-    cardKey: "meducation",
-    date: "2026",
-    href: "https://www.mymeducation.ru/",
-    img: "/img/work/meducation/preview.webp",
-    bg: "bg-[#F0F0F0]",
-  },
+  // {
+  //   cardKey: "meducation",
+  //   date: "2026",
+  //   href: "https://www.mymeducation.ru/",
+  //   img: "/img/work/meducation/preview.webp",
+  //   bg: "bg-[#F0F0F0]",
+  // },
   {
     cardKey: "telegramApps",
     date: "2026",
