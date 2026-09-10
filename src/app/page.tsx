@@ -107,14 +107,8 @@ export default function Home() {
         <Link
           href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
           target="_blank"
-          className="telegram-link font-inter animate__animated animate__fadeIn pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
+          className="telegram-link font-inter animate__animated animate__fadeIn ml-[20px] lg:ml-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
         >
-          <Svg
-              className="telegram-icon w-full h-full"
-              width={22}
-              height={17.42}
-              iconId={isLargeScreen ? "icon-home-resume" : "icon-home-resume-white"}
-          />
           <span>{t.home.resume}</span>
         </Link>
         

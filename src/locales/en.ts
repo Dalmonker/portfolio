@@ -15,23 +15,23 @@ export const en = {
   home: {
     designDev: "Design & Development",
     resume: "Resume",
-    description: "Design can fascinatingly change our decisions and emotions. It\u00A0converts website visitors into\u00A0your customers",
-    passionate: "Passionate about creating intuitive digital solutions",
+    description: "Designed web and mobile apps, messengers, complex platforms. Led design independently and supervised designers",
+    passionate: "Focused on usability, flows, and product logic",
     aboutMe: "About\u00A0me",
     recentWork: "Recent work",
     moreWork: "More work",
     works: {
       dental: {
         title: "McDuckMist",
-        descr: "Design",
+        descr: "Research & Design",
       },
       tennis: {
         title: "Code storage service",
-        descr: "Design",
+        descr: "Research & Design",
       },
       medical: {
         title: "Medical Dashboard",
-        descr: "Design",
+        descr: "Research & Design",
       },
     },
   },

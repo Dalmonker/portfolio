@@ -66,7 +66,7 @@ export function Header({ isWhite = false }: Props) {
           <button className="flex md:hidden" onClick={() => setOpen(true)}>
             <div
               className={clsx(
-                "menu-wrapper w-[60px] h-[60px]",
+                "menu-wrapper w-[60px] h-[60px] md:w-[80px] md:h-[80px]",
                 !isWhite && "white-lines"
               )}
             >
@@ -82,7 +82,7 @@ export function Header({ isWhite = false }: Props) {
             >
               <button
                 className={clsx(
-                  "magnetic flex items-center justify-center w-[60px] h-[60px] border border-[#656565] bg-[#26292E] rounded-full transition-all",
+                  "magnetic flex items-center justify-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] border border-[#656565] bg-[#26292E] rounded-full transition-all",
                   isOpen ? "bg-[#3E4EFF] border-[#3E4EFF] border-0" : btnStyles
                 )}
                 onClick={() => setOpen(!isOpen)}
