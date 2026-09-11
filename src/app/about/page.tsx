@@ -58,7 +58,7 @@ export default function About() {
   }, []); // Пустой массив - эффект запускается один раз
   return (
     <>
-      <Header isWhite />
+      <Header isWhite iconColor="text-white" />
       <main className="flex flex-col">
         <section className="bg-blackBg pb-[38px] pt-[107px] sm:pb-[38px] md:pb-[58px] lg:pb-[63px] xl:pb-[83px]">
           <div className="container relative">

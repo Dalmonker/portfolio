@@ -14,7 +14,7 @@ export const en = {
 //   \u00A0 - неразрывный пробел как и &nbsp;
   home: {
     designDev: "Design & Development",
-    resume: "Resume",
+    resume: "Hi, I'm Alina!\nProduct Designer with\u00A04+ years of\u00A0experience in\u00A0digital",
     description: "Designed web and mobile apps, messengers, complex platforms. Led design independently and supervised designers",
     passionate: "Focused on usability, flows, and product logic",
     aboutMe: "About\u00A0me",

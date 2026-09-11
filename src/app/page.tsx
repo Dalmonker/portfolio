@@ -36,6 +36,19 @@ export type WorkType = {
 export default function Home() {
   const { t } = useLanguage();
 
+ const icons = [
+  { name: 'Ae', src: '/img/icons/1.svg' },
+  { name: 'Ps', src: '/img/icons/2.svg' },
+  { name: 'Ai', src: '/img/icons/3.svg' },
+  { name: 'Pr', src: '/img/icons/4.svg' },
+  { name: 'Id', src: '/img/icons/5.svg' },
+  { name: 'Fg', src: '/img/icons/6.svg' },
+  { name: 'Of', src: '/img/icons/7.svg' },
+  { name: 'Lr', src: '/img/icons/8.svg' },
+  { name: 'Xd', src: '/img/icons/9.svg' },
+  { name: 'Dr', src: '/img/icons/10.svg' },
+];
+
   const works: WorkType[] = [
   {
     cardKey: "MCDUCKMIST",
@@ -65,7 +78,7 @@ export default function Home() {
 
   return (
     <>
-      <Header />
+      <Header iconColor="text-blackText"/>
       <main className="flex flex-col">
 
 
@@ -73,13 +86,48 @@ export default function Home() {
   <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
-      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
-        Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui ux Web ui
-        ux Web ui ux Web ui ux Web ui ux
+      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[120px] md:top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
+        Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui
+        ux Product ui ux Product ui ux Product ui ux
       </div>
     </div>
 
-      <picture className="w-full h-full z-10">
+
+{/* <Image
+  src="/img/portrait/IMG_4580.png"
+  alt=""
+  width={1268}
+  height={1185}
+  className="
+  max-w-[633px] max-h-[780px] 
+  sm:max-w-[833px] sm:max-h-[980px]
+  md:max-w-[933px] md:max-h-[1080px] 
+  lg:max-w-[833px] lg:max-h-[980px] 
+  object-contain absolute bottom-[0px] left-[-50px] md:left-[50px] lg:left-[200px]
+  xl:left-1/2 xl:-translate-x-1/2
+  xl:max-w-none xl:max-h-[100vh]
+  "
+  quality={95}
+  priority
+/> */}
+
+
+
+<div className="absolute bottom-0 h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
+  <Image
+    src="/img/portrait/IMG_4580.png"
+    alt=""
+    width={1268}
+    height={1185}
+    priority
+    quality={95}
+    className="h-full w-auto max-w-none object-contain object-right-bottom"
+  />
+</div>
+
+
+
+      {/* <picture className="w-full h-full z-10">
         <source srcSet="/img/portrait/photoHead.png" media="(min-width: 1240px)" />
         <source srcSet="/img/portrait/photoHead-768.png" media="(min-width: 768px)" />
         <source srcSet="/img/portrait/photoHead-480.png" media="(min-width: 480px)" />
@@ -89,34 +137,61 @@ export default function Home() {
             alt=""
             loading="eager"
         />
-      </picture>
+      </picture> */}
 
 
 
-    <div className="absolute inset-0 uppercase flex items-end justify-center z-20 pointer-events-none">
+    {/* <div className="absolute inset-0 uppercase flex items-end justify-center z-20 pointer-events-none">
       <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
         Designer Designer Designer Designer Designer Designer Designer
         Designer Designer Designer
       </div>
-    </div>
+    </div> */}
+
+<div className="hidden sm:block absolute xl:z-0 top-[36%] md:top-[43%] lg:top-[54%] xl:top-[45%] left-0 pl-[20px] xl:left-auto xl:right-0 xl:pr-[80px] xl:pl-0 z-20 text-[40px] md:text-[60px] text-[#404040] pointer-events-none uppercase">
+  Designer
+</div>
 
 
 
-    <div className="absolute bottom-0 left-0 right-0 z-30">
-      <div className="flex items-center justify-between pb-[30px] text-[17px] font-medium text-white sm:text-[18px] lg:text-blackText">
-        <Link
-          href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
-          target="_blank"
-          className="telegram-link font-inter animate__animated animate__fadeIn ml-[20px] lg:ml-[80px] hover:text-[#362EEC] transition-all flex items-center gap-1"
-        >
-          <span>{t.home.resume}</span>
-        </Link>
-        
-        <div className="pr-[20px] lg:pr-[80px]">
+
+
+
+  <div className="flex flex-col xl:flex-row items-start xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px]">
+
+      <div className="font-inter font-medium text-[17px] md:text-[18px] ml-[20px] xl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] whitespace-pre-line">
+        {t.home.resume}
+      </div>
+
+        <div className="self-stretch mx-[20px] xl:mx-[80px] shrink-0 px-5 py-4 md:px-[16px] md:py-[16px] rounded-3xl
+          grid grid-cols-5 md:grid-cols-10 gap-2.5
+          bg-white/5 backdrop-blur-[1.5px] backdrop-saturate-150
+          border-none border-white/15
+          ring-1 ring-inset ring-white/10
+          shadow-[-8px_0_16px_-4px_rgba(0,0,0,0.25),8px_0_16px_-4px_rgba(0,0,0,0.25)]
+          z-30 relative mb-[14px]">
+          {icons.map((icon) => (
+            <div
+              key={icon.name}
+              className="w-full aspect-square rounded-xl overflow-hidden justify-self-start
+                md:w-[70px] md:max-w-[60px] md:shrink-0"
+            >
+              <Image
+                src={icon.src}
+                alt={icon.name}
+                width={48}
+                height={48}
+                className="w-full h-full object-contain"
+              />
+            </div>
+          ))}
+        </div>
+
+        <div className="pr-[20px] xl:pr-[80px] self-end">
           <LanguageSwitcher />
         </div>
       </div>
-    </div>
+
   </section>
 
 

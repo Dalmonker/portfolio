@@ -10,9 +10,10 @@ import { useLanguage } from "@/context/LanguageContext";
 
 type Props = {
   isWhite?: boolean;
+  iconColor?: string;
 };
 
-export function Header({ isWhite = false }: Props) {
+export function Header({ isWhite = false, iconColor = "text-blackText" }: Props) {
   const [isOpen, setOpen] = useState(false);
   const [showBurger, setShowBurger] = useState(false);
   const pathname = usePathname();
@@ -57,12 +58,12 @@ export function Header({ isWhite = false }: Props) {
       >
         <Link
           href="/"
-          className="animate__animated animate__fadeIn font-inter pl-[20px] lg:pl-[80px] hover:text-[#362EEC] transition-all"
+          className="animate__animated animate__fadeIn font-inter pl-[20px] xl:pl-[80px] hover:text-[#362EEC] transition-all"
         >
           {t.header.copyright}
         </Link>
 
-        <div className="pr-[20px] lg:pr-[80px]">
+        <div className="pr-[20px] xl:pr-[80px]">
           <button className="flex md:hidden" onClick={() => setOpen(true)}>
             <div
               className={clsx(
@@ -127,7 +128,18 @@ export function Header({ isWhite = false }: Props) {
             </Link>
 
             <Link
-              className="telegram-link flex items-center gap-2"
+              href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
+              target="_blank"
+              className="font-inter animate__animated animate__fadeIn hover:text-[#362EEC] transition-all flex items-center gap-1"
+            >
+              <span>CV</span>
+            </Link>
+
+            <Link
+               className={clsx(
+              "telegram-link flex items-center transition-colors hover:text-[#362EEC]",
+               iconColor
+             )}
               href="https://t.me/alinagavrilovich"
               target="_blank"
             >
@@ -197,22 +209,30 @@ export function Header({ isWhite = false }: Props) {
                   {t.header.contact}
                 </Link>
               </div>
-                <div className="flex items-center justify-center lg:ml-[30px] mt-[14px] mb-[20px]">
-                  <Link
-                      className="telegram-link flex items-center gap-2 justify-center transition-all hover:text-[#362EEC]"
-                      href="https://t.me/alinagavrilovich"
-                      target="_blank"
-                  >
-              <span className="flex items-center justify-center w-[44px] h-[44px] transition-all hover:opacity-70 hover:scale-110">
-                <Svg
-                    className="telegram-icon w-full h-full"
-                    width={44}
-                    height={44}
-                    iconId="icon-header-telegram-white"
-                />
-              </span>
-                  </Link>
-                </div>
+              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] lg:ml-[30px] font-medium  megaXl:mb-0">
+
+                <Link
+                  href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
+                  target="_blank"
+                  className="hover:text-[#3E4EFF] transition-all"
+                >
+                  <span>CV</span>
+                </Link>
+
+                <Link
+                    className="lg:ml-[30px] telegram-link flex items-center justify-center transition-all hover:text-[#362EEC]"
+                    href="https://t.me/alinagavrilovich"
+                    target="_blank"
+                >
+                  <span className="flex items-center justify-center transition-all hover:opacity-70 hover:scale-110">
+                    <Svg
+                        className="telegram-icon w-[32px] h-[32px] lg:w-[44px] lg:h-[44px]"
+                        iconId="icon-header-telegram-white"
+                    />
+                  </span>
+                </Link>
+              </div>
+
             </div>
 
             <a
