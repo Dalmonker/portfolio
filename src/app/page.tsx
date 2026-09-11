@@ -157,40 +157,40 @@ export default function Home() {
 
 
 
-  <div className="flex flex-col xl:flex-row items-start xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px]">
+    <div className="flex flex-col xl:block items-start xl:items-end xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px] xl:pb-0">
 
-      <div className="font-inter font-medium text-[17px] md:text-[18px] ml-[20px] xl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] whitespace-pre-line">
+      <div className="font-inter font-medium text-[17px] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
         {t.home.resume}
       </div>
 
-        <div className="self-stretch mx-[20px] xl:mx-[80px] shrink-0 px-5 py-4 md:px-[16px] md:py-[16px] rounded-3xl
-          grid grid-cols-5 md:grid-cols-10 gap-2.5
-          bg-white/5 backdrop-blur-[1.5px] backdrop-saturate-150
-          border-none border-white/15
-          ring-1 ring-inset ring-white/10
-          shadow-[-8px_0_16px_-4px_rgba(0,0,0,0.25),8px_0_16px_-4px_rgba(0,0,0,0.25)]
-          z-30 relative mb-[14px]">
-          {icons.map((icon) => (
+      <div className="self-stretch mx-[20px] xl:mx-0 shrink-0 px-5 py-4 md:px-[16px] md:py-[16px] rounded-3xl
+      grid grid-cols-5 md:grid-cols-10 gap-2.5
+      bg-white/5 backdrop-blur-[1.5px] backdrop-saturate-150
+      border-none border-white/15
+      ring-1 ring-inset ring-white/10
+      shadow-[-8px_0_16px_-4px_rgba(0,0,0,0.25),8px_0_16px_-4px_rgba(0,0,0,0.25)]
+      z-30 relative mb-[14px] xl:mb-[0px] xl:absolute xl:left-1/2 xl:-translate-x-1/2 xl:bottom-[36px]
+      xl:w-max xl:gap-[10px]">
+        {icons.map((icon) => (
             <div
-              key={icon.name}
-              className="w-full aspect-square rounded-xl overflow-hidden justify-self-start
-                md:w-[70px] md:max-w-[60px] md:shrink-0"
+                key={icon.name}
+                className="w-full aspect-square rounded-xl overflow-hidden justify-self-start megaXXl:w-[70px]"
             >
               <Image
-                src={icon.src}
-                alt={icon.name}
-                width={48}
-                height={48}
-                className="w-full h-full object-contain"
+                  src={icon.src}
+                  alt={icon.name}
+                  width={48}
+                  height={48}
+                  className="w-full h-full object-contain"
               />
             </div>
-          ))}
-        </div>
-
-        <div className="pr-[20px] xl:pr-[80px] self-end">
-          <LanguageSwitcher />
-        </div>
+        ))}
       </div>
+
+      <div className="pr-[20px] xl:pr-[30px] megaXXl:pr-[80px] self-end xl:absolute xl:right-0 xl:bottom-[36px]">
+        <LanguageSwitcher />
+      </div>
+    </div>
 
   </section>
 

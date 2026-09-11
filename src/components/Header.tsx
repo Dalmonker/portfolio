@@ -58,12 +58,12 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
       >
         <Link
           href="/"
-          className="animate__animated animate__fadeIn font-inter pl-[20px] xl:pl-[80px] hover:text-[#362EEC] transition-all"
+          className="animate__animated animate__fadeIn font-inter pl-[20px] xl:pl-[30px] megaXXl:ml-[80px] hover:text-[#362EEC] transition-all"
         >
           {t.header.copyright}
         </Link>
 
-        <div className="pr-[20px] xl:pr-[80px]">
+        <div className="pr-[20px] xl:pr-[30px] megaXXl:pr-[80px]">
           <button className="flex md:hidden" onClick={() => setOpen(true)}>
             <div
               className={clsx(
