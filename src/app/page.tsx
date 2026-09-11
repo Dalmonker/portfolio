@@ -13,6 +13,7 @@ import { useLanguage } from "@/context/LanguageContext";
 import { useWindowSize } from "./useWindowSize"
 
 import Img1 from "../../public/img/slider/img1.webp";
+import Img2Vid from "../../public/img/slider/img2video.webp";
 import Img2 from "../../public/img/slider/img2.webp";
 import Img3 from "../../public/img/slider/img3.webp";
 import Img5 from "../../public/img/slider/img5.webp";
@@ -157,7 +158,7 @@ export default function Home() {
 
     <div className="flex flex-col xl:block items-start xl:items-end xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px] xl:pb-0">
 
-      <div className="font-inter font-medium text-[17px] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
+      <div className="font-inter font-medium text-[17px] text-[#404040] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
         {t.home.resume}
       </div>
 
@@ -206,7 +207,7 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col xs:flex-row sm:absolute xl:absolute xl:left-0 xl:bottom-0 xl:top-0 xl:w-full xl:h-full sm:bottom-0 sm:right-[20px] md:top-[80px]">
-              <span className="mb-[30px] max-w-[300px] text-[17px]/[20.57px] xs:max-w-[190px] sm:hidden">
+              <span className="font-medium mb-[30px] max-w-[300px] text-[17px]/[20.57px] xs:max-w-[190px] sm:hidden">
                 {t.home.passionate}
               </span>
               <Magnetic>
@@ -361,10 +362,15 @@ export default function Home() {
                     unoptimized
                   />
                 </div>
-                <div className="flex w-1/4 bg-[#E7E8EA] pt-[15%] relative">
-                  <AutoplayVideo
-                    className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
-                    path="/img/slider/vid1.mp4"
+                <div className="flex w-1/4 bg-[#2B4E8A] pt-[15%] relative">
+                  <Image
+                      className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
+                      src={Img2Vid}
+                      sizes="30vw"
+                      quality={95}
+                      alt=""
+                      loading="lazy"
+                      unoptimized
                   />
                 </div>
                 <div className="flex w-1/4 bg-[#D8DEE4] pt-[15%] relative">
@@ -378,7 +384,7 @@ export default function Home() {
                     unoptimized
                   />
                 </div>
-                <div className="flex w-1/4 bg-[#21252A] pt-[15%] relative">
+                <div className="flex w-1/4 bg-[#041C3C] pt-[15%] relative">
                   <Image
                     className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
                     src={Img6}
@@ -394,7 +400,7 @@ export default function Home() {
                 className="absolute bottom-0 left-0 flex w-[120%] gap-5"
                 id="scroll-slider-item-2"
               >
-                <div className="flex w-1/4 bg-[#D6D4CE] pt-[15%] relative">
+                <div className="flex w-1/4 bg-[#232222] pt-[15%] relative">
                   <Image
                     className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
                     src={Img2}
