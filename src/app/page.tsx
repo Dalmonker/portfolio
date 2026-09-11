@@ -362,10 +362,10 @@ export default function Home() {
                     unoptimized
                   />
                 </div>
-                <div className="flex w-1/4 bg-[#2B4E8A] pt-[15%] relative">
+                <div className="flex w-1/4 bg-[#041C3C] pt-[15%] relative">
                   <Image
                       className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
-                      src={Img2Vid}
+                      src={Img6}
                       sizes="30vw"
                       quality={95}
                       alt=""
@@ -384,10 +384,10 @@ export default function Home() {
                     unoptimized
                   />
                 </div>
-                <div className="flex w-1/4 bg-[#041C3C] pt-[15%] relative">
+                <div className="flex w-1/4 bg-[#2B4E8A] pt-[15%] relative">
                   <Image
                     className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
-                    src={Img6}
+                    src={Img2Vid}
                     sizes="30vw"
                     quality={95}
                     alt=""

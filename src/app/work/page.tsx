@@ -72,20 +72,20 @@ const works: WorkType[] = [
     img: "/img/work/tennis/preview.webp",
     bg: "bg-[#213D5C]",
   },
-  {
-    cardKey: "marketingEducation",
-    date: "2024",
-    href: "/work/marketing-education",
-    img: "/img/work/marketing-education/preview.webp",
-    bg: "bg-[#010221]",
-  },
-  {
-    cardKey: "PhotographerPortfolio",
-    date: "2023",
-    href: "/work/photographer",
-    img: "/img/work/photographer/preview.webp",
-    bg: "bg-[#D9E4E3]",
-  },
+  // {
+  //   cardKey: "marketingEducation",
+  //   date: "2024",
+  //   href: "/work/marketing-education",
+  //   img: "/img/work/marketing-education/preview.webp",
+  //   bg: "bg-[#010221]",
+  // },
+  // {
+  //   cardKey: "PhotographerPortfolio",
+  //   date: "2023",
+  //   href: "/work/photographer",
+  //   img: "/img/work/photographer/preview.webp",
+  //   bg: "bg-[#D9E4E3]",
+  // },
   {
     cardKey: "webBanners",
     date: "2023-2024",
@@ -93,13 +93,13 @@ const works: WorkType[] = [
     img: "/img/work/web-banners/preview.webp",
     bg: "bg-[#000000]",
   },
-  {
-    cardKey: "pages404",
-    date: "2023-2024",
-    href: "/work/404",
-    img: "/img/work/404/preview.webp",
-    bg: "bg-[#ECECEC]",
-  },
+  // {
+  //   cardKey: "pages404",
+  //   date: "2023-2024",
+  //   href: "/work/404",
+  //   img: "/img/work/404/preview.webp",
+  //   bg: "bg-[#ECECEC]",
+  // },
 ];
 
 export default function Work() {

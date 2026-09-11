@@ -13,7 +13,7 @@ import Tablet2Image from "../../../../public/img/work/tennis/tablet2.webp";
 import Mob5Image from "../../../../public/img/work/tennis/mob5.webp";
 import Mob4Image from "../../../../public/img/work/tennis/mob4.webp";
 
-import PreviewImage from "../../../../public/img/work/marketing-education/preview.webp";
+import PreviewImage from "../../../../public/img/work/web-banners/preview.webp";
 import { MainSection1 } from "@/components/sections/MainSection1";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
@@ -150,10 +150,10 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-          projectKey="marketingEducation"
-          href="/work/marketing-education"
+          projectKey="webBanners"
+          href="/work/web-banners"
           image={PreviewImage}
-          bgColor="#010221"
+          bgColor="#000000"
         />
       </main>
       <Footer />
