@@ -5,11 +5,11 @@ type Item = {
 
 export default function MainTitleList({ items }: { items: Item[] }) {
     return (
-        <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
             {items.map(({ title, value }, i) => (
                 <li key={i} className="flex flex-col w-full">
                     {/* Заголовок */}
-                    <span className="text-[#C3C6CC] text-[16px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
+                    <span className="font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
             {title}
           </span>
 

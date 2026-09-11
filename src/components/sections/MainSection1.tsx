@@ -11,9 +11,9 @@ type Props = {
 export function MainSection1({ title, table, arrow = false }: Props) {
   return (
     <section className="container pb-[50px] pt-[106px] lg:pt-[140px] lg:pb-[120px] md:pt-[122px] md:pb-[70px]">
-      <div className="mb-[30px] lg:mb-[0px]">
+      <div className="mb-[30px] lg:mb-[52px]">
         <div className="flex justify-between">
-          <h1 className="flex font-semibold text-[40px] text-[#404040] whitespace-pre-line uppercase leading-[110%] sm:text-[52px] xl:text-[70px] md:text-[84px] lg:text-[105px]">
+          <h1 className="flex font-semibold text-[30px] md:text-[40px] text-[#404040] whitespace-pre-line uppercase">
             {title}
           </h1>
 

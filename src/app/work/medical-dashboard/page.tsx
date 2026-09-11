@@ -329,7 +329,7 @@ export default function Page() {
 
                           {/* 5. TESTING */}
                           <div>
-                              <h3 className="text-[#404040] text-[28px] sm:text-[32px] uppercase mb-[20px]">
+                              <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   5. Testing
                               </h3>
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px] max-w-[440px]">
@@ -382,9 +382,9 @@ export default function Page() {
                   Design
                 </span>
 
-                  <div className="flex flex-col gap-[20px] lg:gap-[60px]">
+                  <div className="flex flex-col">
 
-                      <div className="w-full">
+                      <div className="w-full mb-[20px] lg:mb-[60px]">
                           <Image
                               src={laptopOne}
                               alt="Medicare Dashboard - Light Theme"
@@ -395,7 +395,7 @@ export default function Page() {
                           />
                       </div>
 
-                      <div className="w-full">
+                      <div className="w-full mb-[34px]">
                           <Image
                               src={laptopTwo}
                               alt="Medicare Dashboard - Dark Theme"
@@ -415,7 +415,7 @@ export default function Page() {
           </section>
 
 
-        <section className=" bg-[#ffffff] pb-[60px] md:pb-[80px] xl:pb-[120px] pt-[20px] xl:pt-[30px]">
+        <section className=" bg-[#ffffff] pb-[60px] md:pb-[80px] xl:pb-[120px]">
           <div className="container flex flex-col items-center">
             <div>
               <Image
