@@ -155,8 +155,6 @@ export default function Home() {
 
 
 
-
-
     <div className="flex flex-col xl:block items-start xl:items-end xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px] xl:pb-0">
 
       <div className="font-inter font-medium text-[17px] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[112px] sm:max-w-[180px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
