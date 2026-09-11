@@ -168,10 +168,10 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
           <hr className="border-none my-[24px] h-[1px] w-full bg-[#656565] megaXl:mt-[30px] md:mb-[20px]" />
           <div className="flex-col flex-wrap lg:justify-between lg:flex-row flex lg:items-center">
             <div className="lg:flex lg:items-center">
-              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] mb-[20px] font-medium md:mb-0">
+              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] mb-[20px] font-medium lg:mb-0">
                 <Link
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all md:mb-[20px] lg:mb-[0px] lg:mr-[30px]",
+                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
                     pathname === "/" && "text-[#2E4EEC]"
                   )}
                   href="/"
@@ -190,10 +190,10 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                   {t.header.work}
                 </Link>
               </div>
-              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px]  font-medium  megaXl:mb-0">
+              <div className="flex items-center justify-between text-white uppercase mb-[20px] text-[24px] lg:text-[40px]  font-medium  lg:mb-0">
                 <Link
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all md:mb-[20px] lg:mb-[0px] lg:mr-[30px]",
+                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
                     pathname === "/about" && "text-[#2E4EEC]"
                   )}
                   href="/about"
@@ -209,7 +209,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                   {t.header.contact}
                 </Link>
               </div>
-              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] lg:ml-[30px] font-medium  megaXl:mb-0">
+              <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] lg:ml-[30px] font-medium  mb-[24px] lg:mb-0">
 
                 <Link
                   href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
@@ -236,7 +236,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
             </div>
 
             <a
-              className="flex justify-center text-white font-inter hover:text-[#362EEC] transition-all text-[30px]"
+              className="flex justify-center text-white font-inter hover:text-[#362EEC] transition-all text-[26px] md:text-[30px]"
               href="mailto:gavrilovich.ali@gmail.com"
             >
               gavrilovich.ali@gmail.com
