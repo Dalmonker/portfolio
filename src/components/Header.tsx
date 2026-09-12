@@ -156,12 +156,11 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
 
         </div>
         <div
-          className={clsx(
-            "fixed transition duration-700 bg-[#26292E] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
-              isOpen ? "top-0" : "-top-full",
-            !showBurger && !isOpen && "hidden"
-          )}
-                  >
+            className={clsx(
+                "fixed transition duration-700 bg-[#26292E] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
+                isOpen ? "-translate-y-0" : "-translate-y-full"
+            )}
+        >
           <div className="text-[#A5A5A5] text-[17px] font-medium font-inter  megaXl:text-[18px]">
             {t.header.navigation}
           </div>
