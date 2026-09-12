@@ -24,6 +24,13 @@ const works: WorkType[] = [
   //   bg: "bg-[#F0F0F0]",
   // },
   {
+    cardKey: "kronaBank",
+    date: "2026",
+    href: "/work/kronaBank",
+    img: "/img/work/mckduck/preview.webp",
+    bg: "bg-[#DFE2E8]",
+  },
+  {
     cardKey: "telegramApps",
     date: "2026",
     href: "/work/mckduck",
@@ -56,7 +63,7 @@ const works: WorkType[] = [
     date: "2023-2026",
     href: "/work/web-banners",
     img: "/img/work/web-banners/preview.webp",
-    bg: "bg-[#26292E]",
+    bg: "bg-[#001E16]",
   },
   {
     cardKey: "tennisClub",

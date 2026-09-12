@@ -4,6 +4,7 @@ import { Header } from "@/components/Header";
 import { MainSection1 } from "@/components/sections/MainSection1";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 
+import B00Image from "../../../../public/img/work/web-banners/00.webp";
 import B0Image from "../../../../public/img/work/web-banners/01.webp";
 import B1Image from "../../../../public/img/work/web-banners/02.webp";
 import B2Image from "../../../../public/img/work/web-banners/03.webp";
@@ -32,6 +33,8 @@ export default function Page() {
         />
 
         <section className="container">
+          <Image className="mb-[60px] md:mb-[80px] xl:mb-[120px]" sizes="100vw" quality={95} src={B00Image} alt="" />
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] md:gap-[20px] mb-[60px] md:mb-[80px] xl:mb-[120px]">
             <Image sizes="100vw" quality={95} src={B0Image} alt="" />
             <Image sizes="100vw" quality={95} src={B1Image} alt="" />

@@ -52,9 +52,9 @@ export default function Home() {
 
   const works: WorkType[] = [
   {
-    cardKey: "Telegram Mini App",
+    cardKey: "Mobile Banking App",
     date: "2026",
-    href: "/work/mckduck",
+    href: "/work/kronaBank",
     img: "/img/work/mckduck/preview.webp",
     bg: "bg-[#D8DEE4]",
   },
@@ -63,7 +63,7 @@ export default function Home() {
     date: "2023-2026",
     href: "/work/web-banners",
     img: "/img/work/web-banners/preview.webp",
-    bg: "bg-[#26292E]",
+    bg: "bg-[#001E16]",
   },
   {
     cardKey: "medical dashboard",
@@ -223,14 +223,14 @@ export default function Home() {
         </section>
         <section className="hidden xl:block">
           <div className="container overflow-hidden pt-[60px] sm:pt-[80px] lg:pt-[50px] xl:pt-[48px]">
-            <div className="border-b border-b-grayBorder font-medium text-blackText overflow-hidden pt-[120px] relative">
+            <div className="border-b border-b-grayBorder text-blackText overflow-hidden pt-[120px] relative">
               <div className="font-inter text-[18px] font-regular text-[#A5A5A5] absolute top-[50px]">
                 {t.home.recentWork}
               </div>
               <Link
-                href="/work/mckduck"
+                href="/work/kronaBank"
                 target="_blank"
-                className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[1] bg-white"
+                className="group font-medium flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[1] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
@@ -259,12 +259,12 @@ export default function Home() {
               <Link
                 href="/work/web-banners"
                 target="_blank"
-                className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[2] bg-white"
+                className="group font-medium flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[2] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
                     className={
-                      "relative w-full px-[20px] pb-[100%] bg-[#26292E]"
+                      "relative w-full px-[20px] pb-[100%] bg-[#001E16]"
                     }
                   >
                     <Image
@@ -289,7 +289,7 @@ export default function Home() {
               <Link
                 href="/work/medical-dashboard"
                 target="_blank"
-                className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[3] bg-white"
+                className="group font-medium flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[3] bg-white"
               >
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div

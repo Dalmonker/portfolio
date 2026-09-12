@@ -24,7 +24,7 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={"Web dashboard for medical professionals"}
+          title={"Dashboard for medical professionals"}
           table={[
             { title: "Scope", value: "End-to-end product design" },
             { title: "Industry", value: "HealthTech (B2B SaaS)" },
@@ -45,11 +45,11 @@ export default function Page() {
         </section>
 
         <section className="bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[60px] lg:pb-[80px] xl:pt-[80px] xl:pb-[120px]">
-            <div className="container lg:flex font-medium">
+            <div className="container lg:flex">
                 <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Overview
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -58,16 +58,16 @@ export default function Page() {
                     </li>
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         My role
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
-                        As part of the B2B SaaS platform of Medicare, I was responsible for the full development cycle of the dashboard UX/UI module, a central interface for doctors. My responsibilities included researching, designing, visualizing complex medical data, and creating an intuitive interface with further testing
+                        As part of the B2B SaaS platform of Medicare, I was responsible for the full development cycle of the dashboard UX/UI module, a central interface for doctors. My&nbsp;responsibilities included researching, designing, visualizing complex medical data, and creating an intuitive interface with further testing
                       </span>
                     </li>
 
                     <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Problem
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -90,7 +90,7 @@ export default function Page() {
 
 
           <section className="bg-[#ECF0F3] pt-[60px] lg:pt-[80px] xl:pt-[120px]">
-              <div className="container font-medium">
+              <div className="container">
 
                   <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px]">
 
@@ -112,10 +112,10 @@ export default function Page() {
                                       className="object-cover bg-white shrink-0 w-[144px] h-[106px] lg:w-[184px] lg:h-[146px]"
                                   />
                                   <div className="flex flex-col">
-                                <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px]">
+                                <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px] mb-[6px]">
                                   Robert Patterson
                                 </span>
-                                      <span className="font-inter text-[#C3C6CC] text-[17px] md:text-[18px]">
+                                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px]">
                                   32 y.o., General practitioner
                                 </span>
                                   </div>
@@ -134,7 +134,7 @@ export default function Page() {
 
                           {/* NEED */}
                           <div>
-                              <h3 className=" font-mediumtext-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className=" font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   Need
                               </h3>
                               <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
@@ -162,7 +162,7 @@ export default function Page() {
                                   Motivations
                               </h3>
                               <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] font-medium text-[17px] md:text-[18px]">
-                                  <li>Wants to make fast, informed decisions.</li>
+                                  <li>Wants to make fast, informed decisions</li>
                               </ul>
                           </div>
 
@@ -184,7 +184,7 @@ export default function Page() {
 
 
           <section className="bg-[#ECF0F3] py-[60px] md:py-[80px] xl:py-[120px]">
-              <div className="container font-medium">
+              <div className="container">
 
                   {/* Изображение */}
                   <div className="relative w-full aspect-[16/9] mb-[60px] md:mb-[80px] xl:mb-[120px]">
@@ -203,7 +203,7 @@ export default function Page() {
 
                       {/* ЛЕВАЯ КОЛОНКА: Solution */}
                       <div className="flex flex-col">
-                    <span className="block font-inter text-[#9CA3AF] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                    <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Solution
                     </span>
                           <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -267,7 +267,7 @@ export default function Page() {
 
 
           <section className="bg-[#ffffff] py-[60px] md:py-[80px] xl:py-[120px]">
-              <div className="container font-medium">
+              <div className="container">
                   <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[60px]">
 
                       {/* ЛЕВАЯ КОЛОНКА: список этапов */}
@@ -278,7 +278,7 @@ export default function Page() {
                         </span>
 
                           {/* 1. DISCOVERY */}
-                          <div className="pb-[40px] mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[40px] mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   1. Discovery
                               </h3>
@@ -288,7 +288,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. RESEARCH */}
-                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Research
                               </h3>
@@ -298,7 +298,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. ARCHITECTURE */}
-                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Architecture
                               </h3>
@@ -308,7 +308,7 @@ export default function Page() {
                           </div>
 
                           {/* 3. STRATEGY */}
-                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   3. Strategy
                               </h3>
@@ -318,7 +318,7 @@ export default function Page() {
                           </div>
 
                           {/* 4. DESIGN */}
-                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   4. Design
                               </h3>
@@ -329,7 +329,7 @@ export default function Page() {
 
                           {/* 5. TESTING */}
                           <div>
-                              <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   5. Testing
                               </h3>
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px] max-w-[440px]">
@@ -358,7 +358,7 @@ export default function Page() {
 
 
           <section className="bg-[#F0F0F0] py-[60px] md:py-[80px] xl:py-[120px]">
-              <div className="container font-inter font-medium">
+              <div className="container font-inter">
 
                       <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Wireframes
@@ -377,7 +377,7 @@ export default function Page() {
           </section>
 
           <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
-              <div className="container font-inter font-medium">
+              <div className="container font-inter">
                   <span className="block text-[#C3C6CC] text-[16px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   Design
                 </span>
@@ -403,7 +403,7 @@ export default function Page() {
                               sizes="100vw"
                           />
                       </div>
-                      <span className="block text-[#404040] text-[17px] md:text-[18px]">
+                      <span className="font-medium block text-[#404040] text-[17px] md:text-[18px]">
                       Created the ability to switch between light and dark themes
                     </span>
 
@@ -436,7 +436,7 @@ export default function Page() {
         </section>
 
           <section className="bg-[#ECF0F3] py-[60px] md:py-[80px] xl:py-[120px]">
-              <div className="container font-inter font-medium">
+              <div className="container font-inter">
 
                   {/* Заголовок */}
                   <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">

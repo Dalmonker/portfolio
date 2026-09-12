@@ -22,7 +22,7 @@ export const en = {
     moreWork: "More work",
     works: {
       dental: {
-        title: "Telegram Mini App",
+        title: "Mobile Banking App",
         descr: "Research & Design",
       },
       banners: {
@@ -104,12 +104,16 @@ export const en = {
     descriptionOne: "I\u00A0use my\u00A0passion and skills to\u00A0create digital products. Explore my\u00A0projects below to\u00A0witness firsthand the impact of\u00A0my\u00A0skills",
     descriptionSecond:"PRODUCTS",
     workCards: {
+      kronaBank: {
+        title: "Mobile Banking App",
+        description: "Design & Development",
+      },
       meducation: {
         title: "Meducation",
         description: "Design & Development",
       },
       telegramApps: {
-        title: "McDuckMist",
+        title: "Telegram Mini App",
         description: "Design",
       },
       codeStorage: {

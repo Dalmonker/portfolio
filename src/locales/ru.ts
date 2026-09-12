@@ -100,12 +100,16 @@ export const ru = {
     descriptionOne: "Мои навыки и\u00A0увлеченность воплощаются в\u00A0цифровых продуктах. Смотрите ниже результаты моей работы",
     descriptionSecond:"ПОКОЛЕНИЯ",
     workCards: {
+      kronaBank: {
+        title: "Mobile Banking App",
+        description: "Дизайн & Разработка",
+      },
       meducation: {
         title: "Meducation",
         description: "Дизайн & Разработка",
       },
       telegramApps: {
-        title: "McDuckMist",
+        title: "Telegram Mini App",
         description: "Дизайн",
       },
       codeStorage: {
