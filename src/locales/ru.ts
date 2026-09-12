@@ -244,11 +244,81 @@ export const ru = {
       descriptionFooter: "Разработана концепция персонажей с\u00A0использованием генеративных инструментов. Каждый персонаж получил уникальные черты, сохраняя узнаваемость и\u00A0целостность визуального ряда",
     },
     medical: {
-      titleOne: "Данный проект представляет собой интерфейс внутренней системы управления для\u00A0врача",
-      descriptionOne: "Его основная задача – предоставить быстрый и\u00A0наглядный доступ к\u00A0ключевым показателям работы клиники. Это\u00A0не\u00A0просто набор чисел, а\u00A0инструмент принятия решений, позволяющий врачу оценить загруженность, эффективность приёма и\u00A0общую картину здоровья пациентов в режиме реального времени",
-      descriptionCenter: "Для повышения комфорта и\u00A0доступности интерфейса дашборд поддерживает светлый и\u00A0темный режим с\u00A0возможностью мгновенного переключения по\u00A0желанию пользователя",
-      titleTwo: "Проект разработан в\u00A0Figma с\u00A0соблюдением всех\u00A0принципов современного веб-дизайна",
-      descriptionTwo: "Грамотное использование сеток и\u00A0компонентов позволило создать дашборд, который не\u00A0только визуально привлекателен, но\u00A0и\u00A0максимально интуитивен для\u00A0пользователя",
+      titleOverview: "",
+      descriptionOverview: "",
+      titleRole: "",
+      descriptionRole: "",
+      titleProblem: "",
+      descriptionProblem: "",
+
+      userPersona: "",
+      userName: "",
+      userOld: "",
+      userDescription: "",
+
+      userList: {
+        NeedTitle: "",
+        NeedDescriptionOne: "",
+        NeedDescriptionTwo: "",
+
+        pointsTitle: "",
+        pointsDescriptionOne: "",
+        pointsDescriptionTwo: "",
+
+        motivationsTitle: "",
+        motivationsDescription: "",
+      },
+
+      goals: "",
+      goalsDescription: "",
+
+      solution: "",
+      solutionDescription: "",
+      solutionList: {
+        unifiedTitle: "",
+        unifiedDescription: "",
+
+        dynamicTitle: "",
+        dynamicDescription: "",
+
+        dataTitle: "",
+        dataDescription: "",
+
+        visualTitle: "",
+        visualDescription: "",
+      },
+      designProcess: "",
+      designList: {
+        discoveryTitle: "",
+        discoveryDescription: "",
+
+        researchTitle: "",
+        researchDescription: "",
+
+        architectureTitle: "",
+        architectureDescription: "",
+
+        strategyTitle: "",
+        strategyDescription: "",
+
+        designTitle: "",
+        designDescription: "",
+
+        testingTitle: "",
+        testingDescription: "",
+      },
+      wireframes: "",
+      design: "",
+      designDescription: "",
+
+      titleProject: "",
+      descriptionProject: "",
+
+      userFeedback: "",
+      userFeedbackDescription: "",
+
+      userAmelia: "",
+      userAmeliaOld: "",
     },
   },
 };

@@ -248,11 +248,84 @@ export const en = {
       descriptionFooter: "A character concept was developed using generative tools. Each\u00A0character features unique traits while maintaining visual consistency and recognizability across the set",
     },
     medical: {
-      titleOne: "This project is an internal management system interface designed for a\u00A0physician",
-      descriptionOne: "Its primary objective is to provide quick and intuitive access to key clinic performance metrics. This is not merely a collection of numbers, but a decision-making tool that enables the physician to assess workload, appointment efficiency, and the overall patient health picture in real time",
-      descriptionCenter: "To enhance interface comfort and accessibility, the dashboard supports both light and dark modes with the ability to switch instantly at the user's preference",
-      titleTwo: "The project was designed in Figma in compliance with all principles of modern web design",
-      descriptionTwo: "The skillful use of grids and components made it possible to create a dashboard that is not only visually appealing but also highly intuitive for the user",
+      titleOverview: "Overvier",
+      descriptionOverview: "Medicare is a comprehensive digital health platform designed for medical professionals. The platform aims to digitize and streamline daily clinical operations, from patient intake and scheduling to diagnostics and treatment tracking",
+      titleRole: "My role",
+      descriptionRole: "As part of the B2B SaaS platform of Medicare, I was responsible for the full development cycle of the dashboard UX/UI module, a central interface for doctors. My responsibilities included researching, designing, visualizing complex medical data, and creating an intuitive interface with further testing",
+      titleProblem: "Problem",
+      descriptionProblem: "Information is scattered across different screens{\"\\n\"}\n" +
+      "  • finding the right information is time-consuming for doctors{\"\\n\"}\n" +
+      "  • inefficient decision-making due to a lack of a quick, at-a-glance overview{\"\\n\"}\n" +
+      "  • difficulty in tracking long-term patient trends",
+
+      userPersona: "User Persona",
+      userName: "Robert Patterson",
+      userOld: "32 y.o., General practitioner",
+      userDescription: "«I waste too much time finding the data I need.»",
+
+      userList: {
+        NeedTitle: "need",
+        NeedDescriptionOne: "Track important practice and patient trends over time",
+        NeedDescriptionTwo: "Make more informed, data-driven decisions quickly",
+
+        pointsTitle: "PAIN POINTS",
+        pointsDescriptionOne: "Health records and metrics scattered across different screens and systems",
+        pointsDescriptionTwo: "Limited time for manual information retrieval",
+
+        motivationsTitle: "Motivations",
+        motivationsDescription: "Wants to make fast, informed decisions",
+      },
+
+      goals: "Goals",
+      goalsDescription: "Give doctors one place where all data is visible at a glance — no switching, no searching",
+
+      solution: "Solution",
+      solutionDescription: "Design a centralized dashboard that unifies scattered medical data into a single, clear interface",
+      solutionList: {
+        unifiedTitle: "unified KPI Tracking",
+        unifiedDescription: "Instant visibility into new patients, gender distribution, treatment status, and discharges",
+
+        dynamicTitle: "dynamic Time Filtering",
+        dynamicDescription: "A global filter that allows doctors to slice data across any timeframe seamlessly",
+
+        dataTitle: "actionable Data Tables",
+        dataDescription: "Direct access to upcoming consultations and pending medical tests for immediate workflow management",
+
+        visualTitle: "Visual Trend Analysis",
+        visualDescription: "Intuitive charts that highlight diagnostic trends and patient age groups without overwhelming the user",
+      },
+      designProcess: "Design Process",
+      designList: {
+        discoveryTitle: "1. Discovery",
+        discoveryDescription: "Understanding the business goals, user roles, and the key decisions the dashboard should support",
+
+        researchTitle: "2. Research",
+        researchDescription: "Exploring user needs, behaviours, and challenges",
+
+        architectureTitle: "3.Architecture",
+        architectureDescription: "Structuring data into logical groups, prioritizing metrics, and defining the dashboard hierarchy",
+
+        strategyTitle: "4. Strategy",
+        strategyDescription: "Translating research into key features, user flows, and a focused product direction",
+
+        designTitle: "5. Design",
+        designDescription: "Exploring different ways to make complex health information feel simple and approachable",
+
+        testingTitle: "6. Testing",
+        testingDescription: "Testing the core experience to validate interactions and information hierarchy",
+      },
+      wireframes: "Wireframes",
+      design: "Design",
+      designDescription: "Created the ability to switch between light and dark themes",
+
+      titleProject: "This project was developed according to all the design rules in Figma",
+      descriptionProject: "The clever use of meshes and components has resulted in a dashboard that is not only visually appealing, but also intuitive for the user",
+
+      userFeedback: "User Feedback",
+      userFeedbackDescription: "«Finally, everything is in one place! The dashboard brings together all the data I need. I no longer waste time searching for information – everything is visible at a glance, and I can make fast decisions.»",
+
+      userAmelia: "Amelia Johnson",
+      userAmeliaOld: "36 y.o., Head of the Therapeutic Department",
     },
   },
 };
