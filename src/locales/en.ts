@@ -22,12 +22,12 @@ export const en = {
     moreWork: "More work",
     works: {
       dental: {
-        title: "McDuckMist",
+        title: "Telegram Mini App",
         descr: "Research & Design",
       },
       banners: {
         title: "Banners collection",
-        descr: "Research & Design",
+        descr: "Design",
       },
       medical: {
         title: "Medical Dashboard",
@@ -129,7 +129,7 @@ export const en = {
         description: "Design & Development",
       },
       tennisClub: {
-        title: "Tennis Club",
+        title: "Tennis Club on Nemiga",
         description: "Design & Development",
       },
       medicalDashboard: {

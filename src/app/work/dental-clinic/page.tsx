@@ -22,11 +22,11 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={<>Dental clinic</>}
+          title={<>Dental clinic Ortodent</>}
           table={[
-            { title: "Year:", value: "2024" },
-            { title: "Services:", value: "Design & Development" },
-            { title: "Industry:", value: "Medical / Healthcare" },
+            { title: "Scope", value: "Design & Development" },
+            { title: "Industry", value: "Medical / Healthcare" },
+            { title: "Year", value: "2023" },
           ]}
           arrow={true}
         />

@@ -10,7 +10,7 @@ export const ru = {
   
   home: {
     designDev: "Дизайн & Разработка",
-    resume: "Резюме",
+    resume: "Привет, я\u00A0Алина!\nПродуктовый дизайнер с\u00A04+\u00A0годами опыта в\u00A0сфере digital",
     description: "Проектировала веб- и\u00A0мобильные приложения, мессенджеры и\u00A0сложные платформы. Самостоятельно вела дизайн-проекты и\u00A0курировала работу дизайнеров",
     passionate: "Сосредоточена на удобстве использования, пользовательских сценариях и\u00A0логике продукта",
     aboutMe: "Обо мне",
@@ -18,15 +18,15 @@ export const ru = {
     moreWork: "Больше работ",
     works: {
       dental: {
-        title: "McDuckMist",
+        title: "Telegram Mini App",
          descr: "Research & Design",
       },
       banners: {
         title: "Коллекция баннеров",
-        descr: "Research & Design",
+        descr: "Design",
       },
       medical: {
-        title: "Медицинский дашборд",
+        title: "Медицинская информационная панель",
          descr: "Research & Design",
       },
     },
@@ -125,7 +125,7 @@ export const ru = {
         description: "Дизайн & Разработка",
       },
       tennisClub: {
-        title: "Теннисный клуб",
+        title: "Теннисный клуб на Немиге",
         description: "Дизайн & Разработка",
       },
       medicalDashboard: {

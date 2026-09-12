@@ -52,7 +52,7 @@ export default function Home() {
 
   const works: WorkType[] = [
   {
-    cardKey: "MCDUCKMIST",
+    cardKey: "Telegram Mini App",
     date: "2026",
     href: "/work/mckduck",
     img: "/img/work/mckduck/preview.webp",
@@ -60,10 +60,10 @@ export default function Home() {
   },
   {
     cardKey: "Web banners collection",
-    date: "2024-2026",
+    date: "2023-2026",
     href: "/work/web-banners",
     img: "/img/work/web-banners/preview.webp",
-    bg: "bg-[#D8DEE4]",
+    bg: "bg-[#26292E]",
   },
   {
     cardKey: "medical dashboard",
@@ -264,7 +264,7 @@ export default function Home() {
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
                     className={
-                      "relative w-full px-[20px] pb-[100%] bg-[#D8DEE4]"
+                      "relative w-full px-[20px] pb-[100%] bg-[#26292E]"
                     }
                   >
                     <Image

@@ -32,11 +32,11 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={<>McDuckMist</>}
+          title={<>McDuckMist Telegram Mini App</>}
           table={[
-            { title: "Year:", value: "2026" },
-            { title: "Services:", value: "Design" },
-            { title: "Industry:", value: "GameFi" },
+            { title: "Scope", value: "End-to-end product design" },
+            { title: "Industry", value: "GameFi" },
+            { title: "Year", value: "2026" },
           ]}
           arrow={true}
         />

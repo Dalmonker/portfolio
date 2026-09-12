@@ -24,11 +24,11 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={<>vinyl record</>}
+          title={<>vinyl record store</>}
           table={[
-            { title: "Year:", value: "2024" },
-            { title: "Services:", value: "Design" },
-            { title: "Industry:", value: "Music" },
+            { title: "Scope", value: "Design" },
+            { title: "Industry", value: "Music" },
+            { title: "Year", value: "2023" },
           ]}
           arrow={true}
         />

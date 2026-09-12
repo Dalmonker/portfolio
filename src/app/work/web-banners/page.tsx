@@ -4,11 +4,10 @@ import { Header } from "@/components/Header";
 import { MainSection1 } from "@/components/sections/MainSection1";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 
+import B0Image from "../../../../public/img/work/web-banners/01.webp";
 import B1Image from "../../../../public/img/work/web-banners/02.webp";
 import B2Image from "../../../../public/img/work/web-banners/03.webp";
 
-import Banner1Image from "../../../../public/img/work/web-banners/banner1.webp";
-import Banner2Image from "../../../../public/img/work/web-banners/banner2.webp";
 import Banner3Image from "../../../../public/img/work/web-banners/banner3.webp";
 import Banner4Image from "../../../../public/img/work/web-banners/banner4.webp";
 import Banner5Image from "../../../../public/img/work/web-banners/banner5.webp";
@@ -25,16 +24,16 @@ export default function Page() {
         <MainSection1
           title={<>Banners collection</>}
           table={[
-            { title: "Scope:", value: "End-to-end product design" },
-            { title: "Industry:", value: "Digital Marketing" },
-            { title: "Year:", value: "2024-2026" },
+            { title: "Scope", value: "End-to-end product design" },
+            { title: "Industry", value: "Digital Marketing" },
+            { title: "Year", value: "2023-2026" },
           ]}
           arrow={true}
         />
 
         <section className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] md:gap-[20px] mb-[60px] md:mb-[80px] xl:mb-[120px]">
-            <Image sizes="100vw" quality={95} src={B1Image} alt="" />
+            <Image sizes="100vw" quality={95} src={B0Image} alt="" />
             <Image sizes="100vw" quality={95} src={B1Image} alt="" />
           </div>
 
