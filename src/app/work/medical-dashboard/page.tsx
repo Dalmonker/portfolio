@@ -1,13 +1,10 @@
 'use client';
 import Image from "next/image";
-import Link from "next/link";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
-import { Svg } from "@/components/Svg";
 import { MainSection1 } from "@/components/sections/MainSection1";
 
 import MainBgImage from "../../../../public/img/work/medical-dashboard/dashboard.webp";
-import Dashboard2Image from "../../../../public/img/work/medical-dashboard/dashboard2.webp";
 import Dashboard3Image from "../../../../public/img/work/medical-dashboard/circuitMode.webp";
 import robertoImage from "../../../../public/img/work/medical-dashboard/roberto.webp";
 import ameliaImage from "../../../../public/img/work/medical-dashboard/amilia.webp";
@@ -427,10 +424,10 @@ export default function Page() {
               />
               <div className="lg:flex">
                 <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] lg:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
-                  {t.workPages.medical.titleTwo}
+
                 </p>
                 <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
-                  {t.workPages.medical.descriptionTwo}
+
                 </p>
               </div>
             </div>

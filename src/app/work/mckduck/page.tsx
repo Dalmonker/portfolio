@@ -33,9 +33,6 @@ export default function Page() {
       <main className="flex flex-col">
         <MainSection1
           title={<>McDuckMist</>}
-          subTitle={
-            <span className="text-[#362EEC] xl:text-[125px]">Telegram MA</span>
-          }
           table={[
             { title: "Year:", value: "2026" },
             { title: "Services:", value: "Design" },

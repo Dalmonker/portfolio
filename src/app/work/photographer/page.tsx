@@ -28,11 +28,6 @@ export default function Page() {
               <span className="text-[#362EEC]">o</span>grapher
             </>
           }
-          subTitle={
-            <>
-              <span className="text-[#362EEC]">portfolio</span>
-            </>
-          }
           table={[
             { title: "Year:", value: "2023" },
             { title: "Services:", value: "Design & Development" },
