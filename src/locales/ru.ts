@@ -21,9 +21,9 @@ export const ru = {
         title: "McDuckMist",
          descr: "Research & Design",
       },
-      tennis: {
-        title: "Сервис хранения кода",
-         descr: "Research & Design",
+      banners: {
+        title: "Коллекция баннеров",
+        descr: "Research & Design",
       },
       medical: {
         title: "Медицинский дашборд",

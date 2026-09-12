@@ -10,8 +10,10 @@ import B2Image from "../../../../public/img/work/web-banners/03.webp";
 import Banner1Image from "../../../../public/img/work/web-banners/banner1.webp";
 import Banner2Image from "../../../../public/img/work/web-banners/banner2.webp";
 import Banner3Image from "../../../../public/img/work/web-banners/banner3.webp";
-// import Banner4Image from "../../../../public/img/work/web-banners/banner4.jpg";
+import Banner4Image from "../../../../public/img/work/web-banners/banner4.webp";
 import Banner5Image from "../../../../public/img/work/web-banners/banner5.webp";
+import Banner6Image from "../../../../public/img/work/web-banners/banner6.webp";
+
 import PreviewImage from "../../../../public/img/work/mckduck/preview.webp";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
 
@@ -21,21 +23,18 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={<>Web banners</>}
+          title={<>Banners collection</>}
           table={[
-            { title: "Year:", value: "2023-2024" },
-            { title: "Services:", value: "Design" },
+            { title: "Scope:", value: "End-to-end product design" },
             { title: "Industry:", value: "Digital Marketing" },
+            { title: "Year:", value: "2024-2026" },
           ]}
           arrow={true}
         />
 
         <section className="container">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] md:gap-[20px] mb-[60px] md:mb-[80px] xl:mb-[120px]">
-            <AutoplayVideo
-              className=" border border-[#E5E5E7]"
-              path="/img/work/web-banners/banner.webm"
-            />
+            <Image sizes="100vw" quality={95} src={B1Image} alt="" />
             <Image sizes="100vw" quality={95} src={B1Image} alt="" />
           </div>
 
@@ -43,14 +42,13 @@ export default function Page() {
             <Image sizes="100vw" quality={95} src={B2Image} alt="" />
             <AutoplayVideo path="/img/work/web-banners/banner1.webm" />
           </div>
-          <Image className="mb-[60px] md:mb-[80px] xl:mb-[120px]" src={Banner1Image} alt="" />
+
+
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-[60px] md:gap-[20px] mb-[60px] md:mb-[80px] xl:mb-[120px]">
-            <Image
-              sizes="100vw"
-              quality={95}
-              className="flex-1 w-full"
-              src={Banner2Image}
-              alt=""
+            <AutoplayVideo
+                className=" border border-[#E5E5E7]"
+                path="/img/work/web-banners/banner.webm"
             />
             <Image
               sizes="100vw"
@@ -60,8 +58,31 @@ export default function Page() {
               alt=""
             />
           </div>
-          <img className="mb-[60px] md:mb-[80px] xl:mb-[120px] w-full" src="/img/work/web-banners/banner4.jpg" alt="" />
-          <Image quality={95} sizes="100vw" className="mb-[60px] md:mb-[80px] xl:mb-[120px]" src={Banner5Image} alt="" />
+
+          <Image
+              quality={95}
+              sizes="100vw"
+              className="mb-[60px] md:mb-[80px] xl:mb-[120px] w-full"
+              src={Banner6Image}
+              alt=""
+          />
+
+          <Image
+              quality={95}
+              sizes="100vw"
+              className="mb-[60px] md:mb-[80px] xl:mb-[120px] w-full"
+              src={Banner4Image}
+              alt=""
+          />
+
+          <Image
+              quality={95}
+              sizes="100vw"
+              className="mb-[60px] md:mb-[80px] xl:mb-[120px]"
+              src={Banner5Image}
+              alt=""
+          />
+
         </section>
         <NextPageSection
           image={PreviewImage}

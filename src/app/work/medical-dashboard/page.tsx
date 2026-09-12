@@ -24,7 +24,7 @@ export default function Page() {
       <Header />
       <main className="flex flex-col">
         <MainSection1
-          title={"Web dashboard for\nmedical professionals"}
+          title={"Web dashboard for medical professionals"}
           table={[
             { title: "Scope", value: "End-to-end product design" },
             { title: "Industry", value: "HealthTech (B2B SaaS)" },

@@ -23,7 +23,7 @@ import Img7 from "../../public/img/slider/img7.webp";
 import { WorkItem } from "@/components/WorkItem";
 
 import ImgWork1 from "../../public/img/work/mckduck/preview.webp";
-import ImgWork2 from "../../public/img/work/code-storage/preview.webp";
+import ImgWork2 from "../../public/img/work/web-banners/preview.webp";
 import ImgWork3 from "../../public/img/work/medical-dashboard/preview.webp";
 
 export type WorkType = {
@@ -59,10 +59,10 @@ export default function Home() {
     bg: "bg-[#D8DEE4]",
   },
   {
-    cardKey: "CODE STORAGE SERVICE",
-    date: "2025",
-    href: "https://snipit.ru/",
-    img: "/img/work/code-storage/preview.webp",
+    cardKey: "Web banners collection",
+    date: "2024-2026",
+    href: "/work/web-banners",
+    img: "/img/work/web-banners/preview.webp",
     bg: "bg-[#D8DEE4]",
   },
   {
@@ -114,7 +114,7 @@ export default function Home() {
 
 
 
-<div className="absolute bottom-0 h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
+<div className="absolute bottom-0 h-[88%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
   <Image
     src="/img/portrait/IMG_4580.png"
     alt=""
@@ -257,7 +257,7 @@ export default function Home() {
                 </div>
               </Link>
               <Link
-                href="https://snipit.ru/"
+                href="/work/web-banners"
                 target="_blank"
                 className="group flex cursor-pofont-inter items-center justify-between border-t border-t-grayBorder transition-all h-[167px] hover:h-[195px] after:h-[80px] after:w-1/2 after:bottom-0 after:left-0 after:z-10 after:bg-white after:absolute relative z-[2] bg-white"
               >
@@ -280,10 +280,10 @@ export default function Home() {
                 </div>
 
                 <div className="text-[40px] uppercase">
-                  {t.home.works.tennis.title}
+                  {t.home.works.banners.title}
                 </div>
                 <div className="font-inter text-lg">
-                  {t.home.works.tennis.descr}
+                  {t.home.works.banners.descr}
                 </div>
               </Link>
               <Link

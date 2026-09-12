@@ -25,8 +25,8 @@ export const en = {
         title: "McDuckMist",
         descr: "Research & Design",
       },
-      tennis: {
-        title: "Code storage service",
+      banners: {
+        title: "Banners collection",
         descr: "Research & Design",
       },
       medical: {
