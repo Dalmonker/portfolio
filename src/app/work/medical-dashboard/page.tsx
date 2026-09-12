@@ -26,9 +26,9 @@ export default function Page() {
         <MainSection1
           title={"Web dashboard for\nmedical professionals"}
           table={[
-            { title: "Scope:", value: "End-to-end product\ndesign" },
-            { title: "Industry:", value: "HealthTech\n(B2B SaaS)" },
-            { title: "Year:", value: "2025" },
+            { title: "Scope", value: "End-to-end product design" },
+            { title: "Industry", value: "HealthTech (B2B SaaS)" },
+            { title: "Year", value: "2025" },
           ]}
           arrow={true}
         />
@@ -49,33 +49,35 @@ export default function Page() {
                 <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                         Overview
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
-                        Medicare is a comprehensive digital health platform designed for medical professionals. The platform aims to digitize and streamline daily clinical operations, from patient intake and scheduling to diagnostics and treatment tracking.
+                        Medicare is a comprehensive digital health platform designed for medical professionals. The platform aims to digitize and streamline daily clinical operations, from patient intake and scheduling to diagnostics and treatment tracking
                       </span>
                     </li>
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                         My role
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
-                        As part of the B2B SaaS platform of Medicare, I was responsible for the full development cycle of the dashboard UX/UI module, a central interface for doctors. My responsibilities included researching, designing, visualizing complex medical data, and creating an intuitive interface with further testing.
+                        As part of the B2B SaaS platform of Medicare, I was responsible for the full development cycle of the dashboard UX/UI module, a central interface for doctors. My responsibilities included researching, designing, visualizing complex medical data, and creating an intuitive interface with further testing
                       </span>
                     </li>
 
-                     <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
+                    <li className="flex flex-col w-full">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                         Problem
                       </span>
-                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
-                         Information is scattered across different screens{"\n"}
-                            • finding the right information is time-consuming for doctors{"\n"}
-                            • inefficient decision-making due to a lack of a quick, at-a-glance overview{"\n"}
-                            • difficulty in tracking long-term patient trends
-                         </span>
+                        <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
+                        Information is scattered across different screens:
+                      </span>
+                        <ul className="list-disc pl-5 mt-2 text-[#404040] font-medium text-[17px] md:text-[18px] space-y-1">
+                            <li>finding the right information is time-consuming for doctors</li>
+                            <li>inefficient decision-making due to a lack of a quick, at-a-glance overview</li>
+                            <li>difficulty in tracking long-term patient trends</li>
+                        </ul>
                     </li>
 
                 </ul>
@@ -96,7 +98,7 @@ export default function Page() {
 
 
                           <div className="mb-[34px]">
-                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#C3C6CC] mb-[35px]">
+                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
                               User Persona
                             </span>
 
@@ -104,12 +106,13 @@ export default function Page() {
                                   <Image
                                       src={robertoImage}
                                       alt="Robert Patterson"
-                                      width={120}
-                                      height={120}
-                                      className="object-cover bg-white"
+                                      width={186}
+                                      height={146}
+                                      quality={95}
+                                      className="object-cover bg-white shrink-0 w-[144px] h-[106px] lg:w-[184px] lg:h-[146px]"
                                   />
                                   <div className="flex flex-col">
-                                <span className="font-inter font-medium text-[#404040] font-medium text-[17px] md:text-[18px]">
+                                <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px]">
                                   Robert Patterson
                                 </span>
                                       <span className="font-inter text-[#C3C6CC] text-[17px] md:text-[18px]">
@@ -138,7 +141,7 @@ export default function Page() {
                                   <li className="font-medium text-[17px] md:text-[18px]">Track important practice and patient trends over time</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Make more informed, data-driven decisions quickly</li>
                               </ul>
-                              <div className="border-b border-[#E5E7EB] mt-[40px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[40px]" />
                           </div>
 
                           {/* PAIN POINTS */}
@@ -150,7 +153,7 @@ export default function Page() {
                                   <li className="font-medium text-[17px] md:text-[18px]">Health records and metrics scattered across different screens and systems</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Limited time for manual information retrieval</li>
                               </ul>
-                              <div className="border-b border-[#E5E7EB] mt-[40px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[40px]" />
                           </div>
 
                           {/* MOTIVATIONS */}
@@ -168,7 +171,7 @@ export default function Page() {
 
                   {/* НИЖНЯЯ ЧАСТЬ: Goals */}
                   <div className="font-inter mt-[60px] md:mt-[80px] lg:mt-[120px]">
-                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#C3C6CC] mb-[30px]">
+                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                       Goals
                     </span>
                       <p className="font-medium text-[#404040] text-[17px] md:text-[18px]">
@@ -200,7 +203,7 @@ export default function Page() {
 
                       {/* ЛЕВАЯ КОЛОНКА: Solution */}
                       <div className="flex flex-col">
-                    <span className="block font-inter text-[#9CA3AF] text-[17px] md:text-[18px] pb-[30px] border-b border-[#D1D5DB] mb-[30px]">
+                    <span className="block font-inter text-[#9CA3AF] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                       Solution
                     </span>
                           <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -219,7 +222,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   Instant visibility into new patients, gender distribution, treatment status, and discharges
                               </p>
-                              <div className="border-b border-[#D1D5DB] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
                           </div>
 
                           {/* DYNAMIC TIME FILTERING */}
@@ -230,7 +233,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   A global filter that allows doctors to slice data across any timeframe seamlessly
                               </p>
-                              <div className="border-b border-[#D1D5DB] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
                           </div>
 
                           {/* ACTIONABLE DATA TABLES */}
@@ -241,7 +244,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   Direct access to upcoming consultations and pending medical tests for immediate workflow management
                               </p>
-                              <div className="border-b border-[#D1D5DB] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
                           </div>
 
                           {/* VISUAL TREND ANALYSIS */}
@@ -270,12 +273,12 @@ export default function Page() {
                       {/* ЛЕВАЯ КОЛОНКА: список этапов */}
                       <div className="flex flex-col">
 
-                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#C3C6CC] mb-[30px]">
+                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                           Design Process
                         </span>
 
                           {/* 1. DISCOVERY */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E7EB]">
+                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   1. Discovery
                               </h3>
@@ -285,7 +288,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. RESEARCH */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E7EB]">
+                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Research
                               </h3>
@@ -295,7 +298,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. ARCHITECTURE */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E7EB]">
+                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Architecture
                               </h3>
@@ -305,7 +308,7 @@ export default function Page() {
                           </div>
 
                           {/* 3. STRATEGY */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E7EB]">
+                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   3. Strategy
                               </h3>
@@ -315,7 +318,7 @@ export default function Page() {
                           </div>
 
                           {/* 4. DESIGN */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E7EB]">
+                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   4. Design
                               </h3>
@@ -357,7 +360,7 @@ export default function Page() {
           <section className="bg-[#F0F0F0] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container font-inter font-medium">
 
-                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#C3C6CC] mb-[35px]">
+                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
                       Wireframes
                     </span>
 
@@ -375,7 +378,7 @@ export default function Page() {
 
           <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
               <div className="container font-inter font-medium">
-                  <span className="block text-[#C3C6CC] text-[16px] pb-[30px] border-b border-[#C3C6CC] mb-[35px]">
+                  <span className="block text-[#C3C6CC] text-[16px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
                   Design
                 </span>
 
@@ -438,7 +441,7 @@ export default function Page() {
               <div className="container font-inter font-medium">
 
                   {/* Заголовок */}
-                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#C3C6CC] mb-[30px]">
+                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
                   User Feedback
                 </span>
 
@@ -452,10 +455,10 @@ export default function Page() {
                       <Image
                           src={ameliaImage}
                           alt="Amelia Johnson"
-                          width={120}
-                          height={120}
+                          width={186}
+                          height={146}
                           quality={95}
-                          className="object-cover bg-white"
+                          className="object-cover bg-white shrink-0 w-[146px] h-[106px]  lg:w-[186px] lg:h-[146px]"
                       />
                       <div className="flex flex-col">
                         <span className="text-[#404040] text-[16px] font-medium">

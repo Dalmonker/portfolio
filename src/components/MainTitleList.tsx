@@ -9,7 +9,7 @@ export default function MainTitleList({ items }: { items: Item[] }) {
             {items.map(({ title, value }, i) => (
                 <li key={i} className="flex flex-col w-full">
                     {/* Заголовок */}
-                    <span className="font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[8px] border-b border-[#C3C6CC] mb-[16px]">
+                    <span className="font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
             {title}
           </span>
 
