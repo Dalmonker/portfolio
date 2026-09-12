@@ -49,7 +49,7 @@ export default function Page() {
                 <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Overview
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -58,7 +58,7 @@ export default function Page() {
                     </li>
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         My role
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -67,7 +67,7 @@ export default function Page() {
                     </li>
 
                     <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Problem
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -98,7 +98,7 @@ export default function Page() {
 
 
                           <div className="mb-[34px]">
-                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
+                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                               User Persona
                             </span>
 
@@ -171,7 +171,7 @@ export default function Page() {
 
                   {/* НИЖНЯЯ ЧАСТЬ: Goals */}
                   <div className="font-inter mt-[60px] md:mt-[80px] lg:mt-[120px]">
-                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Goals
                     </span>
                       <p className="font-medium text-[#404040] text-[17px] md:text-[18px]">
@@ -203,7 +203,7 @@ export default function Page() {
 
                       {/* ЛЕВАЯ КОЛОНКА: Solution */}
                       <div className="flex flex-col">
-                    <span className="block font-inter text-[#9CA3AF] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                    <span className="block font-inter text-[#9CA3AF] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Solution
                     </span>
                           <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -212,7 +212,7 @@ export default function Page() {
                       </div>
 
                       {/* ПРАВАЯ КОЛОНКА: список решений */}
-                      <div className="flex flex-col gap-[40px]">
+                      <div className="flex flex-col gap-[25px] md:gap-[40px]">
 
                           {/* UNIFIED KPI TRACKING */}
                           <div>
@@ -222,7 +222,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   Instant visibility into new patients, gender distribution, treatment status, and discharges
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
                           </div>
 
                           {/* DYNAMIC TIME FILTERING */}
@@ -233,7 +233,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   A global filter that allows doctors to slice data across any timeframe seamlessly
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
                           </div>
 
                           {/* ACTIONABLE DATA TABLES */}
@@ -244,7 +244,7 @@ export default function Page() {
                               <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
                                   Direct access to upcoming consultations and pending medical tests for immediate workflow management
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[32px]" />
+                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
                           </div>
 
                           {/* VISUAL TREND ANALYSIS */}
@@ -273,12 +273,12 @@ export default function Page() {
                       {/* ЛЕВАЯ КОЛОНКА: список этапов */}
                       <div className="flex flex-col">
 
-                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                           Design Process
                         </span>
 
                           {/* 1. DISCOVERY */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
+                          <div className="pb-[40px] mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   1. Discovery
                               </h3>
@@ -288,7 +288,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. RESEARCH */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
+                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Research
                               </h3>
@@ -298,7 +298,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. ARCHITECTURE */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
+                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Architecture
                               </h3>
@@ -308,7 +308,7 @@ export default function Page() {
                           </div>
 
                           {/* 3. STRATEGY */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
+                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   3. Strategy
                               </h3>
@@ -318,7 +318,7 @@ export default function Page() {
                           </div>
 
                           {/* 4. DESIGN */}
-                          <div className="pb-[24px] mb-[24px] border-b border-[#E5E0DC]">
+                          <div className="pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   4. Design
                               </h3>
@@ -360,7 +360,7 @@ export default function Page() {
           <section className="bg-[#F0F0F0] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container font-inter font-medium">
 
-                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
+                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Wireframes
                     </span>
 
@@ -378,7 +378,7 @@ export default function Page() {
 
           <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
               <div className="container font-inter font-medium">
-                  <span className="block text-[#C3C6CC] text-[16px] pb-[30px] border-b border-[#E5E0DC] mb-[35px]">
+                  <span className="block text-[#C3C6CC] text-[16px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   Design
                 </span>
 
@@ -425,10 +425,10 @@ export default function Page() {
               />
               <div className="lg:flex">
                 <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px] lg:mb-[0px] miniSm:mb-[20px] font-medium text-[#404040]">
-
+                    This project was developed according to all the design rules in Figma
                 </p>
                 <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
-
+                    The clever use of meshes and components has resulted in a dashboard that is not only visually appealing, but also intuitive for the user
                 </p>
               </div>
             </div>
@@ -439,7 +439,7 @@ export default function Page() {
               <div className="container font-inter font-medium">
 
                   {/* Заголовок */}
-                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   User Feedback
                 </span>
 
