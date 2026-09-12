@@ -388,10 +388,9 @@ export default function Page() {
                           <Image
                               src={laptopOne}
                               alt="Medicare Dashboard - Light Theme"
-                              width={1920}
-                              height={1080}
                               quality={95}
                               className="w-full h-auto"
+                              sizes="100vw"
                           />
                       </div>
 
@@ -399,10 +398,9 @@ export default function Page() {
                           <Image
                               src={laptopTwo}
                               alt="Medicare Dashboard - Dark Theme"
-                              width={1920}
-                              height={1080}
                               quality={95}
                               className="w-full h-auto"
+                              sizes="100vw"
                           />
                       </div>
                       <span className="block text-[#404040] text-[17px] md:text-[18px]">
