@@ -53,14 +53,40 @@ export default function Page() {
             />
         </section>
 
-        <section className=" bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] xl:pt-[120px] xl:pb-[120px]">
-          <div className="container lg:flex">
-            <p className="font-inter xl:mr-[80px] leading-[100%] text-[24px] md:text-[30px] md:mr-[20px] xl:text-[40px]  miniSm:mb-[20px] font-medium text-[#404040]">
-              {t.workPages.mckduck.titleOne}
-            </p>
-            <p className="font-inter text-[17px] leading-[130%] md:text-[18px] font-medium text-[#404040] max-w-[495px]">
-              {t.workPages.mckduck.descriptionOne}
-            </p>
+        <section className="bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[60px] lg:pb-[80px] xl:pt-[80px] xl:pb-[120px]">
+          <div className="container lg:flex font-medium">
+            <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
+
+              <li className="flex flex-col w-full">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                        Overview
+                      </span>
+                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
+                  McDuckMist is a GameFi Telegram Mini App that lets users earn MCDC tokens through farming and staking
+                </span>
+              </li>
+
+              <li className="flex flex-col w-full">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                        My role
+                      </span>
+                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
+                  For a GameFi project delivered as a Telegram Mini App, I was responsible for the end-to-end UX/UI process – user research, competitor analysis, and final usability testing. I designed flows that drive fast user engagement right inside the messenger, working within Telegram WebApp API limitations and mobile-first interaction patterns                      </span>
+              </li>
+
+              <li className="flex flex-col w-full">
+                      <span className="text-[#C3C6CC] font-medium text-[17px] md:text-[18px] pb-[30px] border-b border-[#E5E0DC] mb-[30px]">
+                        Problem
+                      </span>
+                <ul className="list-disc pl-5 mt-2 text-[#404040] font-medium text-[17px] md:text-[18px] space-y-1">
+                  <li>Users were skeptical of crypto games – unclear tokenomics, unclear withdrawal, fear of scams</li>
+                  <li>Onboarding drop-off: crypto mechanics scared off new users before their first MCDC</li>
+                  <li>Telegram platform constraints</li>
+                  <li>The risk of low retention – users may not return to the app</li>
+                </ul>
+              </li>
+
+            </ul>
           </div>
         </section>
 
