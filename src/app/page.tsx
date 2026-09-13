@@ -114,7 +114,7 @@ export default function Home() {
 
 
 
-<div className="absolute bottom-0 h-[88%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
+<div className="absolute bottom-0 h-[93%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
   <Image
     src="/img/portrait/IMG_4580.png"
     alt=""
@@ -149,9 +149,13 @@ export default function Home() {
       </div>
     </div> */}
 
-<div className="hidden sm:block absolute xl:z-0 top-[36%] md:top-[43%] lg:top-[54%] xl:top-[45%] left-0 pl-[20px] xl:left-auto xl:right-0 xl:pr-[80px] xl:pl-0 z-20 text-[40px] md:text-[60px] text-[#404040] pointer-events-none uppercase">
+<div className="hidden sm:block xl:hidden absolute xl:z-0 top-[36%] md:top-[43%] lg:top-[54%] xl:top-[45%] left-0 pl-[20px] xl:left-auto xl:right-0 xl:pr-[80px] xl:pl-0 z-20 text-[40px] md:text-[60px] text-[#404040] pointer-events-none uppercase">
   Designer
 </div>
+
+    <div className="hidden xl:block absolute z-0 text-[60px] text-[#404040] pt-[440px] pointer-events-none uppercase right-0 pr-[80px]">
+      Designer
+    </div>
 
 
 
