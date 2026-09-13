@@ -49,7 +49,7 @@ export default function Page() {
                 <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Overview
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -58,7 +58,7 @@ export default function Page() {
                     </li>
 
                      <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         My role
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -67,7 +67,7 @@ export default function Page() {
                     </li>
 
                     <li className="flex flex-col w-full">
-                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                         Problem
                       </span>
                         <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
@@ -98,7 +98,7 @@ export default function Page() {
 
 
                           <div className="mb-[34px]">
-                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                               User Persona
                             </span>
 
@@ -141,7 +141,7 @@ export default function Page() {
                                   <li className="font-medium text-[17px] md:text-[18px]">Track important practice and patient trends over time</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Make more informed, data-driven decisions quickly</li>
                               </ul>
-                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* PAIN POINTS */}
@@ -153,7 +153,7 @@ export default function Page() {
                                   <li className="font-medium text-[17px] md:text-[18px]">Health records and metrics scattered across different screens and systems</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Limited time for manual information retrieval</li>
                               </ul>
-                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* MOTIVATIONS */}
@@ -171,7 +171,7 @@ export default function Page() {
 
                   {/* НИЖНЯЯ ЧАСТЬ: Goals */}
                   <div className="font-inter mt-[60px] md:mt-[80px] lg:mt-[120px]">
-                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Goals
                     </span>
                       <p className="font-medium text-[#404040] text-[17px] md:text-[18px]">
@@ -203,7 +203,7 @@ export default function Page() {
 
                       {/* ЛЕВАЯ КОЛОНКА: Solution */}
                       <div className="flex flex-col">
-                    <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                    <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Solution
                     </span>
                           <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -222,7 +222,7 @@ export default function Page() {
                               <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   Instant visibility into new patients, gender distribution, treatment status, and discharges
                               </p>
-                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* DYNAMIC TIME FILTERING */}
@@ -233,7 +233,7 @@ export default function Page() {
                               <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   A global filter that allows doctors to slice data across any timeframe seamlessly
                               </p>
-                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* ACTIONABLE DATA TABLES */}
@@ -244,7 +244,7 @@ export default function Page() {
                               <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   Direct access to upcoming consultations and pending medical tests for immediate workflow management
                               </p>
-                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* VISUAL TREND ANALYSIS */}
@@ -273,12 +273,12 @@ export default function Page() {
                       {/* ЛЕВАЯ КОЛОНКА: список этапов */}
                       <div className="flex flex-col">
 
-                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                           Design Process
                         </span>
 
                           {/* 1. DISCOVERY */}
-                          <div className="font-medium pb-[40px] mb-[40px] border-b border-[#C3C6CC]">
+                          <div className="font-medium pb-[30px] mb-[30px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   1. Discovery
                               </h3>
@@ -288,7 +288,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. RESEARCH */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
+                          <div className="font-medium pb-[30px] mb-[30px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Research
                               </h3>
@@ -298,7 +298,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. ARCHITECTURE */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
+                          <div className="font-medium pb-[30px] mb-[30px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Architecture
                               </h3>
@@ -308,7 +308,7 @@ export default function Page() {
                           </div>
 
                           {/* 3. STRATEGY */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
+                          <div className="font-medium pb-[30px] mb-[30px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   3. Strategy
                               </h3>
@@ -318,7 +318,7 @@ export default function Page() {
                           </div>
 
                           {/* 4. DESIGN */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
+                          <div className="font-medium pb-[30px] mb-[30px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   4. Design
                               </h3>
@@ -376,7 +376,7 @@ export default function Page() {
               </div>
           </section>
 
-          <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
+          <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[34px] md:pb-[60px]">
               <div className="container font-inter">
                   <span className="block text-[#C3C6CC] text-[16px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   Design
@@ -394,7 +394,7 @@ export default function Page() {
                           />
                       </div>
 
-                      <div className="w-full mb-[34px]">
+                      <div className="w-full mb-[20px] md:mb-[34px]">
                           <Image
                               src={laptopTwo}
                               alt="Medicare Dashboard - Dark Theme"
