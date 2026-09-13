@@ -7,9 +7,8 @@ import { MainSection1 } from "@/components/sections/MainSection1";
 
 import imageTwo from "../../../../public/img/work/kronaBank/img2.webp";
 import alexImage from "../../../../public/img/work/kronaBank/alex.webp";
+import MainBgImage from "../../../../public/img/work/kronaBank/dashboard.webp";
 
-
-import MainBgImage from "../../../../public/img/work/medical-dashboard/dashboard.webp";
 import Dashboard3Image from "../../../../public/img/work/medical-dashboard/circuitMode.webp";
 
 import circleImage from "../../../../public/img/work/medical-dashboard/circle.webp";
