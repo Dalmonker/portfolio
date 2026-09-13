@@ -356,7 +356,7 @@ export default function Page() {
 
                       {/* ПРАВАЯ КОЛОНКА: список решений */}
                       <div className="flex flex-col gap-[25px] md:gap-[40px]">
-                          
+
                           <div>
                               <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   Clarity over complexity
