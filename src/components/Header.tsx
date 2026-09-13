@@ -13,7 +13,10 @@ type Props = {
   iconColor?: string;
 };
 
-export function Header({ isWhite = false, iconColor = "text-blackText" }: Props) {
+export function Header({
+  isWhite = false,
+  iconColor = "text-blackText",
+}: Props) {
   const [isOpen, setOpen] = useState(false);
   const [showBurger, setShowBurger] = useState(false);
   const pathname = usePathname();
@@ -29,9 +32,9 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
     });
   };
 
-  const btnStyles = isWhite
-    // ? "bg-white text-[#404040] white-lines"
-    // : "bg-[#26292E] text-white";
+  const btnStyles = isWhite;
+  // ? "bg-white text-[#404040] white-lines"
+  // : "bg-[#26292E] text-white";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -53,7 +56,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
       <header
         className={clsx(
           "flex items-center justify-between pt-10 text-[17px] font-medium  sm:text-[18px]",
-          isWhite ? "text-white" : "text-blackText"
+          isWhite ? "text-white" : "text-blackText",
         )}
       >
         <Link
@@ -68,7 +71,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
             <div
               className={clsx(
                 "menu-wrapper w-[60px] h-[60px] md:w-[80px] md:h-[80px]",
-                !isWhite && "white-lines"
+                !isWhite && "white-lines",
               )}
             >
               <div className={clsx("hamburger-menu")}></div>
@@ -78,13 +81,13 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
             <div
               className={clsx(
                 "flex fixed top-[20px] right-[20px] z-[1000]",
-                !showBurger && !isOpen && "hidden"
+                !showBurger && !isOpen && "hidden",
               )}
             >
               <button
                 className={clsx(
                   "magnetic flex items-center justify-center w-[60px] h-[60px] md:w-[80px] md:h-[80px] border border-[#656565] bg-[#26292E] rounded-full transition-all",
-                  isOpen ? "bg-[#3E4EFF] border-[#3E4EFF] border-0" : btnStyles
+                  isOpen ? "bg-[#3E4EFF] border-[#3E4EFF] border-0" : btnStyles,
                 )}
                 onClick={() => setOpen(!isOpen)}
               >
@@ -100,7 +103,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
           <nav
             className={clsx(
               "animate__animated animate__fadeIn hidden items-center gap-11 md:flex font-inter",
-              isWhite ? "text-white" : "text-blackText"
+              isWhite ? "text-white" : "text-blackText",
             )}
           >
             <Link
@@ -136,10 +139,10 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
             </Link>
 
             <Link
-               className={clsx(
-              "telegram-link flex items-center transition-colors hover:text-[#362EEC]",
-               iconColor
-             )}
+              className={clsx(
+                "telegram-link flex items-center transition-colors hover:text-[#362EEC]",
+                iconColor,
+              )}
               href="https://t.me/alinagavrilovich"
               target="_blank"
             >
@@ -153,13 +156,12 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
               </span>
             </Link>
           </nav>
-
         </div>
         <div
-            className={clsx(
-                "fixed transition duration-700 bg-[#26292E] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
-                isOpen ? "translate-y-0" : "-translate-y-[120%]"
-            )}
+          className={clsx(
+            "fixed transition duration-700 bg-[#26292E] z-[100] border-b border-[#656565] w-full pt-[80px] pb-[30px] px-[20px] left-0 top-0 megaXl:p-[40px] megaXl:pr-[160px] lg:h-auto",
+            isOpen ? "translate-y-0" : "-translate-y-[120%]",
+          )}
         >
           <div className="text-[#A5A5A5] text-[17px] font-medium font-inter  megaXl:text-[18px]">
             {t.header.navigation}
@@ -171,7 +173,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                 <Link
                   className={clsx(
                     " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname === "/" && "text-[#2E4EEC]"
+                    pathname === "/" && "text-[#2E4EEC]",
                   )}
                   href="/"
                   onClick={() => setOpen(false)}
@@ -181,7 +183,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                 <Link
                   className={clsx(
                     " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname.includes("work") && "text-[#2E4EEC]"
+                    pathname.includes("work") && "text-[#2E4EEC]",
                   )}
                   href="/work"
                   onClick={() => setOpen(false)}
@@ -193,7 +195,7 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                 <Link
                   className={clsx(
                     " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname === "/about" && "text-[#2E4EEC]"
+                    pathname === "/about" && "text-[#2E4EEC]",
                   )}
                   href="/about"
                   onClick={() => setOpen(false)}
@@ -209,7 +211,6 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                 </Link>
               </div>
               <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] lg:ml-[30px] font-medium  mb-[24px] lg:mb-0">
-
                 <Link
                   href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
                   target="_blank"
@@ -219,19 +220,18 @@ export function Header({ isWhite = false, iconColor = "text-blackText" }: Props)
                 </Link>
 
                 <Link
-                    className="lg:ml-[30px] telegram-link flex items-center justify-center transition-all hover:text-[#362EEC]"
-                    href="https://t.me/alinagavrilovich"
-                    target="_blank"
+                  className="lg:ml-[30px] telegram-link flex items-center justify-center transition-all hover:text-[#362EEC]"
+                  href="https://t.me/alinagavrilovich"
+                  target="_blank"
                 >
                   <span className="flex items-center justify-center transition-all hover:opacity-70 hover:scale-110">
                     <Svg
-                        className="telegram-icon w-[32px] h-[32px] lg:w-[44px] lg:h-[44px]"
-                        iconId="icon-header-telegram-white"
+                      className="telegram-icon w-[32px] h-[32px] lg:w-[44px] lg:h-[44px]"
+                      iconId="icon-header-telegram-white"
                     />
                   </span>
                 </Link>
               </div>
-
             </div>
 
             <a

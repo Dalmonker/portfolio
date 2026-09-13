@@ -10,7 +10,7 @@ import AutoplayVideo from "@/components/video/AutoplayVideo";
 import Magnetic from "@/components/logics/Magnetic";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { useLanguage } from "@/context/LanguageContext";
-import { useWindowSize } from "./useWindowSize"
+import { useWindowSize } from "./useWindowSize";
 
 import Img1 from "../../public/img/slider/img1.webp";
 import Img2Vid from "../../public/img/slider/img2video.webp";
@@ -37,64 +37,60 @@ export type WorkType = {
 export default function Home() {
   const { t } = useLanguage();
 
- const icons = [
-  { name: 'Ae', src: '/img/icons/1.svg' },
-  { name: 'Ps', src: '/img/icons/2.svg' },
-  { name: 'Ai', src: '/img/icons/3.svg' },
-  { name: 'Pr', src: '/img/icons/4.svg' },
-  { name: 'Id', src: '/img/icons/5.svg' },
-  { name: 'Fg', src: '/img/icons/6.svg' },
-  { name: 'Of', src: '/img/icons/7.svg' },
-  { name: 'Lr', src: '/img/icons/8.svg' },
-  { name: 'Xd', src: '/img/icons/9.svg' },
-  { name: 'Dr', src: '/img/icons/10.svg' },
-];
+  const icons = [
+    { name: "Ae", src: "/img/icons/1.svg" },
+    { name: "Ps", src: "/img/icons/2.svg" },
+    { name: "Ai", src: "/img/icons/3.svg" },
+    { name: "Pr", src: "/img/icons/4.svg" },
+    { name: "Id", src: "/img/icons/5.svg" },
+    { name: "Fg", src: "/img/icons/6.svg" },
+    { name: "Of", src: "/img/icons/7.svg" },
+    { name: "Lr", src: "/img/icons/8.svg" },
+    { name: "Xd", src: "/img/icons/9.svg" },
+    { name: "Dr", src: "/img/icons/10.svg" },
+  ];
 
   const works: WorkType[] = [
-  {
-    cardKey: "Mobile Banking App",
-    date: "2026",
-    href: "/work/kronaBank",
-    img: "/img/work/mckduck/preview.webp",
-    bg: "bg-[#D8DEE4]",
-  },
-  {
-    cardKey: "Web banners collection",
-    date: "2023-2026",
-    href: "/work/web-banners",
-    img: "/img/work/web-banners/preview.webp",
-    bg: "bg-[#001E16]",
-  },
-  {
-    cardKey: "medical dashboard",
-    date: "2025",
-    href: "/work/medical-dashboard",
-    img: "/img/work/medical-dashboard/preview.webp",
-    bg: "bg-[#F0F1EC]",
-  },
-];
+    {
+      cardKey: "Mobile Banking App",
+      date: "2026",
+      href: "/work/kronaBank",
+      img: "/img/work/mckduck/preview.webp",
+      bg: "bg-[#D8DEE4]",
+    },
+    {
+      cardKey: "Web banners collection",
+      date: "2023-2026",
+      href: "/work/web-banners",
+      img: "/img/work/web-banners/preview.webp",
+      bg: "bg-[#001E16]",
+    },
+    {
+      cardKey: "medical dashboard",
+      date: "2025",
+      href: "/work/medical-dashboard",
+      img: "/img/work/medical-dashboard/preview.webp",
+      bg: "bg-[#F0F1EC]",
+    },
+  ];
 
   const { width } = useWindowSize();
   const isLargeScreen = width >= 768;
 
   return (
     <>
-      <Header iconColor="text-blackText"/>
+      <Header iconColor="text-blackText" />
       <main className="flex flex-col">
+        <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
+          <div className="relative flex uppercase flex-1 w-full z-11">
+            <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[150px] md:top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
+              Product ui ux Product ui ux Product ui ux Product ui ux Product ui
+              ux Product ui ux Product ui ux Product ui ux Product ui ux Product
+              ui ux
+            </div>
+          </div>
 
-
-
-  <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
-
-    <div className="relative flex uppercase flex-1 w-full z-11">
-      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[150px] md:top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
-        Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui
-        ux Product ui ux Product ui ux Product ui ux
-      </div>
-    </div>
-
-
-{/* <Image
+          {/* <Image
   src="/img/portrait/IMG_4580.png"
   alt=""
   width={1268}
@@ -112,23 +108,19 @@ export default function Home() {
   priority
 /> */}
 
+          <div className="absolute bottom-0 h-[88%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
+            <Image
+              src="/img/portrait/IMG_4580.png"
+              alt=""
+              width={1268}
+              height={1185}
+              priority
+              quality={95}
+              className="h-full w-auto max-w-none object-contain object-right-bottom"
+            />
+          </div>
 
-
-<div className="absolute bottom-0 h-[88%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
-  <Image
-    src="/img/portrait/IMG_4580.png"
-    alt=""
-    width={1268}
-    height={1185}
-    priority
-    quality={95}
-    className="h-full w-auto max-w-none object-contain object-right-bottom"
-  />
-</div>
-
-
-
-      {/* <picture className="w-full h-full z-10">
+          {/* <picture className="w-full h-full z-10">
         <source srcSet="/img/portrait/photoHead.png" media="(min-width: 1240px)" />
         <source srcSet="/img/portrait/photoHead-768.png" media="(min-width: 768px)" />
         <source srcSet="/img/portrait/photoHead-480.png" media="(min-width: 480px)" />
@@ -140,64 +132,57 @@ export default function Home() {
         />
       </picture> */}
 
-
-
-    {/* <div className="absolute inset-0 uppercase flex items-end justify-center z-20 pointer-events-none">
+          {/* <div className="absolute inset-0 uppercase flex items-end justify-center z-20 pointer-events-none">
       <div className="animate-right absolute -right-full bottom-[150px] z-20 whitespace-nowrap text-[160px] font-bold leading-[80%] text-white opacity-85 sm:text-[200px] md:bottom-[112px] lg:bottom-[152px] lg:text-[280px]">
         Designer Designer Designer Designer Designer Designer Designer
         Designer Designer Designer
       </div>
     </div> */}
 
-<div className="hidden sm:block xl:hidden absolute xl:z-0 top-[36%] md:top-[43%] lg:top-[54%] xl:top-[45%] left-0 pl-[20px] xl:left-auto xl:right-0 xl:pr-[80px] xl:pl-0 z-20 text-[40px] md:text-[60px] text-[#404040] pointer-events-none uppercase">
-  Designer
-</div>
+          <div className="hidden sm:block xl:hidden absolute xl:z-0 top-[36%] md:top-[43%] lg:top-[54%] xl:top-[45%] left-0 pl-[20px] xl:left-auto xl:right-0 xl:pr-[80px] xl:pl-0 z-20 text-[40px] md:text-[60px] text-[#404040] pointer-events-none uppercase">
+            Designer
+          </div>
 
-    <div className="hidden xl:block absolute z-0 text-[60px] text-[#404040] pt-[440px] pointer-events-none uppercase right-0 pr-[80px]">
-      Designer
-    </div>
+          <div className="hidden xl:block absolute z-0 text-[60px] text-[#404040] pt-[440px] pointer-events-none uppercase right-0 pr-[80px]">
+            Designer
+          </div>
 
+          <div className="flex flex-col xl:block items-start xl:items-end xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px] xl:pb-0">
+            <div className="font-inter font-medium text-[17px] text-[#ffffff] md:text-[#404040] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[243px] sm:max-w-[246px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
+              {t.home.resume}
+            </div>
 
-
-
-    <div className="flex flex-col xl:block items-start xl:items-end xl:justify-between absolute bottom-0 left-0 right-0 z-30 pb-[36px] xl:pb-0">
-
-      <div className="font-inter font-medium text-[17px] text-[#ffffff] md:text-[#404040] md:text-[18px] ml-[20px] xl:ml-[30px] megaXXl:ml-[80px] max-w-[243px] sm:max-w-[246px] md:max-w-[269px] lg:max-w-[282px] xl:max-w-[304px] mb-[14px] xl:mb-[0px] whitespace-pre-line xl:absolute xl:left-0 xl:bottom-[36px]">
-        {t.home.resume}
-      </div>
-
-      <div className="self-stretch mx-[20px] xl:mx-0 shrink-0 px-5 py-4 md:px-[16px] md:py-[16px] rounded-3xl
+            <div
+              className="self-stretch mx-[20px] xl:mx-0 shrink-0 px-5 py-4 md:px-[16px] md:py-[16px] rounded-3xl
       grid grid-cols-5 md:grid-cols-10 gap-2.5
       bg-white/5 backdrop-blur-[1.5px] backdrop-saturate-150
       border-none border-white/15
       ring-1 ring-inset ring-white/10
       shadow-[-8px_0_16px_-4px_rgba(0,0,0,0.25),8px_0_16px_-4px_rgba(0,0,0,0.25)]
       z-30 relative mb-[14px] xl:mb-[0px] xl:absolute xl:left-1/2 xl:-translate-x-1/2 xl:bottom-[36px]
-      xl:w-max xl:gap-[10px]">
-        {icons.map((icon) => (
-            <div
-                key={icon.name}
-                className="w-full aspect-square rounded-xl overflow-hidden justify-self-start megaXXl:w-[70px]"
+      xl:w-max xl:gap-[10px]"
             >
-              <Image
-                  src={icon.src}
-                  alt={icon.name}
-                  width={48}
-                  height={48}
-                  className="w-full h-full object-contain"
-              />
+              {icons.map((icon) => (
+                <div
+                  key={icon.name}
+                  className="w-full aspect-square rounded-xl overflow-hidden justify-self-start megaXXl:w-[70px]"
+                >
+                  <Image
+                    src={icon.src}
+                    alt={icon.name}
+                    width={48}
+                    height={48}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              ))}
             </div>
-        ))}
-      </div>
 
-      <div className="pr-[20px] xl:pr-[30px] megaXXl:pr-[80px] self-end xl:absolute xl:right-0 xl:bottom-[36px]">
-        <LanguageSwitcher />
-      </div>
-    </div>
-
-  </section>
-
-
+            <div className="pr-[20px] xl:pr-[30px] megaXXl:pr-[80px] self-end xl:absolute xl:right-0 xl:bottom-[36px]">
+              <LanguageSwitcher />
+            </div>
+          </div>
+        </section>
 
         <section className="pt-[60px] md:pt-[80px] xl:pt-[120px] z-20 sm:relative sm:pb-[120px] md:pb-[20px] lg:pb-[25px]">
           <div className="font-inter container xl:relative flex flex-col justify-between text-blackText">
@@ -368,13 +353,13 @@ export default function Home() {
                 </div>
                 <div className="flex w-1/4 bg-[#041C3C] pt-[15%] relative">
                   <Image
-                      className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
-                      src={Img6}
-                      sizes="30vw"
-                      quality={95}
-                      alt=""
-                      loading="lazy"
-                      unoptimized
+                    className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
+                    src={Img6}
+                    sizes="30vw"
+                    quality={95}
+                    alt=""
+                    loading="lazy"
+                    unoptimized
                   />
                 </div>
                 <div className="flex w-1/4 bg-[#F1F6FF] pt-[15%] relative">
