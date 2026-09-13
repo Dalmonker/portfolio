@@ -87,7 +87,7 @@ export default function Home() {
   <section className="relative flex flex-col items-center bg-grayBg overflow-hidden h-dvh sm:pb-[60px]">
 
     <div className="relative flex uppercase flex-1 w-full z-11">
-      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[120px] md:top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
+      <div className="animate-left absolute -left-full z-0 whitespace-nowrap top-[150px] md:top-[200px] text-[160px] font-bold leading-[80%] text-blackTitle sm:text-[200px] lg:text-[280px]">
         Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui ux Product ui
         ux Product ui ux Product ui ux Product ui ux
       </div>
@@ -114,7 +114,7 @@ export default function Home() {
 
 
 
-<div className="absolute bottom-0 h-[93%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
+<div className="absolute bottom-0 h-[88%] sm:h-[85%] xl:h-full pointer-events-none select-none z-10 translate-x-[15%] xl:translate-x-[0%]">
   <Image
     src="/img/portrait/IMG_4580.png"
     alt=""
