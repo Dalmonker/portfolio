@@ -84,7 +84,7 @@ export default function About() {
         <section className="pt-[60px] sm:pt-[61px] lg:pt-[120px] md:pt-[82px] lg:pt-[81px] xl:pt-[121px]">
           <div className="container flex flex-col gap-[32px] sm:gap-[40px] lg:flex-row lg:gap-[20px]">
             <div className="flex flex-col lg:max-w-[450px] xl:max-w-[592px]">
-              <h2 className="font-inter text-[17px]/[20.57px] mb-[20px] md:mb-[28px] font-medium text-grayFooterText">
+              <h2 className="font-inter text-[17px]/[20.57px] mb-[20px] md:mb-[28px] text-grayFooterText">
                 {t.about.myServices}
               </h2>
               <ul className="border-t border-t-grayBorder">
@@ -134,7 +134,7 @@ export default function About() {
         </section>
         <section className="container py-[60px] sm:pb-[27px] md:py-[80px] lg:py-[120px] pb-[30px] md:pt-[82px] md:pb-[46px] lg:pt-[80px] xl:pt-[119px] lg:pb-[39px] xl:pb-[96px]">
           <div className="mb-[32px]">
-              <h2 className="mb-[22px] md:mb-[28px] sm:mb-[18px] text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-inter font-medium text-grayFooterText">
+              <h2 className="mb-[22px] md:mb-[28px] sm:mb-[18px] text-[17px]/[20.57px] md:text-[18px]/[21.78px] font-inter text-grayFooterText">
                 {t.about.stagesTitle}
               </h2>
               <hr className="border-t-[#E5E0DC]" />

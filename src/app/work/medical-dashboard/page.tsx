@@ -115,7 +115,7 @@ export default function Page() {
                                 <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px] mb-[6px]">
                                   Robert Patterson
                                 </span>
-                                      <span className="text-[#C3C6CC] text-[17px] md:text-[18px]">
+                                      <span className="text-[#C3C6CC] font-inter text-[17px] md:text-[18px]">
                                   32 y.o., General practitioner
                                 </span>
                                   </div>
@@ -130,35 +130,35 @@ export default function Page() {
                       </div>
 
                       {/* ПРАВАЯ КОЛОНКА */}
-                      <div className="flex flex-col gap-[40px]">
+                      <div className="flex flex-col gap-[30px] md:gap-[40px]">
 
                           {/* NEED */}
                           <div>
-                              <h3 className=" font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className=" font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Need
                               </h3>
                               <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
                                   <li className="font-medium text-[17px] md:text-[18px]">Track important practice and patient trends over time</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Make more informed, data-driven decisions quickly</li>
                               </ul>
-                              <div className="border-b border-[#E5E0DC] mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* PAIN POINTS */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Pain points
                               </h3>
                               <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
                                   <li className="font-medium text-[17px] md:text-[18px]">Health records and metrics scattered across different screens and systems</li>
                                   <li className="font-medium text-[17px] md:text-[18px]">Limited time for manual information retrieval</li>
                               </ul>
-                              <div className="border-b border-[#E5E0DC] mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* MOTIVATIONS */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Motivations
                               </h3>
                               <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] font-medium text-[17px] md:text-[18px]">
@@ -171,11 +171,11 @@ export default function Page() {
 
                   {/* НИЖНЯЯ ЧАСТЬ: Goals */}
                   <div className="font-inter mt-[60px] md:mt-[80px] lg:mt-[120px]">
-                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Goals
                     </span>
                       <p className="font-medium text-[#404040] text-[17px] md:text-[18px]">
-                          Give doctors one place where all data is visible at a glance — no switching, no searching
+                          Give doctors one place where all data is visible at a glance – no switching, no searching
                       </p>
                   </div>
 
@@ -203,7 +203,7 @@ export default function Page() {
 
                       {/* ЛЕВАЯ КОЛОНКА: Solution */}
                       <div className="flex flex-col">
-                    <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                    <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Solution
                     </span>
                           <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -212,47 +212,47 @@ export default function Page() {
                       </div>
 
                       {/* ПРАВАЯ КОЛОНКА: список решений */}
-                      <div className="flex flex-col gap-[25px] md:gap-[40px]">
+                      <div className="flex flex-col gap-[30px] md:gap-[40px]">
 
                           {/* UNIFIED KPI TRACKING */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Unified KPI Tracking
                               </h3>
-                              <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                              <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   Instant visibility into new patients, gender distribution, treatment status, and discharges
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* DYNAMIC TIME FILTERING */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Dynamic Time Filtering
                               </h3>
-                              <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                              <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   A global filter that allows doctors to slice data across any timeframe seamlessly
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* ACTIONABLE DATA TABLES */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Actionable Data Tables
                               </h3>
-                              <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                              <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   Direct access to upcoming consultations and pending medical tests for immediate workflow management
                               </p>
-                              <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
+                              <div className="border-b border-[#C3C6CC] mt-[30px] md:mt-[40px]" />
                           </div>
 
                           {/* VISUAL TREND ANALYSIS */}
                           <div>
-                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
+                              <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
                                   Visual Trend Analysis
                               </h3>
-                              <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                              <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                   Intuitive charts that highlight diagnostic trends and patient age groups without overwhelming the user
                               </p>
                           </div>
@@ -273,12 +273,12 @@ export default function Page() {
                       {/* ЛЕВАЯ КОЛОНКА: список этапов */}
                       <div className="flex flex-col">
 
-                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                        <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                           Design Process
                         </span>
 
                           {/* 1. DISCOVERY */}
-                          <div className="font-medium pb-[40px] mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[40px] mb-[40px] border-b border-[#C3C6CC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   1. Discovery
                               </h3>
@@ -288,7 +288,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. RESEARCH */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Research
                               </h3>
@@ -298,7 +298,7 @@ export default function Page() {
                           </div>
 
                           {/* 2. ARCHITECTURE */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   2. Architecture
                               </h3>
@@ -308,7 +308,7 @@ export default function Page() {
                           </div>
 
                           {/* 3. STRATEGY */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   3. Strategy
                               </h3>
@@ -318,7 +318,7 @@ export default function Page() {
                           </div>
 
                           {/* 4. DESIGN */}
-                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                          <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]">
                               <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                   4. Design
                               </h3>
@@ -360,7 +360,7 @@ export default function Page() {
           <section className="bg-[#F0F0F0] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container font-inter">
 
-                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                       Wireframes
                     </span>
 
@@ -378,7 +378,7 @@ export default function Page() {
 
           <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
               <div className="container font-inter">
-                  <span className="block text-[#C3C6CC] text-[16px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                  <span className="block text-[#C3C6CC] text-[16px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   Design
                 </span>
 
@@ -439,7 +439,7 @@ export default function Page() {
               <div className="container font-inter">
 
                   {/* Заголовок */}
-                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                  <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                   User Feedback
                 </span>
 
