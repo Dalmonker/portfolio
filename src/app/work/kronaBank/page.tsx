@@ -434,7 +434,7 @@ export default function Page() {
 
 
 
-                <section className="bg-[#141D26] py-[40px] md:py-[60px] xl:py-[120px]">
+                <section className="bg-[#141D26] py-[60px] md:py-[60px] xl:py-[120px]">
                     <div className="container mx-auto px-4 md:px-6">
                         {/* Заголовок App Structure */}
                         <span className="block text-[#525D68] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
