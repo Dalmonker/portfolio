@@ -31,7 +31,7 @@ import circleImage from "../../../../public/img/work/medical-dashboard/circle.we
 import darkModeImage from "../../../../public/img/work/medical-dashboard/darkMode.webp";
 import laptopOne from "../../../../public/img/work/medical-dashboard/laptopOne.webp";
 import laptopTwo from "../../../../public/img/work/medical-dashboard/laptopTwo.webp";
-import PreviewImage from "../../../../public/img/work/project-roadmap/preview.webp";
+import PreviewImage from "../../../../public/img/work/mckduck/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import { useLanguage } from "@/context/LanguageContext";
 
@@ -442,7 +442,7 @@ export default function Page() {
                 <section className="bg-[#141D26] py-[40px] md:py-[60px] xl:py-[120px]">
                     <div className="container mx-auto px-4 md:px-6 font-inter">
                         {/* Заголовок App Structure */}
-                        <span className="block text-[#A5A5A5] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#C3C6CC]/25 pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                        <span className="block text-[#525D68] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                             App Structure
                         </span>
 
@@ -457,7 +457,7 @@ export default function Page() {
 
                         {/* Блок Grid */}
                         <div className="mb-[40px] md:mb-[60px] xl:mb-[120px] mt-[40px] md:mt-[60px]">
-                            <span className="block text-[#A5A5A5] text-[14px] md:text-[16px] border-b border-[#505256] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                            <span className="block text-[#525D68] text-[14px] md:text-[16px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                                 Grid
                             </span>
 
@@ -482,7 +482,7 @@ export default function Page() {
 
                         {/* Блок Design (Описание) */}
                         <div className="">
-                            <span className="block text-[#C3C6CC] text-[14px] md:text-[16px] border-b border-[#505256] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                            <span className="block text-[#525D68] text-[14px] md:text-[16px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                                 Design
                             </span>
 
@@ -548,7 +548,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Home Page
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px] max-w-[352px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px] max-w-[352px]">
                                     The home screen was restructured to provide
                                     instant access to key financial data and
                                     frequent actions. By prioritizing balances,
@@ -584,7 +584,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Card Management
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px]">
                                     The card management screen was redesigned to
                                     offer seamless control over both physical
                                     and virtual cards. Users can instantly
@@ -616,7 +616,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Transfers Page
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px]">
                                     The transfers page was designed with
                                     efficiency in mind, allowing users to send
                                     money quickly and securely. The interface
@@ -654,7 +654,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     TRANSACTION ACTIVITY
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px]">
                                     Designed to make financial tracking effortless, the activity page unifies transaction history, search, filters, and spending insights into a single, cohesive experience. A clear visual hierarchy enables users to review their finances quickly and make more informed financial decisions
                                 </p>
                             </div>
@@ -678,7 +678,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     CHATS
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px]">
                                     Designed as a unified communication hub, the chats page seamlessly integrates customer support, transaction updates, and payment requests into a single experience. A clear visual hierarchy keeps users informed and connected without ever having to leave the banking app
                                 </p>
                             </div>
@@ -708,7 +708,7 @@ export default function Page() {
                                 <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     NOTIFICATIONS
                                 </h3>
-                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                <p className="text-[#92989D] font-inter font-medium text-[17px] md:text-[18px]">
                                     The notifications experience is designed to deliver valuable updates that go beyond everyday banking. Personalized rewards, exclusive offers, and promotional campaigns are presented in a structured, easily browsable feed, ensuring users never miss out on relevant opportunities
                                 </p>
                             </div>
@@ -736,7 +736,7 @@ export default function Page() {
                                     className="block w-full max-w-[900px] h-auto"
                                 />
                             </div>
-                            <div className="text-[#C3C6CC] font-inter text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
+                            <div className="text-[#92989D] font-inter font-medium text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
                                 Created the ability to switch between light and dark themes
                             </div>
 
@@ -825,9 +825,9 @@ export default function Page() {
                 </section>
 
                 <NextPageSection
-                    projectKey="roadMap"
-                    bgColor="#21415C"
-                    href="https://kwork.ru/portfolio/15773530"
+                    projectKey="Telegram Mini App"
+                    bgColor="#DFE2E8"
+                    href="/work/mckduck"
                     image={PreviewImage}
                 />
             </main>
