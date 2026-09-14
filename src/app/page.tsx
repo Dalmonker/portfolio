@@ -22,7 +22,7 @@ import Img7 from "../../public/img/slider/img7.webp";
 
 import { WorkItem } from "@/components/WorkItem";
 
-import ImgWork1 from "../../public/img/work/mckduck/preview.webp";
+import ImgWork1 from "../../public/img/work/kronaBank/preview.webp";
 import ImgWork2 from "../../public/img/work/web-banners/preview.webp";
 import ImgWork3 from "../../public/img/work/medical-dashboard/preview.webp";
 
@@ -55,8 +55,8 @@ export default function Home() {
       cardKey: "Mobile Banking App",
       date: "2026",
       href: "/work/kronaBank",
-      img: "/img/work/mckduck/preview.webp",
-      bg: "bg-[#D8DEE4]",
+      img: "/img/work/kronaBank/preview.webp",
+      bg: "bg-[#00132F]",
     },
     {
       cardKey: "Web banners collection",
@@ -224,7 +224,7 @@ export default function Home() {
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
                     className={
-                      "relative w-full px-[20px] pb-[100%] bg-[#D8DEE4]"
+                      "relative w-full px-[20px] pb-[100%] bg-[#00132F]"
                     }
                   >
                     <Image
@@ -400,7 +400,7 @@ export default function Home() {
                     unoptimized
                   />
                 </div>
-                <div className="flex w-1/4 bg-[#F3F4F5] pt-[15%] relative">
+                <div className="flex w-1/4 bg-[#D6DBE6] pt-[15%] relative">
                   <Image
                     className="flex w-full h-full absolute top-0 left-0 px-[20px] py-[25px] xl:py-[35px] "
                     src={Img3}

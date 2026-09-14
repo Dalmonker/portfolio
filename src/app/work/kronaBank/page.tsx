@@ -63,12 +63,12 @@ export default function Page() {
 
                 <section className="bg-[#ffffff] pt-[60px] pb-[60px] lg:pt-[60px] lg:pb-[80px] xl:pt-[80px] xl:pb-[120px]">
                     <div className="container lg:flex">
-                        <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full font-inter">
+                        <ul className="grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] w-full font-inter">
                             <li className="flex flex-col w-full">
-                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                     Overview
                                 </span>
-                                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
+                                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line max-w-[352px]">
                                     KronaBank is a Serbian digital bank that
                                     provides personal and business financial
                                     services through modern banking solutions
@@ -78,10 +78,10 @@ export default function Page() {
                             </li>
 
                             <li className="flex flex-col w-full">
-                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                     My role
                                 </span>
-                                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line">
+                                <span className="text-[#404040] font-medium text-[17px] md:text-[18px] whitespace-pre-line max-w-[352px]">
                                     Product Designer (Solo) End-to-end design:
                                     research, UX architecture, UI design,
                                     prototyping, design system, and branding
@@ -89,10 +89,10 @@ export default function Page() {
                             </li>
 
                             <li className="flex flex-col w-full">
-                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                <span className="text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                     Problem
                                 </span>
-                                <ul className="list-disc pl-5 mt-2 text-[#404040] font-medium text-[17px] md:text-[18px] space-y-1">
+                                <ul className="list-disc pl-5 mt-2 text-[#404040] font-medium text-[17px] md:text-[18px] space-y-1 max-w-[352px]">
                                     <li>Outdated, cluttered visual style</li>
                                     <li>Navigation overload</li>
                                     <li>Weak visual hierarchy</li>
@@ -108,11 +108,11 @@ export default function Page() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[60px]">
                             {/* ЛЕВАЯ КОЛОНКА: список этапов */}
                             <div className="flex flex-col">
-                                <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                     Design Process
                                 </span>
 
-                                <div className="font-medium pb-[40px] mb-[40px] border-b border-[#E5E0DC]">
+                                <div className="font-medium pb-[40px] mb-[40px] border-b border-[#C3C6CC]/25">
                                     <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         1. Discovery
                                     </h3>
@@ -122,7 +122,7 @@ export default function Page() {
                                     </p>
                                 </div>
 
-                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                                     <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         2. Define
                                     </h3>
@@ -133,7 +133,7 @@ export default function Page() {
                                     </p>
                                 </div>
 
-                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                                     <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         3. Strategy
                                     </h3>
@@ -146,7 +146,7 @@ export default function Page() {
                                     </p>
                                 </div>
 
-                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                                     <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         4. Design
                                     </h3>
@@ -158,7 +158,7 @@ export default function Page() {
                                     </p>
                                 </div>
 
-                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#E5E0DC]">
+                                <div className="font-medium pb-[24px] mb-[24px] md:pb-[40px] md:mb-[40px] border-b border-[#C3C6CC]/25">
                                     <h3 className="text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         5. Prototype
                                     </h3>
@@ -202,10 +202,10 @@ export default function Page() {
                             User Research
                         </span>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 mb-16 lg:mb-24 mt-8 lg:mt-12">
+                        <div className="flex flex-col xl:flex-row pt-[16px] md:pt-[30px] pb-[60px] lg:pb-[80px] xl:pb-[120px]">
                             {/* Левая колонка: Описание в пунктирной рамке */}
-                            <div className="lg:col-span-4">
-                                <p className="text-[#A5A5A5] font-inter font-medium text-[17px] md:text-[18px] max-w-[394px]">
+                            <div className="lg:col-span-4 xl:mr-[80px] mb-[40px] md:mb-[80px] xl:mb-[0px]">
+                                <p className="text-[#A5A5A5] font-inter font-medium text-[17px] md:text-[18px] xl:max-w-[352px]">
                                     The redesign started with three-stage
                                     research: six competitors analyzed, current
                                     app usability evaluated, and real mobile
@@ -217,13 +217,13 @@ export default function Page() {
                             </div>
 
                             {/* Правая колонка: Цифры */}
-                            <div className="lg:col-span-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-8 lg:gap-4 lg:pl-10">
+                            <div className="flex flex-row justify-between gap-[45px] md:gap-[95px] flex-wrap">
                                 {/* 20+ */}
                                 <div className="flex flex-col">
-                                    <span className="text-[#362EEC] text-[60px] md:text-[90px] font-bold leading-[110%]">
+                                    <span className="text-[#362EEC] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         20+
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
                                         Hours of
                                         <br />
                                         Research
@@ -232,10 +232,10 @@ export default function Page() {
 
                                 {/* 30+ */}
                                 <div className="flex flex-col">
-                                    <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%]">
+                                    <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         30+
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
                                         Design
                                         <br />
                                         Iterations
@@ -244,10 +244,10 @@ export default function Page() {
 
                                 {/* 6 */}
                                 <div className="flex flex-col">
-                                    <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%]">
+                                    <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         6
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
                                         Competitors
                                         <br />
                                         Analyzed
@@ -322,7 +322,7 @@ export default function Page() {
                                     <h3 className=" font-medium text-[#E1E1E2] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Need
                                     </h3>
-                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#E1E1E2] text-[16px]">
+                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#A5A5A5] text-[16px]">
                                         <li className="font-medium text-[17px] md:text-[18px]">
                                             A frictionless, secure banking
                                             experience that respects his time
@@ -341,7 +341,7 @@ export default function Page() {
                                     <h3 className="font-medium text-[#E1E1E2] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Pain points
                                     </h3>
-                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#E1E1E2] text-[16px]">
+                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#A5A5A5] text-[16px]">
                                         <li className="font-medium text-[17px] md:text-[18px]">
                                             Cluttered interfaces with too many
                                             irrelevant features and ads
@@ -359,7 +359,7 @@ export default function Page() {
                                     <h3 className="font-medium text-[#E1E1E2] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Motivations
                                     </h3>
-                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#E1E1E2] font-medium text-[17px] md:text-[18px]">
+                                    <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#A5A5A5] font-medium text-[17px] md:text-[18px]">
                                         <li>
                                             Maintaining control over his wealth
                                             and legacy
@@ -377,7 +377,7 @@ export default function Page() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 gap-[40px] lg:gap-[60px]">
                             {/* ЛЕВАЯ КОЛОНКА: Solution */}
                             <div className="flex flex-col">
-                                <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#E5E0DC] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                     Solution
                                 </span>
                                 <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[420px]">
@@ -391,37 +391,36 @@ export default function Page() {
                                     <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Clarity over complexity
                                     </h3>
-                                    <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                                    <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                         Visual noise was removed, navigation was
                                         simplified, and a clear visual hierarchy
                                         was established
                                     </p>
-                                    <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
+                                    <div className="border-b border-[#C3C6CC]/25 mt-[24px] md:mt-[40px]" />
                                 </div>
 
                                 <div>
                                     <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Speed at every step
                                     </h3>
-                                    <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                                    <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                         The new experience reduces the number of
                                         steps for routine tasks
                                     </p>
-                                    <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
+                                    <div className="border-b border-[#C3C6CC]/25 mt-[24px] md:mt-[40px]" />
                                 </div>
 
                                 <div>
                                     <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[20px]">
                                         Trust through design
                                     </h3>
-                                    <p className="font-inter text-[#404040] text-[17px] md:text-[18px]">
+                                    <p className="font-inter font-medium text-[#404040] text-[17px] md:text-[18px]">
                                         A consistent visual language,
                                         transparent transaction details, and
                                         clear confirmation flows were used to
                                         strengthen user confidence in the
                                         product
                                     </p>
-                                    <div className="border-b border-[#E5E0DC] mt-[24px] md:mt-[40px]" />
                                 </div>
                             </div>
                         </div>
@@ -436,10 +435,14 @@ export default function Page() {
                     </div>
                 </section>
 
+
+
+
+
                 <section className="bg-[#141D26] py-[40px] md:py-[60px] xl:py-[120px]">
                     <div className="container mx-auto px-4 md:px-6 font-inter">
                         {/* Заголовок App Structure */}
-                        <span className="block text-[#525D68] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                        <span className="block text-[#A5A5A5] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#C3C6CC]/25 pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                             App Structure
                         </span>
 
@@ -454,7 +457,7 @@ export default function Page() {
 
                         {/* Блок Grid */}
                         <div className="mb-[40px] md:mb-[60px] xl:mb-[120px] mt-[40px] md:mt-[60px]">
-                            <span className="block text-[#525D68] text-[14px] md:text-[16px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                            <span className="block text-[#A5A5A5] text-[14px] md:text-[16px] border-b border-[#505256] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                                 Grid
                             </span>
 
@@ -478,8 +481,8 @@ export default function Page() {
                         </div>
 
                         {/* Блок Design (Описание) */}
-                        <div className="mb-[60px] md:mb-[80px]">
-                            <span className="block text-[#525D68] text-[14px] md:text-[16px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
+                        <div className="">
+                            <span className="block text-[#C3C6CC] text-[14px] md:text-[16px] border-b border-[#505256] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                                 Design
                             </span>
 
@@ -495,8 +498,8 @@ export default function Page() {
                         </div>
 
                         {/* Сетка с телефонами (Log in, Sign Up, Enter Code) */}
-                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 md:gap-6 mt-12 lg:mt-20">
-                            <div className="flex flex-col gap-4 items-center sm:items-start">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-[40px] lg:gap-[80px] mt-[40px] md:mt-[60px]">
+                            <div className="flex flex-col items-center sm:items-start">
                                 <div className="relative w-full max-w-[280px] sm:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone1Image}
@@ -510,7 +513,7 @@ export default function Page() {
                                 </span>
                             </div>
 
-                            <div className="flex flex-col gap-4 items-center sm:items-start">
+                            <div className="flex flex-col items-center sm:items-start">
                                 <div className="relative w-full max-w-[280px] sm:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone2Image}
@@ -524,7 +527,7 @@ export default function Page() {
                                 </span>
                             </div>
 
-                            <div className="flex flex-col gap-4 items-center sm:items-start">
+                            <div className="flex flex-col items-center sm:items-start">
                                 <div className="relative w-full max-w-[280px] sm:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone3Image}
@@ -539,13 +542,13 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[60px] md:mt-[80px] xl:mt-[120px] grid grid-cols-1 gap-[40px] lg:gap-[80px] md:grid-cols-3 items-center md:items-start">
                             {/* 1. Текст — слева */}
                             <div className="flex flex-col md:col-span-1 order-1">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Home Page
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px] max-w-[352px]">
                                     The home screen was restructured to provide
                                     instant access to key financial data and
                                     frequent actions. By prioritizing balances,
@@ -558,7 +561,7 @@ export default function Page() {
 
                             {/* 2. Телефон — по центру */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone4Image}
                                         alt="Home Page Mobile App"
@@ -572,16 +575,16 @@ export default function Page() {
                             <div className="hidden md:block md:col-span-1 order-3"></div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[40px] lg:mt-[80px] grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] items-center md:items-start">
                             {/* 1. Пустая колонка — слева (только desktop) */}
                             <div className="hidden md:block md:col-span-1 md:order-1"></div>
 
                             {/* 2. Текст — на мобильных первый, на десктопе справа */}
                             <div className="flex flex-col md:col-span-1 order-1 md:order-3">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Card Management
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
                                     The card management screen was redesigned to
                                     offer seamless control over both physical
                                     and virtual cards. Users can instantly
@@ -590,13 +593,13 @@ export default function Page() {
                                     details. The clean layout enhances
                                     usability, making it easier to oversee
                                     finances and security from a single,
-                                    intuitive interface.
+                                    intuitive interface
                                 </p>
                             </div>
 
                             {/* 3. Телефон — на мобильных второй, на десктопе в центре */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2 md:order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone5Image}
                                         alt="Card Management Mobile App"
@@ -607,13 +610,13 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[40px] lg:mt-[80px] grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] items-center md:items-start">
                             {/* 1. Текст — слева */}
                             <div className="flex flex-col md:col-span-1 order-1">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
                                     Transfers Page
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
                                     The transfers page was designed with
                                     efficiency in mind, allowing users to send
                                     money quickly and securely. The interface
@@ -622,13 +625,13 @@ export default function Page() {
                                     steps. This streamlined flow minimizes
                                     errors and ensures a smooth experience for
                                     both domestic and international
-                                    transactions.
+                                    transactions
                                 </p>
                             </div>
 
                             {/* 2. Телефон — по центру */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone6Image}
                                         alt="Transfers Page Mobile App"
@@ -642,31 +645,23 @@ export default function Page() {
                             <div className="hidden md:block md:col-span-1 order-3"></div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[40px] lg:mt-[80px] grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] items-center md:items-start">
                             {/* 1. Пустая колонка — слева (только desktop) */}
                             <div className="hidden md:block md:col-span-1 md:order-1"></div>
 
                             {/* 2. Текст — на мобильных первый, на десктопе справа */}
                             <div className="flex flex-col md:col-span-1 order-1 md:order-3">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
-                                    Card Management
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
+                                    TRANSACTION ACTIVITY
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
-                                    The card management screen was redesigned to
-                                    offer seamless control over both physical
-                                    and virtual cards. Users can instantly
-                                    freeze cards, view transaction history,
-                                    manage limits, and access essential card
-                                    details. The clean layout enhances
-                                    usability, making it easier to oversee
-                                    finances and security from a single,
-                                    intuitive interface.
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                    Designed to make financial tracking effortless, the activity page unifies transaction history, search, filters, and spending insights into a single, cohesive experience. A clear visual hierarchy enables users to review their finances quickly and make more informed financial decisions
                                 </p>
                             </div>
 
                             {/* 3. Телефон — на мобильных второй, на десктопе в центре */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2 md:order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone7Image}
                                         alt="Card Management Mobile App"
@@ -677,28 +672,20 @@ export default function Page() {
                             </div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[40px] lg:mt-[80px] grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] items-center md:items-start">
                             {/* 1. Текст — слева */}
                             <div className="flex flex-col md:col-span-1 order-1">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
-                                    Transfers Page
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
+                                    CHATS
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
-                                    The transfers page was designed with
-                                    efficiency in mind, allowing users to send
-                                    money quickly and securely. The interface
-                                    features a prominent amount input, easy
-                                    contact selection, and clear confirmation
-                                    steps. This streamlined flow minimizes
-                                    errors and ensures a smooth experience for
-                                    both domestic and international
-                                    transactions.
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                    Designed as a unified communication hub, the chats page seamlessly integrates customer support, transaction updates, and payment requests into a single experience. A clear visual hierarchy keeps users informed and connected without ever having to leave the banking app
                                 </p>
                             </div>
 
                             {/* 2. Телефон — по центру */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone8Image}
                                         alt="Transfers Page Mobile App"
@@ -712,31 +699,23 @@ export default function Page() {
                             <div className="hidden md:block md:col-span-1 order-3"></div>
                         </div>
 
-                        <div className="mt-20 md:mt-32 lg:mt-40 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 items-center md:items-start">
+                        <div className="mt-[40px] lg:mt-[80px] grid grid-cols-1 md:grid-cols-3 gap-[40px] lg:gap-[80px] items-center md:items-start">
                             {/* 1. Пустая колонка — слева (только desktop) */}
                             <div className="hidden md:block md:col-span-1 md:order-1"></div>
 
                             {/* 2. Текст — на мобильных первый, на десктопе справа */}
                             <div className="flex flex-col md:col-span-1 order-1 md:order-3">
-                                <h3 className="font-medium text-[#B7BEC4] text-[24px] sm:text-[30px] md:text-[36px] lg:text-[40px] uppercase mb-[16px] md:mb-[20px] leading-tight">
-                                    Card Management
+                                <h3 className="font-medium text-[#B7BEC4] text-[24px] md:text-[30px] lg:text-[40px] uppercase mb-[10px] md:mb-[20px]">
+                                    NOTIFICATIONS
                                 </h3>
-                                <p className="text-[#92989D] font-inter font-medium text-[15px] md:text-[16px] lg:text-[18px] leading-relaxed">
-                                    The card management screen was redesigned to
-                                    offer seamless control over both physical
-                                    and virtual cards. Users can instantly
-                                    freeze cards, view transaction history,
-                                    manage limits, and access essential card
-                                    details. The clean layout enhances
-                                    usability, making it easier to oversee
-                                    finances and security from a single,
-                                    intuitive interface.
+                                <p className="text-[#C3C6CC] font-inter font-medium text-[17px] md:text-[18px]">
+                                    The notifications experience is designed to deliver valuable updates that go beyond everyday banking. Personalized rewards, exclusive offers, and promotional campaigns are presented in a structured, easily browsable feed, ensuring users never miss out on relevant opportunities
                                 </p>
                             </div>
 
                             {/* 3. Телефон — на мобильных второй, на десктопе в центре */}
                             <div className="flex flex-col gap-4 md:col-span-1 items-center order-2 md:order-2">
-                                <div className="relative w-full max-w-[220px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
+                                <div className="relative w-full max-w-[280px] sm:max-w-[260px] md:max-w-none aspect-[9/19]">
                                     <Image
                                         src={phone9Image}
                                         alt="Card Management Mobile App"
@@ -746,29 +725,35 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <div className="mt-20 md:mt-32 lg:mt-40 flex flex-col items-center">
-                            <Image
-                                src={phone10Image}
-                                alt="Light and dark theme"
-                                width={1200}
-                                height={800}
-                                quality={95}
-                                className="block w-full max-w-[900px] h-auto"
-                            />
-                        </div>
-                        <div className="mt-[20px] md:mt-[30px] text-[#525D68] font-inter text-[13px] md:text-[14px] lg:text-[15px]  max-w-[290px]">
-                            Created the ability to switch between light and dark
-                            themes
-                        </div>
+
+                            <div className="mt-[40px] lg:mt-[80px] flex flex-col items-center">
+                                <Image
+                                    src={phone10Image}
+                                    alt="Light and dark theme"
+                                    width={1200}
+                                    height={800}
+                                    quality={95}
+                                    className="block w-full max-w-[900px] h-auto"
+                                />
+                            </div>
+                            <div className="text-[#C3C6CC] font-inter text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
+                                Created the ability to switch between light and dark themes
+                            </div>
+
                     </div>
                 </section>
 
-                <section className="bg-[#ffffff] pt-[60px] md:pt-[80px] xl:pt-[120px] pb-[20px] md:pb-[40px] lg:pb-[60px]">
+
+
+
+
+
+                <section className="bg-[#ffffff] py-[60px] md:py-[80px] xl:py-[120px] ">
                     <div className="container">
                         {/* Секция Projected Outcomes */}
                         <div className="mb-[60px] md:mb-[80px] xl:mb-[120px]">
                             {/* Заголовок секции */}
-                            <span className="block font-inter text-[#A5A5A5] text-[17px] md:text-[18px] border-b border-[#505256] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
                                 Projected Outcomes
                             </span>
 

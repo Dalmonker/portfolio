@@ -27,8 +27,8 @@ const works: WorkType[] = [
     cardKey: "kronaBank",
     date: "2026",
     href: "/work/kronaBank",
-    img: "/img/work/mckduck/preview.webp",
-    bg: "bg-[#DFE2E8]",
+    img: "/img/work/kronaBank/preview.webp",
+    bg: "bg-[#00132F]",
   },
   {
     cardKey: "telegramApps",
