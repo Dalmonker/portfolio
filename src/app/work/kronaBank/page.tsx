@@ -223,7 +223,7 @@ export default function Page() {
                                     <span className="text-[#362EEC] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         20+
                                     </span>
-                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Hours of
                                         <br />
                                         Research
@@ -235,7 +235,7 @@ export default function Page() {
                                     <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         30+
                                     </span>
-                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Design
                                         <br />
                                         Iterations
@@ -247,7 +247,7 @@ export default function Page() {
                                     <span className="text-[#F6F6F6] text-[60px] md:text-[90px] font-bold leading-[110%] mb-[10px]">
                                         6
                                     </span>
-                                    <span className="text-[#A5A5A5] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#A5A5A5] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Competitors
                                         <br />
                                         Analyzed
@@ -736,7 +736,7 @@ export default function Page() {
                                     className="block w-full max-w-[900px] h-auto"
                                 />
                             </div>
-                            <div className="text-[#92989D] mt-[10px] md:mt-[0px] font-inter font-medium text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
+                            <div className="text-[#92989D] mt-[10px] md:mt-[0px] font-inter font-medium text-[17px] md:text-[18px] max-w-[290px] self-start">
                                 Created the ability to switch between light and dark themes
                             </div>
 
@@ -757,7 +757,7 @@ export default function Page() {
                                 Projected Outcomes
                             </span>
 
-                            <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 mt-8 lg:mt-12">
+                            <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 md:gap-16 mt-8 lg:mt-12">
                                 {/* Левая колонка: Заголовок */}
                                 <div className="lg:col-span-6">
                                     <h3 className="text-[#404040] font-inter font-medium text-[32px] md:text-[40px] leading-[110%] max-w-[596px]">
@@ -779,13 +779,13 @@ export default function Page() {
                             </div>
 
                             {/* Нижняя часть: Цифры (Метрики) */}
-                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-4 mt-16 lg:mt-24">
+                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-10 lg:gap-4 mt-8 md:mt-24">
                                 {/* +45% */}
                                 <div className="flex flex-col">
                                     <span className="text-[#362EEC] text-[60px] md:text-[90px] font-bold leading-[110%]">
                                         +45%
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#8B8B8B] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Navigation clarity
                                     </span>
                                 </div>
@@ -795,7 +795,7 @@ export default function Page() {
                                     <span className="text-[#404040] text-[60px] md:text-[90px] font-bold leading-[110%]">
                                         +60%
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#8B8B8B] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Task efficiency
                                     </span>
                                 </div>
@@ -805,7 +805,7 @@ export default function Page() {
                                     <span className="text-[#404040] text-[60px] md:text-[90px] font-bold leading-[110%]">
                                         -35%
                                     </span>
-                                    <span className="text-[#8B8B8B] font-inter font-medium text-[24px] md:text-[30px] leading-[120%]">
+                                    <span className="text-[#8B8B8B] font-inter font-medium text-[20px] md:text-[30px] leading-[120%]">
                                         Cognitive load
                                     </span>
                                 </div>
