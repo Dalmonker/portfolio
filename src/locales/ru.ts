@@ -159,6 +159,10 @@ export const ru = {
     title: "Следующая работа",
     button: "Все работы",
     projects: {
+      kronaBank: {
+        title: "Mobile Banking App",
+        description: "Design & Development",
+      },
       meducation: {
         title: "Meducation",
         description: "Дизайн & Разработка"

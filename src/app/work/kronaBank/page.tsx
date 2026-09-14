@@ -25,12 +25,7 @@ import phone10Image from "../../../../public/img/work/kronaBank/phone10.webp";
 import alexImage from "../../../../public/img/work/kronaBank/alex.webp";
 import MainBgImage from "../../../../public/img/work/kronaBank/dashboard.webp";
 
-import Dashboard3Image from "../../../../public/img/work/medical-dashboard/circuitMode.webp";
-
 import circleImage from "../../../../public/img/work/medical-dashboard/circle.webp";
-import darkModeImage from "../../../../public/img/work/medical-dashboard/darkMode.webp";
-import laptopOne from "../../../../public/img/work/medical-dashboard/laptopOne.webp";
-import laptopTwo from "../../../../public/img/work/medical-dashboard/laptopTwo.webp";
 import PreviewImage from "../../../../public/img/work/mckduck/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import { useLanguage } from "@/context/LanguageContext";
