@@ -13,7 +13,7 @@ import circleImage from "../../../../public/img/work/medical-dashboard/circle.we
 import darkModeImage from "../../../../public/img/work/medical-dashboard/darkMode.webp";
 import laptopOne from "../../../../public/img/work/medical-dashboard/laptopOne.webp";
 import laptopTwo from "../../../../public/img/work/medical-dashboard/laptopTwo.webp";
-import PreviewImage from "../../../../public/img/work/project-roadmap/preview.webp";
+import PreviewImage from "../../../../public/img/work/web-banners/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import {useLanguage} from "@/context/LanguageContext";
 
@@ -83,11 +83,6 @@ export default function Page() {
                 </ul>
             </div>
         </section>
-
-
-
-
-
 
           <section className="bg-[#ECF0F3] pt-[60px] lg:pt-[80px] xl:pt-[120px]">
               <div className="container">
@@ -182,7 +177,6 @@ export default function Page() {
               </div>
           </section>
 
-
           <section className="bg-[#ECF0F3] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container">
 
@@ -262,9 +256,6 @@ export default function Page() {
 
               </div>
           </section>
-
-
-
 
           <section className="bg-[#ffffff] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container">
@@ -355,8 +346,6 @@ export default function Page() {
               </div>
           </section>
 
-
-
           <section className="bg-[#F0F0F0] py-[60px] md:py-[80px] xl:py-[120px]">
               <div className="container font-inter">
 
@@ -411,7 +400,6 @@ export default function Page() {
 
               </div>
           </section>
-
 
         <section className=" bg-[#ffffff] pb-[60px] md:pb-[80px] xl:pb-[120px]">
           <div className="container flex flex-col items-center">
@@ -472,9 +460,9 @@ export default function Page() {
           </section>
 
         <NextPageSection
-          projectKey="roadMap"
-          bgColor="#21415C"
-          href="https://kwork.ru/portfolio/15773530"
+          projectKey="webBanners"
+          bgColor="#001E16"
+          href="/work/web-banners"
           image={PreviewImage}
         />
       </main>

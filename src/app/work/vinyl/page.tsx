@@ -14,7 +14,7 @@ import Mob1Image from "../../../../public/img/work/vinyl/phone1.webp";
 import Mob2Image from "../../../../public/img/work/vinyl/phone2.webp";
 import Mob3Image from "../../../../public/img/work/vinyl/phone3.webp";
 
-import PreviewImage from "../../../../public/img/work/tennis/preview.webp";
+import PreviewImage from "../../../../public/img/work/kronaBank/preview.webp";
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
 
@@ -132,9 +132,9 @@ export default function Page() {
           </div>
         </section>
         <NextPageSection
-            projectKey="tennis"
-            bgColor="#213D5C"
-            href="/work/tennis"
+            projectKey="kronaBank"
+            bgColor="#00132F"
+            href="/work/kronaBank"
             image={PreviewImage}
         />
       </main>

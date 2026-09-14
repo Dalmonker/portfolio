@@ -14,7 +14,7 @@ import Banner4Image from "../../../../public/img/work/web-banners/banner4.webp";
 import Banner5Image from "../../../../public/img/work/web-banners/banner5.webp";
 import Banner6Image from "../../../../public/img/work/web-banners/banner6.webp";
 
-import PreviewImage from "../../../../public/img/work/mckduck/preview.webp";
+import PreviewImage from "../../../../public/img/work/tennis/preview.webp";
 import AutoplayVideo from "@/components/video/AutoplayVideo";
 
 export default function Page() {
@@ -88,9 +88,9 @@ export default function Page() {
         </section>
         <NextPageSection
           image={PreviewImage}
-          href="/work/mckduck"
-          bgColor="#DFE2E8"
-          projectKey="mcduckmist"
+          href="/work/tennis"
+          bgColor="#213D5C"
+          projectKey="tennis"
         />
       </main>
       <Footer />

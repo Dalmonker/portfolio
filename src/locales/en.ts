@@ -167,6 +167,10 @@ export const en = {
     title: "Next work",
     button: "All work",
     projects: {
+      kronaBank: {
+        title: "Mobile Banking App",
+        description: "Design & Development",
+      },
       meducation: {
         title: "Meducation",
         description: "Design & Development",

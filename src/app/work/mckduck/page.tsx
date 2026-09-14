@@ -24,6 +24,10 @@ import PreviewImage from "../../../../public/img/work/code-storage/preview.webp"
 
 import { NextPageSection } from "@/components/sections/NextPageSection";
 import {useLanguage} from "@/context/LanguageContext";
+import viktorImage from "../../../../public/img/work/mckduck/viktor.webp";
+import katyaImage from "../../../../public/img/work/mckduck/katya.webp";
+import andreiImage from "../../../../public/img/work/mckduck/andrei.webp";
+
 
 export default function Page() {
   const { t } = useLanguage();
@@ -91,6 +95,223 @@ export default function Page() {
         </section>
 
 
+        <section className="bg-[#ECF0F3] py-[60px] lg:py-[80px] xl:py-[120px]">
+          <div className="container">
+            {/*Viktor*/}
+            <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px]">
+
+              <div className="flex flex-col">
+
+
+                <div className="mb-[34px]">
+                            <span className="block font-inter text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                              User Personas
+                            </span>
+
+                  <div className="flex items-center gap-[20px] mb-[28px]">
+                    <Image
+                        src={viktorImage}
+                        alt="Viktor"
+                        width={186}
+                        height={146}
+                        quality={95}
+                        className="object-cover bg-white shrink-0 w-[144px] h-[106px] lg:w-[184px] lg:h-[146px]"
+                    />
+                    <div className="flex flex-col">
+                                <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px] mb-[6px]">
+                                  Viktor
+                                </span>
+                      <span className="text-[#C3C6CC] font-inter text-[17px] md:text-[18px]">
+                                  36 y.o., highly-paid professional. Understands crypto.
+                                </span>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div>
+
+              {/* ПРАВАЯ КОЛОНКА */}
+              <div className="flex flex-col gap-[30px] md:gap-[40px]">
+
+                {/* PAIN POINTS */}
+                <div>
+                  <h3 className=" font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    PAIN POINTS
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Wasting time on the game</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">Risk of forgetting to log in and losing progress</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                {/* CHALLENGES */}
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    CHALLENGES
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Farming shouldn't take much time</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">No need to log in frequently</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                {/* GOALS */}
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    GOALS
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] font-medium text-[17px] md:text-[18px]">
+                    <li>Farm as many virtual coins as possible in Telegram Web Apps</li>
+                    <li>Get passive income from a promising crypto project</li>
+                    <li>Stay on trend with like-minded people in Telegram chats</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+            {/* БЛОК КАТИ */}
+            <div className="mt-[60px] lg:mt-[80px] xl:mt-[120px] grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px]">
+
+              {/* ФОТО + ПЕРСОНА — теперь первая в DOM, на мобилке сверху */}
+              <div className="flex flex-col lg:order-2">
+                <div>
+                  <div className="flex items-center gap-[20px] mb-[28px]">
+                    <Image
+                        src={katyaImage}
+                        alt="Katya"
+                        width={186}
+                        height={146}
+                        quality={95}
+                        className="object-cover bg-white shrink-0 w-[144px] h-[106px] lg:w-[184px] lg:h-[146px]"
+                    />
+                    <div className="flex flex-col">
+          <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px] mb-[6px]">
+            Katya
+          </span>
+                      <span className="text-[#C3C6CC] font-inter text-[17px] md:text-[18px]">
+            17 y.o., schoolgirl. Loves hanging out in clubs with friends
+          </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ТЕКСТ — теперь второй в DOM, на мобилке снизу */}
+              <div className="flex flex-col gap-[30px] md:gap-[40px] lg:order-1">
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Need
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Risk of not liking the game</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">Risk of not enjoying the process</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Pain points
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Getting satisfaction shouldn't be complicated</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">Need to get hooked quickly into the gameplay</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Motivations
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] font-medium text-[17px] md:text-[18px]">
+                    <li>Get immersed in an engaging arcade plot</li>
+                    <li>Tap on a game for cheap dopamine</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* БЛОК АНДРЕЯ */}
+            <div className="mt-[60px] lg:mt-[80px] xl:mt-[120px] grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px]">
+
+              {/* ФОТО + ПЕРСОНА — первая в DOM */}
+              <div className="flex flex-col lg:order-2">
+                <div>
+                  <div className="flex items-center gap-[20px] mb-[28px]">
+                    <Image
+                        src={andreiImage}
+                        alt="Andrei"
+                        width={186}
+                        height={146}
+                        quality={95}
+                        className="object-cover bg-white shrink-0 w-[144px] h-[106px] lg:w-[184px] lg:h-[146px]"
+                    />
+                    <div className="flex flex-col">
+          <span className="font-inter text-[#404040] font-medium text-[17px] md:text-[18px] mb-[6px]">
+            Andrey
+          </span>
+                      <span className="text-[#C3C6CC] font-inter text-[17px] md:text-[18px]">
+            26 y.o., factory worker. Works morning to night, always comes home tired
+          </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* ТЕКСТ — второй в DOM */}
+              <div className="flex flex-col gap-[30px] md:gap-[40px] lg:order-1">
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Need
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Fear of getting hooked and not being able to sleep</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">High entry barrier (can't figure out how to play)</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Pain points
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] text-[16px]">
+                    <li className="font-medium text-[17px] md:text-[18px]">Beat accumulated fatigue without extra stress</li>
+                    <li className="font-medium text-[17px] md:text-[18px]">Gameplay must be interesting and engaging</li>
+                  </ul>
+                  <div className="border-b border-[#C3C6CC]/25 mt-[30px] md:mt-[40px]" />
+                </div>
+
+                <div>
+                  <h3 className="font-medium text-[#404040] text-[24px] md:text-[40px] uppercase mb-[16px] md:mb-[20px]">
+                    Motivations
+                  </h3>
+                  <ul className="font-inter list-disc pl-[20px] flex flex-col gap-[6px] text-[#404040] font-medium text-[17px] md:text-[18px]">
+                    <li>Scroll/tap on the phone after a hard day</li>
+                    <li>Find a way to rest when there's no energy for other activities</li>
+                    <li>Switch attention and relax</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="font-inter mt-[60px] md:mt-[80px] lg:mt-[120px]">
+                    <span className="block text-[#C3C6CC] text-[17px] md:text-[18px] border-b border-[#C3C6CC]/25 pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                      Objective
+                    </span>
+              <p className="font-medium text-[#404040] text-[17px] md:text-[18px]">
+                To design an intuitive UX/UI for a Telegram Mini App that lowers the entry barrier into GameFi for Web2 users and ensures high retention through a seamless onboarding flow and engaging game mechanics within the Telegram WebApp API constraints
+              </p>
+            </div>
+
+          </div>
+        </section>
+
 
         <section className="bg-[#FAFCFC] pt-[60px] pb-[60px] lg:pt-[80px] lg:pb-[80px] xl:pt-[120px] xl:pb-[120px]">
           <div className=" pb-[60px] lg:pb-[80px] xl:pb-[120px]">
@@ -157,7 +378,6 @@ export default function Page() {
           </div>
 
         </section>
-
 
         <section className="bg-[#26292E]">
           <div className="mckduck-phone__top grid grid-cols-2 md:grid-cols-3 gap-[10px] md:gap-[30px] xl:gap-[20px] container pt-[60px] lg:pt-[80px] xl:pt-[120px]">
@@ -296,10 +516,6 @@ export default function Page() {
           </div>
 
         </section>
-
-
-
-
 
         <section className=" bg-[#F8F8F8] py-[60px] lg:py-[80px] xl:py-[120px]">
           <div className="container flex flex-col items-center">
