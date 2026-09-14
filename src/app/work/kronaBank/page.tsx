@@ -198,11 +198,11 @@ export default function Page() {
 
                 <section className="bg-[#26292E] pt-[60px] lg:pt-[80px] xl:pt-[120px] pb-[60px] lg:pb-[100px]">
                     <div className="container">
-                        <span className="block font-inter text-[#A5A5A5] text-[17px] md:text-[18px] border-b border-[#505256] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                        <span className="block font-inter text-[#A5A5A5] text-[17px] md:text-[18px] border-b border-[#505256] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[36px]">
                             User Research
                         </span>
 
-                        <div className="flex flex-col xl:flex-row pt-[16px] md:pt-[30px] pb-[60px] lg:pb-[80px] xl:pb-[120px]">
+                        <div className="flex flex-col xl:flex-row pb-[60px] lg:pb-[80px] xl:pb-[120px]">
                             {/* Левая колонка: Описание в пунктирной рамке */}
                             <div className="lg:col-span-4 xl:mr-[80px] mb-[40px] md:mb-[80px] xl:mb-[0px]">
                                 <p className="text-[#A5A5A5] font-inter font-medium text-[17px] md:text-[18px] xl:max-w-[352px]">
@@ -284,7 +284,7 @@ export default function Page() {
                         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px] mt-[60px] md:mt-[80px] xl:mt-[120px]">
                             <div className="flex flex-col">
                                 <div className="mb-[34px]">
-                                    <span className="block font-inter text-[#A5A5A5] text-[17px] md:text-[18px] border-b border-[#505256] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[30px]">
+                                    <span className="block font-inter text-[#A5A5A5] text-[17px] md:text-[18px] border-b border-[#505256] pb-[16px] lg:pb-[30px] mb-[16px] lg:mb-[36px]">
                                         User Persona
                                     </span>
 
@@ -440,7 +440,7 @@ export default function Page() {
 
 
                 <section className="bg-[#141D26] py-[40px] md:py-[60px] xl:py-[120px]">
-                    <div className="container mx-auto px-4 md:px-6 font-inter">
+                    <div className="container mx-auto px-4 md:px-6">
                         {/* Заголовок App Structure */}
                         <span className="block text-[#525D68] text-[14px] md:text-[17px] lg:text-[18px] border-b border-[#4E5962] pb-[12px] lg:pb-[30px] mb-[20px] lg:mb-[30px]">
                             App Structure
@@ -508,7 +508,7 @@ export default function Page() {
                                         className="object-contain"
                                     />
                                 </div>
-                                <span className="text-[#525D68] text-[13px] md:text-[14px]">
+                                <span className="font-inter text-[#525D68] text-[13px] md:text-[14px]">
                                     01 / Log in
                                 </span>
                             </div>
@@ -522,7 +522,7 @@ export default function Page() {
                                         className="object-contain"
                                     />
                                 </div>
-                                <span className="text-[#525D68] text-[13px] md:text-[14px]">
+                                <span className="font-inter text-[#525D68] text-[13px] md:text-[14px]">
                                     02 / Sign Up
                                 </span>
                             </div>
@@ -536,7 +536,7 @@ export default function Page() {
                                         className="object-contain"
                                     />
                                 </div>
-                                <span className="text-[#525D68] text-[13px] md:text-[14px]">
+                                <span className="font-inter text-[#525D68] text-[13px] md:text-[14px]">
                                     03 / Enter Code
                                 </span>
                             </div>
@@ -736,7 +736,7 @@ export default function Page() {
                                     className="block w-full max-w-[900px] h-auto"
                                 />
                             </div>
-                            <div className="text-[#92989D] font-inter font-medium text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
+                            <div className="text-[#92989D] mt-[10px] md:mt-[0px] font-inter font-medium text-[13px] md:text-[14px] lg:text-[15px] max-w-[290px] self-start">
                                 Created the ability to switch between light and dark themes
                             </div>
 
@@ -768,7 +768,7 @@ export default function Page() {
 
                                 {/* Правая колонка: Описание */}
                                 <div className="lg:col-span-6 flex items-start">
-                                    <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] leading-[140%] max-w-[495px] lg:ml-auto">
+                                    <p className="text-[#404040] font-inter font-medium text-[17px] md:text-[18px] max-w-[495px] lg:ml-auto">
                                         This redesign aims to elevate usability,
                                         streamline navigation, and enhance the
                                         overall banking experience through an
