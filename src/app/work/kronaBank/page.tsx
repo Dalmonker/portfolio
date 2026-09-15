@@ -267,14 +267,16 @@ export default function Page() {
                             </p>
                         </div>
 
-                        <Image
-                            className=""
-                            sizes="100vw"
-                            src={imageTwo}
-                            alt=""
-                            quality={95}
-                            priority
-                        />
+                        <div className="relative h-[400px] w-full overflow-hidden md:h-auto">
+                            <Image
+                                className="h-full w-full object-cover scale-[1.3] md:scale-100 md:object-contain"
+                                sizes="100vw"
+                                src={imageTwo}
+                                alt=""
+                                quality={95}
+                                priority
+                            />
+                        </div>
 
                         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[80px] mt-[60px] md:mt-[80px] xl:mt-[120px]">
                             <div className="flex flex-col">
@@ -419,14 +421,16 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-                        <Image
-                            className="mt-[60px] md:mt-[80px] xl:mt-[120px]"
-                            sizes="100vw"
-                            src={imageThree}
-                            alt=""
-                            quality={95}
-                            priority
-                        />
+                        <div className="mt-[60px] md:mt-[80px] xl:mt-[120px] relative h-[400px] w-full overflow-hidden md:h-auto">
+                            <Image
+                                className="h-full w-full object-cover scale-[1.3] md:scale-100 md:object-contain"
+                                sizes="100vw"
+                                src={imageThree}
+                                alt=""
+                                quality={95}
+                                priority
+                            />
+                        </div>
                     </div>
                 </section>
 
@@ -806,16 +810,16 @@ export default function Page() {
                                 </div>
                             </div>
                         </div>
-
-                        {/* Картинка */}
-                        <Image
-                            className=""
-                            sizes="100vw"
-                            src={imageFive}
-                            alt=""
-                            quality={95}
-                            priority
-                        />
+                        <div className="relative h-[400px] w-full overflow-hidden md:h-auto">
+                            <Image
+                                className="h-full w-full object-cover scale-[1.3] md:scale-100 md:object-contain"
+                                sizes="100vw"
+                                src={imageFive}
+                                alt=""
+                                quality={95}
+                                priority
+                            />
+                        </div>
                     </div>
                 </section>
 
