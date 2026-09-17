@@ -17,7 +17,7 @@ export function LanguageSwitcher() {
                 className={`${baseClass} ${
                     language === "en"
                         ? "text-blue-600"
-                        : "opacity-50 hover:text-blueHover hover:opacity-100"
+                        : "opacity-50 hover:opacity-100"
                 }`}
             >
                 EN
@@ -31,7 +31,7 @@ export function LanguageSwitcher() {
                 className={`${baseClass} ${
                     language === "ru"
                         ? "text-blue-600"
-                        : "opacity-50 hover:text-blueHover hover:opacity-100"
+                        : "opacity-50 hover:opacity-100"
                 }`}
             >
                 RU
