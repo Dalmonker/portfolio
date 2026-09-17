@@ -18,11 +18,11 @@ export const ru = {
     moreWork: "Больше работ",
     works: {
       dental: {
-        title: "Telegram Mini App",
-         descr: "Research & Design",
+        title: "Mobile Banking App",
+        descr: "Research & Design",
       },
       banners: {
-        title: "Коллекция баннеров",
+        title: "Telegram Mini App",
         descr: "Design",
       },
       medical: {

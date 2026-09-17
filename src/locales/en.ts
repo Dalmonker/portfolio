@@ -28,7 +28,7 @@ export const en = {
         descr: "Research & Design",
       },
       banners: {
-        title: "Banners collection",
+        title: "Telegram Mini App",
         descr: "Design",
       },
       medical: {

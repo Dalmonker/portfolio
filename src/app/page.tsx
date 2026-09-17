@@ -23,7 +23,7 @@ import Img7 from "../../public/img/slider/img7.webp";
 import { WorkItem } from "@/components/WorkItem";
 
 import ImgWork1 from "../../public/img/work/kronaBank/preview.webp";
-import ImgWork2 from "../../public/img/work/web-banners/preview.webp";
+import ImgWork2 from "../../public/img/work/mckduck/preview.webp";
 import ImgWork3 from "../../public/img/work/medical-dashboard/preview.webp";
 
 export type WorkType = {
@@ -59,11 +59,11 @@ export default function Home() {
       bg: "bg-[#00132F]",
     },
     {
-      cardKey: "Web banners collection",
-      date: "2023-2026",
-      href: "/work/web-banners",
-      img: "/img/work/web-banners/preview.webp",
-      bg: "bg-[#001E16]",
+      cardKey: "Telegram Mini App",
+      date: "2026",
+      href: "/work/mckduck/",
+      img: "/img/work/mckduck/preview.webp",
+      bg: "bg-[#DFE2E8]",
     },
     {
       cardKey: "medical dashboard",
@@ -253,7 +253,7 @@ export default function Home() {
                 <div className="flex w-[320px] absolute bottom-0 translate-y-full group-hover:translate-y-0 left-1/2 transition-all duration-300">
                   <div
                     className={
-                      "relative w-full px-[20px] pb-[100%] bg-[#001E16]"
+                      "relative w-full px-[20px] pb-[100%] bg-[#DFE2E8]"
                     }
                   >
                     <Image
