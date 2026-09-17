@@ -197,10 +197,9 @@ body {
 
 .drum-link {
   position: relative;
-  display: inline-block;      /* не flex, чтобы избежать конфликтов */
+  display: inline-block;
   overflow: hidden;
   vertical-align: bottom;
-  /* Высота ровно в один line-height текущего шрифта */
   height: 1lh;
 }
 
@@ -215,11 +214,11 @@ body {
 .drum-link__item {
   display: block;
   white-space: nowrap;
-  /* Каждая строка = один line-height */
   line-height: 1lh;
 }
 
-.drum-link:hover .drum-link__wrapper {
+.drum-link:hover .drum-link__wrapper,
+.drum-link:focus-visible .drum-link__wrapper {
   transform: translateY(-1lh);
 }
 

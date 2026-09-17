@@ -1,40 +1,31 @@
 "use client";
 
 import Link from "next/link";
-import { ReactNode, useState } from "react";
+import { AnchorHTMLAttributes, ReactNode } from "react";
 
 type DrumLinkProps = {
     href: string;
     children: ReactNode;
-    target?: string;
-    rel?: string;
     className?: string;
     /** Длительность анимации в мс */
     duration?: number;
-};
+} & Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href" | "className" | "children">;
 
 export default function DrumLink({
                                      href,
                                      children,
-                                     target,
-                                     rel,
                                      className = "",
                                      duration = 500,
+                                     target,
+                                     rel,
+                                     onClick,
+                                     ...rest
                                  }: DrumLinkProps) {
-    const [hovered, setHovered] = useState(false);
-
-    // Проверяем, внешняя ли ссылка (http/https/mailto/tel)
     const isExternal = /^(https?:|mailto:|tel:)/.test(href);
-
-    const commonProps = {
-        className: `drum-link ${className}`,
-        onMouseEnter: () => setHovered(true),
-        onMouseLeave: () => setHovered(false),
-        style: {
-            // CSS-переменная для длительности анимации
-            ["--drum-duration" as any]: `${duration}ms`,
-        },
-    };
+    const isBlank = target === "_blank";
+    const style = {
+        "--drum-duration": `${duration}ms`,
+    } as React.CSSProperties;
 
     const content = (
         <span className="drum-link__wrapper">
@@ -45,14 +36,17 @@ export default function DrumLink({
     </span>
     );
 
-    // Внешние ссылки — обычный <a> (или Link с target, но лучше <a>)
-    if (isExternal || target === "_blank") {
+    // Внешние ссылки / target="_blank" — обычный <a>
+    if (isExternal || isBlank) {
         return (
             <a
                 href={href}
                 target={target ?? (isExternal ? "_blank" : undefined)}
                 rel={rel ?? (isExternal ? "noopener noreferrer" : undefined)}
-                {...commonProps}
+                className={`drum-link ${className}`}
+                style={style}
+                onClick={onClick}
+                {...rest}
             >
                 {content}
             </a>
@@ -60,7 +54,13 @@ export default function DrumLink({
     }
 
     return (
-        <Link href={href} {...commonProps}>
+        <Link
+            href={href}
+            className={`drum-link ${className}`}
+            style={style}
+            onClick={onClick}
+            {...rest}
+        >
             {content}
         </Link>
     );
