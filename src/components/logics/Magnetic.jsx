@@ -1,55 +1,39 @@
 "use client";
 import React, { useEffect, useRef } from "react";
-
 import gsap from "gsap";
 
 export default function Magnetic({ children }) {
   const magnetic = useRef(null);
 
   useEffect(() => {
-    const xTo = gsap.quickTo(magnetic.current, "x", {
-      duration: 0.4, // было 1, теперь 0.4
-      ease: "elastic.out(1, 0.3)",
-    });
+    const config = {
+      duration: 1,             // ← скорость движения за курсором
+      ease: "power3.out",      // ← плавно, без пружины
+    };
 
-    const yTo = gsap.quickTo(magnetic.current, "y", {
-      duration: 0.4, // было 1, теперь 0.4
-      ease: "elastic.out(1, 0.3)",
-    });
+    const xTo = gsap.quickTo(magnetic.current, "x", config);
+    const yTo = gsap.quickTo(magnetic.current, "y", config);
 
     const mouseMove = (e) => {
       const { clientX, clientY } = e;
-
       const { height, width, left, top } =
           magnetic.current.getBoundingClientRect();
 
-      const x = clientX - (left + width / 2);
-
-      const y = clientY - (top + height / 2);
-
-      xTo(x);
-
-      yTo(y);
+      xTo(clientX - (left + width / 2));
+      yTo(clientY - (top + height / 2));
     };
 
-    const mouseLeave = (e) => {
-      gsap.to(magnetic.current, { x: 0, duration: 0.4 }); // было 1, теперь 0.4
-
-      gsap.to(magnetic.current, { y: 0, duration: 0.4 }); // было 1, теперь 0.4
-
-      xTo(0);
-
-      yTo(0);
+    const mouseLeave = () => {
+      gsap.to(magnetic.current, { x: 0, y: 0, duration: 1, ease: "power3.out" });
     };
 
-    magnetic.current.addEventListener("mousemove", mouseMove);
-
-    magnetic.current.addEventListener("mouseleave", mouseLeave);
+    const el = magnetic.current;
+    el.addEventListener("mousemove", mouseMove);
+    el.addEventListener("mouseleave", mouseLeave);
 
     return () => {
-      magnetic.current?.removeEventListener("mousemove", mouseMove);
-
-      magnetic.current?.removeEventListener("mouseleave", mouseLeave);
+      el.removeEventListener("mousemove", mouseMove);
+      el.removeEventListener("mouseleave", mouseLeave);
     };
   }, []);
 
