@@ -5,8 +5,8 @@
 @import "animate.css";
 
 $bar-width: 28px;
-$bar-height: 2px;
-$bar-spacing: 6px;
+$bar-height: 1px;
+$bar-spacing: 4px;
 
 $animationCoef: 2;
 
@@ -192,6 +192,39 @@ body {
   padding-left: 0;
   padding-right: 0;
 }
+
+
+
+.drum-link {
+  position: relative;
+  display: inline-block;      /* не flex, чтобы избежать конфликтов */
+  overflow: hidden;
+  vertical-align: bottom;
+  /* Высота ровно в один line-height текущего шрифта */
+  height: 1lh;
+}
+
+.drum-link__wrapper {
+  display: flex;
+  flex-direction: column;
+  transition: transform var(--drum-duration, 500ms)
+  cubic-bezier(0.65, 0, 0.35, 1);
+  will-change: transform;
+}
+
+.drum-link__item {
+  display: block;
+  white-space: nowrap;
+  /* Каждая строка = один line-height */
+  line-height: 1lh;
+}
+
+.drum-link:hover .drum-link__wrapper {
+  transform: translateY(-1lh);
+}
+
+
+
 
 @media (min-width: 960px) {
   .mckduck-center {

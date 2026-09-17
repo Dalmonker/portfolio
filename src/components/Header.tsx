@@ -7,6 +7,8 @@ import Magnetic from "./logics/Magnetic";
 import { usePathname } from "next/navigation";
 import { useRouter } from "next/router";
 import { useLanguage } from "@/context/LanguageContext";
+import DrumLink from "@/components/ui/DrumLink";
+
 
 type Props = {
   isWhite?: boolean;
@@ -59,12 +61,12 @@ export function Header({
           isWhite ? "text-white" : "text-blackText",
         )}
       >
-        <Link
+        <DrumLink
           href="/"
-          className="animate__animated animate__fadeIn font-inter pl-[20px] xl:pl-[30px] megaXXl:ml-[80px] hover:text-[#362EEC] transition-all"
+          className="animate__animated animate__fadeIn font-inter pl-[20px] xl:pl-[30px] megaXXl:ml-[80px] transition-all"
         >
           {t.header.copyright}
-        </Link>
+        </DrumLink>
 
         <div className="pr-[20px] xl:pr-[30px] megaXXl:pr-[80px]">
           <button className="flex md:hidden" onClick={() => setOpen(true)}>
@@ -106,37 +108,37 @@ export function Header({
               isWhite ? "text-white" : "text-blackText",
             )}
           >
-            <Link
-              className={clsx("hover:text-[#362EEC]", {
-                "text-[#2E4EEC]": pathname.includes("/work"),
+            <DrumLink
+              className={clsx("", {
+                "": pathname.includes("/work"),
               })}
               href="/work"
             >
               {t.header.work}
-            </Link>
-            <Link
-              className={clsx("hover:text-[#362EEC]", {
-                "text-[#2E4EEC]": pathname.includes("/about"),
+            </DrumLink>
+            <DrumLink
+              className={clsx("", {
+                "": pathname.includes("/about"),
               })}
               href="/about"
             >
               {t.header.about}
-            </Link>
-            <Link
-              className="hover:text-[#362EEC]"
+            </DrumLink>
+            <DrumLink
+              className=""
               href="#contact"
               onClick={onContact}
             >
               {t.header.contact}
-            </Link>
+            </DrumLink>
 
-            <Link
+            <DrumLink
               href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
               target="_blank"
-              className="font-inter animate__animated animate__fadeIn hover:text-[#362EEC] transition-all flex items-center gap-1"
+              className="font-inter animate__animated animate__fadeIn  transition-all flex items-center gap-1"
             >
               <span>CV</span>
-            </Link>
+            </DrumLink>
 
             <Link
               className={clsx(
@@ -170,54 +172,54 @@ export function Header({
           <div className="flex-col flex-wrap lg:justify-between lg:flex-row flex lg:items-center">
             <div className="lg:flex lg:items-center">
               <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] mb-[20px] font-medium lg:mb-0">
-                <Link
+                <DrumLink
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname === "/" && "text-[#2E4EEC]",
+                    "transition-all lg:mr-[30px]",
+                    pathname === "/" && "",
                   )}
                   href="/"
                   onClick={() => setOpen(false)}
                 >
                   {t.header.home}
-                </Link>
-                <Link
+                </DrumLink>
+                <DrumLink
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname.includes("work") && "text-[#2E4EEC]",
+                    " transition-all lg:mr-[30px]",
+                    pathname.includes("work") && "",
                   )}
                   href="/work"
                   onClick={() => setOpen(false)}
                 >
                   {t.header.work}
-                </Link>
+                </DrumLink>
               </div>
               <div className="flex items-center justify-between text-white uppercase mb-[20px] text-[24px] lg:text-[40px]  font-medium  lg:mb-0">
-                <Link
+                <DrumLink
                   className={clsx(
-                    " hover:text-[#3E4EFF] transition-all lg:mr-[30px]",
-                    pathname === "/about" && "text-[#2E4EEC]",
+                    "transition-all lg:mr-[30px]",
+                    pathname === "/about" && "",
                   )}
                   href="/about"
                   onClick={() => setOpen(false)}
                 >
                   {t.header.about}
-                </Link>
-                <Link
-                  className=" hover:text-[#3E4EFF] transition-all"
+                </DrumLink>
+                <DrumLink
+                  className="transition-all"
                   href="/#contact"
                   onClick={() => setOpen(false)}
                 >
                   {t.header.contact}
-                </Link>
+                </DrumLink>
               </div>
               <div className="flex items-center justify-between text-white uppercase text-[24px] lg:text-[40px] lg:ml-[30px] font-medium  mb-[24px] lg:mb-0">
-                <Link
+                <DrumLink
                   href="https://drive.google.com/file/d/1CmPxiOk_-083OUMzVWVyc4dXB7aqunH4/view"
                   target="_blank"
-                  className="hover:text-[#3E4EFF] transition-all"
+                  className="transition-all"
                 >
                   <span>CV</span>
-                </Link>
+                </DrumLink>
 
                 <Link
                   className="lg:ml-[30px] telegram-link flex items-center justify-center transition-all hover:text-[#362EEC]"
@@ -234,12 +236,12 @@ export function Header({
               </div>
             </div>
 
-            <a
-              className="flex justify-center text-white font-inter hover:text-[#362EEC] transition-all text-[26px] md:text-[30px]"
+            <DrumLink
+              className="flex justify-center text-white font-inter transition-all text-[26px] md:text-[30px]"
               href="mailto:gavrilovich.ali@gmail.com"
             >
               gavrilovich.ali@gmail.com
-            </a>
+            </DrumLink>
           </div>
         </div>
       </header>

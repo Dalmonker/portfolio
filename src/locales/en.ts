@@ -118,7 +118,7 @@ export const en = {
       },
       telegramApps: {
         title: "Telegram Mini App",
-        description: "Design",
+        description: "Design & Development",
       },
       codeStorage: {
         title: "Code storage service",

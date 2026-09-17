@@ -2,6 +2,7 @@
 
 import CurrentTime from "./CurrT";
 import { useLanguage } from "@/context/LanguageContext";
+import DrumLink from "@/components/ui/DrumLink";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -29,21 +30,21 @@ export function Footer() {
           <span className="font-inter text-[17px]/[21.78px] md:text-[18px]/[21.78px] font-medium text-grayFooterText">
             {t.footer.messenger}
           </span>
-          <a
+          <DrumLink
             href="https://t.me/alinagavrilovich"
-            className="font-inter text-[17px]/[21.78px] md:text-[18px]/[21.78px] font-medium text-white text-opacity-85 hover:text-[#362EEC] transition-all"
+            className="font-inter text-[17px]/[21.78px] md:text-[18px]/[21.78px] font-medium text-white text-opacity-85 transition-all"
           >
             Telegram
-          </a>
+          </DrumLink>
         </div>
 
 <div className="text-center w-full lg:w-auto">
-<a
-          className="font-inter mb-[20px] inline-flex justify-center text-center text-[26px] font-normal text-white sm:mb-0 lg:text-[30px] hover:text-[#362EEC] transition-all"
+<DrumLink
+          className="font-inter mb-[20px] inline-flex justify-center text-center text-[26px] font-normal text-white sm:mb-0 lg:text-[30px] transition-all"
           href="mailto:gavrilovich.ali@gmail.com"
         >
           gavrilovich.ali@gmail.com
-        </a>
+        </DrumLink>
 </div>
 
       </div>

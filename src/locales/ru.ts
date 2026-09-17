@@ -23,10 +23,10 @@ export const ru = {
       },
       banners: {
         title: "Telegram Mini App",
-        descr: "Design",
+        descr: "Research & Design",
       },
       medical: {
-        title: "Медицинская информационная панель",
+        title: "Medical Dashboard",
          descr: "Research & Design",
       },
     },
@@ -110,7 +110,7 @@ export const ru = {
       },
       telegramApps: {
         title: "Telegram Mini App",
-        description: "Дизайн",
+        description: "Дизайн & Разработка",
       },
       codeStorage: {
         title: "Сервис хранения кода",
