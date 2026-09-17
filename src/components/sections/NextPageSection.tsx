@@ -50,10 +50,34 @@ export function NextPageSection({
                 </div>
                 <Magnetic>
                     <Link
-                        className="mt-[60px] flex h-[180px] w-[180px] min-w-[180px] cursor-pofont-inter items-center justify-center rounded-full bg-blue text-lg text-white transition hover:bg-blueHover"
                         href="/work"
+                        style={{ transition: 'transform 900ms cubic-bezier(0.22, 1, 0.36, 1)' }}
+                        className="
+      group relative mt-[60px] flex h-[180px] w-[180px] min-w-[180px]
+      cursor-pointer items-center justify-center overflow-hidden
+      rounded-full bg-blue font-inter text-lg text-white
+    "
                     >
-                        {t.nextPage?.button || "All work"}
+                        {/* Волна */}
+                        <span
+                            aria-hidden="true"
+                            className="
+        pointer-events-none absolute left-0 w-full
+        bg-blueHover
+        translate-y-full
+        group-hover:translate-y-0
+      "
+                            style={{
+                                top: '-100%',
+                                height: '200%',
+                                borderRadius: '50% 50% 0 0 / 40% 40% 0 0',
+                                transition: 'transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)',
+                                willChange: 'transform',
+                            }}
+                        />
+
+                        {/* Текст */}
+                        <span className="relative z-10">{t.nextPage?.button || "All work"}</span>
                     </Link>
                 </Magnetic>
             </div>

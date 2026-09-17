@@ -201,10 +201,35 @@ export default function Home() {
               </span>
               <Magnetic>
                 <Link
-                  className="ml-auto flex h-[180px] w-[180px] min-w-[180px] cursor-pofont-inter items-center justify-center rounded-full bg-blue text-lg text-white transition hover:bg-blueHover magnetic"
-                  href="/about"
+                    href="/about"
+                    style={{ transition: 'transform 900ms cubic-bezier(0.22, 1, 0.36, 1)' }}
+                    className="
+      group relative ml-auto flex h-[180px] w-[180px] min-w-[180px]
+      cursor-pointer items-center justify-center overflow-hidden
+      rounded-full bg-blue font-inter text-lg text-white
+      magnetic
+    "
                 >
-                  {t.home.aboutMe}
+                  {/* Волна */}
+                  <span
+                      aria-hidden="true"
+                      className="
+        pointer-events-none absolute left-0 w-full
+        bg-blueHover
+        translate-y-full
+        group-hover:translate-y-0
+      "
+                      style={{
+                        top: '-100%',
+                        height: '200%',
+                        borderRadius: '50% 50% 0 0 / 40% 40% 0 0',
+                        transition: 'transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)',
+                        willChange: 'transform',
+                      }}
+                  />
+
+                  {/* Текст */}
+                  <span className="relative z-10">{t.home.aboutMe}</span>
                 </Link>
               </Magnetic>
             </div>
@@ -325,10 +350,37 @@ export default function Home() {
           <div>
             <Magnetic>
               <Link
-                href="/work"
-                className="font-inter font-medium mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px] flex h-[180px] w-[180px] items-center justify-center rounded-full border border-grayBorder bg-white text-lg text-blackText hover:bg-blueHover hover:border-blueHover transition-all hover:text-white"
+                  href="/work"
+                  style={{ transition: 'transform 900ms cubic-bezier(0.22, 1, 0.36, 1)' }}
+                  className="
+      group relative mx-auto mb-[120px] sm:mb-[0px] miniSm:mb-[0px] md:mb-[80px] xl:mb-[120px]
+      flex h-[180px] w-[180px] items-center justify-center overflow-hidden
+      rounded-full border border-grayBorder bg-white
+      font-inter font-medium text-lg text-blackText
+    "
               >
-                {t.home.moreWork}
+                {/* Волна */}
+                <span
+                    aria-hidden="true"
+                    className="
+        pointer-events-none absolute left-0 w-full
+        bg-blueHover
+        translate-y-full
+        group-hover:translate-y-0
+      "
+                    style={{
+                      top: '-100%',
+                      height: '200%',
+                      borderRadius: '50% 50% 0 0 / 40% 40% 0 0',
+                      transition: 'transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)',
+                      willChange: 'transform',
+                    }}
+                />
+
+                {/* Текст */}
+                <span className="relative z-10 transition-colors duration-500 group-hover:text-white">
+      {t.home.moreWork}
+    </span>
               </Link>
             </Magnetic>
 

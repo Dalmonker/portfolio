@@ -88,10 +88,35 @@ export function ContactSection() {
             </div>
             <Magnetic>
               <button
-                className="font-inter mx-auto flex h-[180px] w-[180px] items-center justify-center rounded-full bg-blue text-lg font-medium text-white outline-none transition hover:bg-blueHover md:absolute md:bottom-0 md:right-0"
-                type="submit"
+                  type="submit"
+                  style={{ transition: 'transform 900ms cubic-bezier(0.22, 1, 0.36, 1)' }}
+                  className="
+      group relative mx-auto flex h-[180px] w-[180px] items-center justify-center
+      overflow-hidden rounded-full bg-blue
+      font-inter font-medium text-lg text-white outline-none
+      md:absolute md:bottom-0 md:right-0
+    "
               >
-                {t.contact.submit}
+                {/* Волна */}
+                <span
+                    aria-hidden="true"
+                    className="
+        pointer-events-none absolute left-0 w-full
+        bg-blueHover
+        translate-y-full
+        group-hover:translate-y-0
+      "
+                    style={{
+                      top: '-100%',
+                      height: '200%',
+                      borderRadius: '50% 50% 0 0 / 40% 40% 0 0',
+                      transition: 'transform 1400ms cubic-bezier(0.22, 1, 0.36, 1)',
+                      willChange: 'transform',
+                    }}
+                />
+
+                {/* Текст */}
+                <span className="relative z-10">{t.contact.submit}</span>
               </button>
             </Magnetic>
           </form>
